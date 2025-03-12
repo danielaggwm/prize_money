@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="home-page">
+    <h1>prize money<br>in tennis</h1>
+    </div>  
+
+    <div id="introduction-page">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="slide">
+                    <p>tennis boasts some of the highest-paid athletes in the world - especially among <strong>female athletes.</strong> 
+                        <br><br>
+                        but... how realistic is a successful tennis career?</p>
+                </div>
+                <div class="slide">
+                    <p>despite tennis being a lucrative sport, there’s a <strong>huge gap</strong> in prize money across different tournaments.
+                        <br><br>
+                        not all events pay millions... only a few do.</p>
+                </div>
+                <div class="slide">
+                    <p>Professional tennis events are classified as:</p>
+                        <ul class="custom-list">
+                            <li>Grand Slams (<strong>highest $$$</strong>)</li>
+                            <li>ATP/WTA Finals</li>
+                            <li>ATP/WTA Events</li>
+                            <li>ATP Challengers</li>
+                            <li>ITF World Tennis Tour (lowest $)</li>
+                        </ul>
+                </div>
+                <div class="slide">
+                    <p>Grand Slam prize pools keep growing every year...
+                        <br><br>
+                        winners take home <strong>millions</strong>, and even first-round losers can earn 
+                        six-figure sums</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="chart-introduction">
+        <p>in the chart below, you can compare the prize money awarded to winners for each of the <strong>4 Grand Slams</strong> on a given year, starting in <strong>1968</strong> - the beginning of the Open Era.</p>
+        <br>
+        <p>hover over the chart to see the specific figures, or click on the tournament icons to filter the chart and compare specific events. </p>
+    </div>
+
+
+    <div id="buttons-container">
+        <button id="aus-open"><img src="aus_open.png" alt="Australian Open"></button>
+        <button id="roland-garros"><img src="french_open.png" alt="Roland Garros"></button>
+        <button id="wimbledon"><img src="wimbledon.png" alt="Wimbledon"></button>
+        <button id="us-open"><img src="us_open.png" alt="US Open"></button>
+    </div>
+
+    <div id="chart-header">
+        <p>men</p>
+        <svg height="20" width="20">
+            <polygon points="10,3 3,17 17,17" class="triangle" />
+        </svg>
+        <p>women</p>
+    </div>
+
+    <svg id="chart"></svg>
+
+    <div id="second-page">
+        <div class="text-container">
+            <h1>but what outside<br>the slams?</h1>
+            <p>most players won’t share the success of the Grand Slams, and the rest of the tour is not as lucrative.</p>
+        </div>
+        <hr class="custom-line">
+        <div class="quiz-container">
+            <!-- Left side: quiz options -->
+            <div class="quiz-options">
+                <label for="gender">Select Gender</label>
+                <select id="gender" name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+                
+    
+                <label for="tournament-level">Select Tournament Level</label>
+                <select id="tournament-level" name="tournament-level">
+                    <!-- Options will be populated dynamically based on gender selection -->
+                </select>
+    
+                <label for="competition-type">Select Competition Type</label>
+                <select id="competition-type" name="competition-type">
+                    <option value="Singles">Singles</option>
+                    <option value="Doubles">Doubles</option>
+                </select>
+                <label for="round-level">Select Last Round Played</label>
+                <select id="round-level" name="round-level">
+                     <!-- Options will be populated dynamically based on gender selection -->
+                </select>
+                <div class="buttons">
+                    <button id="add-button">add</button>
+                    <button id="rewind-button">
+                        <img src="rewind.svg" alt="Rewind" class="rewind-icon"/>
+                    </button>
+                    
+                    <button id="clear-button">clear</button>
+                </div>
+            </div>
+            <!-- Right side: receipt -->
+            <div class="receipt">
+                <h1>Tournament<br>Breakdown
+                    <button id="info-button">
+                        <img src="info.svg" alt="Info" class="info-icon" />
+                    </button>
+                </h1>
+                <div id="info-popup">
+                    <p>Prize money for WTA, ATP, and Challengers varies per event. Here, we are averaging the prize money received in 2024's events</p>
+                    <p>Prize money is subject to taxation, which varies by country</p>
+                    <p>Each tournament lasts for one week, and qualifying rounds are not being considered</p>
+                </div>
+                <div id="receipt-entries">
+                <!-- Entries will be added here dynamically -->
+                </div>
+                <div id="total-container">
+                    <div id="total-row">
+                        <span>Total (<span id="total-entries">0</span>)</span>
+                        <span id="total-money">$0.00</span>
+                        <span id="total-points">0pts</span>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    
+    <div id="third-page">
+        <div class="third-page-container">
+            <p id="fixed-text">the reality is, you have to be
+                pretty extraordinary to qualify to WTA or ATP events, as you need to meet a certain ranking.
+                </p>
+            <p class="dynamic-paragraph">add some tournaments above to see where you would stand in the rankings.</p>
+            <button id="info-button-2">
+                <img src="info.svg" alt="Info" class="info-icon" />
+            </button>
+            <div id="info-popup-2">
+                <p>Actually, only your best 19 ATP or 18 WTA tournaments count toward your ranking wiithin a year</p>
+                <p>This is simply a visualization tool to see how many points are required to qualify to bigger tournaments</p>
+                <p>Rankings are calculated by matching your points with the total points real players have in the live WTA and ATP rankings</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script src="chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

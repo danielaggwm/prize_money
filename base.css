@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+:root {
+    --tennis-green: #2b3528;  
+    --tennis-blue: #e1ebea; 
+    --tennis-yellow: #e1f629; 
+    --tennis-white: #f1eee9;  
+    --tennis-black: #161e1c;   
+    --tennis-beige: #eae6df;   
+}
+
+
+/* * {
+    outline: 1px solid red;
+} */
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: var(--tennis-green);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+svg {
+    font-size: 3px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.home-page {
+    display: flex;
+    justify-content: right;  
+    align-items: right;      
+    height: 100vh;                           
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: var(--tennis-blue);
+    font-size: 8rem;
+    line-height: 90%;
+    text-align: right;   
+    padding-right: 2rem;    
+}
+
+
+.total-women {
+    fill:  var(--tennis-blue);
+    font-size: 3px;
+}
+
+.total-men {
+    fill:  var(--tennis-blue);
+    font-size: 3px;
+}
+
+#chart {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+}
+
+.y-axis text {
+    font-size: 3px;
+    fill:  var(--tennis-blue);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.milestone-label {
+    font-size: 3.5px;
+    fill:  var(--tennis-green);
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+#buttons-container button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#buttons-container button img {
+    width: 100px;
+    height: auto;
+    display: block; 
+}
+
+#buttons-container {
+    display: flex;
+    gap: 4rem; /* space between buttons */
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Style for the selected button */
+button.selected {
+    border: 2px solid var(--tennis-yellow);
+    outline: none;
+}
+
+#buttons-container button.selected-button img {
+    border: 3px solid var(--tennis-yellow);  
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: var(--tennis-white);
+    color: var(--tennis-green);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.percentage-difference {
+    fill: var(--tennis-blue);
+    font-size: 3.5px;
+    font-family: "Poppins", sans-serif;
+}
+
+#chart-header {
+    position: absolute; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 25px;
+    width: 100%; 
+    margin-top: 40px;
+    left: 0; 
+    transform: translateX(12px); 
+    z-index: 10; 
+}
+
+/* Mobile styles */
+@media (max-width: 1148px) {
+    #chart-header {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 915px) {
+    #chart-header {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 915px) {
+    #chart-header {
+        visibility: hidden;
+    }
+}
+
+#chart-header p {
+    margin: 0;
+    color: var(--tennis-blue);
+}
+
+.triangle {
+    fill: var(--tennis-blue);
+}
+
+#second-page {
+    background-color: var(--tennis-beige);
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    padding: 0 2rem;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#second-page h1 {
+    color: var(--tennis-green);
+    font-size: 3rem;
+    padding: 1.5rem;
+    width: 600px;
+    text-align: left;
+}
+
+#second-page p {
+    color: var(--tennis-green);
+    font-size: 1rem;
+    padding-right: 1.5rem;
+    padding-top: 2.5rem;
+    width: 300px;
+    text-align: right;
+}
+
+.custom-line {
+    width: 100%;
+    border: none;
+    border-top: 2px solid var(--tennis-green);
+    margin: 0.5rem 0 2rem 0;
+}
+
+.quiz-container {
+    width: 95%;
+    height: 450px; 
+    background-color: #C9C5BE; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05); 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.quiz-options {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+
+.quiz-options label {
+    margin: 0;
+}
+
+.quiz-options select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 60%;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+
+.buttons {
+    display: flex; 
+    gap: 0.5rem; 
+    justify-content: left; 
+}
+
+.quiz-options button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+#add-button {
+    background-color: var(--tennis-green);
+    color: var(--tennis-white);
+    width: 35%;
+}
+
+#add-button:hover {
+    background-color: #404d3c;
+}
+
+#clear-button {
+    background-color: var(--tennis-beige);
+    color: var(--tennis-green);
+    width: 15%;
+}
+
+#clear-button:hover {
+    background-color: #f0ece5;
+}
+
+#rewind-button {
+    background-color: var(--tennis-beige);
+    color: var(--tennis-green);
+    width: 8%;
+    
+}
+
+#rewind-button:hover {
+    background-color: #f0ece5;
+}
+
+
+.rewind-icon {
+    width: 12px; 
+    height: auto;
+}
+
+
+.receipt {
+    position: relative; 
+    width: 80%;
+    height: 85%;
+    margin-right: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden; 
+    align-self: center; 
+}
+
+#receipt-entries {
+    flex-grow: 1; 
+    overflow-y: auto; 
+    padding-bottom: 60px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+#receipt-entries p {
+    width: 80%;
+    display: flex;
+    justify-content: space-between; 
+    margin: 5px 0; 
+    padding: 5px 10px; 
+    border-bottom: 1px solid #ddd; 
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap; 
+    font-size: 0.9rem;
+}
+
+#receipt-entries p span {
+    flex: 1; 
+    text-align: center; 
+}
+
+#total-container {
+    margin: 0 auto; 
+    position: absolute;
+    width: 100%; 
+    background-color: var(--tennis-beige);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.02);
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#total-row {
+    width: 80%; 
+    margin: 0 auto; 
+    position: relative;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-weight: 400;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--tennis-green);
+}
+
+#total-row p {
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+#total-row span {
+    flex: 1; 
+    text-align: center; 
+}
+
+
+.receipt h1 {
+    color: var(--tennis-green);
+    font-size: 1.5rem !important;
+    padding: 1.5rem;
+    width: 600px;
+    text-align: left;
+}
+
+#info-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.info-icon {
+    width: 20px;  /* Size of the info icon */
+    height: auto;
+}
+
+/* Style the popup */
+#info-popup {
+    position: fixed;
+    top: 60%;
+    left: 60%;
+    transform: translateY(-50%) translateX(0%); 
+    background-color: var(--tennis-beige);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 20 !important;
+    font-weight: 400;
+    display: none; 
+    border-radius: 5px; 
+    max-width: 280px; 
+    word-wrap: break-word; 
+    white-space: normal;  
+}
+
+/* Ensure the popup text is properly aligned */
+#info-popup p {
+    font-size: 12px !important;
+    margin: 0; 
+    padding: 5px; 
+    max-width: 250px !important; 
+    height: auto;
+    text-align: left !important; 
+}
+
+/* Show the popup when hovering over the info button */
+#info-button:hover + #info-popup {
+    display: block;
+}
+
+/* THIRD PAGE */
+#third-page {
+    background-color: var(--tennis-green);
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+/* Smaller box inside */
+.third-page-container {
+    position: relative;
+    background-color: var(--tennis-beige);
+    width: 90vw;
+    height: 85vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.third-page-container p {
+    font-size: 1.8rem;
+    width: 70%;
+    color: var(--tennis-green);
+}
+
+#fixed-text {
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.dynamic-paragraph {
+    padding-left: 3rem;
+    margin-top: 1rem;  
+}
+
+
+#info-button-2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute; 
+    bottom: 15px; 
+    right: 15px;  
+}
+
+/* Style the popup */
+#info-popup-2 {
+    background-color: white;
+    position: fixed;
+    top: 70%;
+    left: 60%;
+    transform: translateY(-20%) translateX(0%); 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 20 !important;
+    font-weight: 400;
+    display: none; 
+    border-radius: 5px; 
+    max-width: 450px; 
+    word-wrap: break-word; 
+    white-space: normal;  
+}
+
+/* Ensure the popup text is properly aligned */
+#info-popup-2 p {
+    font-size: 12px !important;
+    margin: 0; 
+    padding: 5px; 
+    width: 90%;
+    height: auto;
+    text-align: left !important; 
+}
+
+/* Show the popup when hovering over the info button */
+#info-button-2:hover + #info-popup-2 {
+    display: block;
+}
+
+
+#introduction-page {
+    height: 90vh;
+}
+
+/* slider */
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: visible;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0000001a;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;;
+    gap: 30px;
+}
+
+/* Slide */
+.slide {
+    flex: 0 0 calc(100% - 30px);  /* to account for gap */
+    background-color: white;
+    border-radius: 8px;         
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--tennis-green);
+    transform: scale(0.8);
+    opacity: 0.8;
+}
+
+.slide p {
+    width: 90%;
+    padding-left: 10px;
+}
+
+
+/* Center Slide */
+.slide.center {
+    transform: scale(1); 
+    opacity: 1;
+}
+
+/* Left Slide */
+.slide.left {
+    cursor: pointer;
+}
+
+/* Right Slide */
+.slide.right {
+    cursor: pointer;
+}
+
+.custom-list {
+    padding-left: 30px; 
+}
+
+
+/* Styling the box */
+#chart-introduction {
+    width: 85%; 
+    background: var(--tennis-blue) ;
+    color: var(--tennis-green);
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center; 
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+#chart-introduction p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin: 0 auto; 
+}
