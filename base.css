@@ -21,7 +21,7 @@ body {
     font-style: normal;
     background-color: var(--tennis-green);
     margin: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 
@@ -49,6 +49,18 @@ h1 {
     padding-right: 2rem;    
 }
 
+@media (max-width: 450px) {
+    .home-page h1 {
+        font-size: 2rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .home-page {
+        height: 50vh;
+    }
+
+}
 
 .total-women {
     fill:  var(--tennis-blue);
@@ -64,6 +76,48 @@ h1 {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 3rem;
+}
+
+@media (max-width: 450px) {
+    #chart {
+        padding-bottom: 10rem;
+        transform: scale(1.3);
+    }
+
+    #buttons-container button {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer !important;
+        pointer-events: auto !important;
+    }
+    
+    #buttons-container button img {
+        width: 40px !important; /* Reduced from 100px */
+        height: auto;
+        z-index: 10000 !important;
+    }
+    
+    #buttons-container {
+        display: flex;
+        gap: 30px !important; /* Reduced from 4rem */
+        justify-content: center; 
+        align-items: center;
+        z-index: 10000 !important;
+        padding-bottom: 3rem;
+    }
+    
+    /* Style for the selected button */
+    button.selected {
+        border: 2px solid var(--tennis-yellow);
+        outline: none;
+    }
+    
+    #buttons-container button.selected-button img {
+        border: 3px solid var(--tennis-yellow);  
+        border-radius: 50%;
+        padding: 4px;
+    }
 }
 
 .y-axis text {
@@ -158,9 +212,14 @@ button.selected {
     }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 450px) {
     #chart-header {
-        visibility: hidden;
+        font-size: 10px;
+        position: relative;
+        top: -30px; 
+    }
+    .triangle {
+        transform: scale(0.65);
     }
 }
 
@@ -187,6 +246,27 @@ button.selected {
     width: 100%;
     padding-top: 10px;
 }
+
+@media (max-width: 450px) {
+    .text-container h1 {
+        font-size: 1.5rem !important;
+        padding-top: 2rem !important;
+        width: 400px;
+    }
+    .text-container p {
+        font-size: 0.7rem !important;
+        padding-right: 0.5rem !important;
+        width: 500px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .quiz-options {
+        width: 100%; /* Full width for small screens */
+        padding: 10px; /* Reduce padding for small screens */
+    }
+}
+
 
 #second-page h1 {
     color: var(--tennis-green);
@@ -439,6 +519,85 @@ button.selected {
     display: block;
 }
 
+@media (max-width: 450px) {
+    #second-page{ 
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .quiz-container {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; 
+        gap: 1rem; /* Reduce spacing */
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center; /* Center content */
+    }
+
+    .quiz-options {
+        width: 100%; /* Full width */
+        padding: 10px;
+    }
+
+    .quiz-options select {
+        width: 100%; /* Make dropdowns full width */
+    }
+
+    .buttons {
+        justify-content: center; /* Center buttons */
+        flex-wrap: wrap; /* Allow wrapping if needed */
+    }
+
+    .quiz-options button {
+        width: 100%; /* Make buttons full width for easier tapping */
+    }
+
+    .receipt {
+        width: 105%; /* Full width */
+        height: 400px;
+        margin: 0; /* Remove margin-right */
+        padding: 15px;
+        overflow-x: hidden !important;
+    }
+
+    #receipt-entries {
+        padding-bottom: 40px; /* Adjust spacing */
+    }
+
+    #total-container {
+        padding: 5px;
+        text-align: center;
+        bottom: 0px !important;
+    }
+
+
+    .receipt h1 {
+        font-size: 1.2rem; /* Adjust heading size */
+        width: 100%;
+        text-align: center;
+    }
+
+    #third-page {
+        margin-top: 2rem; /* Add space between receipt and third page */
+        height: auto; 
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .third-page-container {
+        height: 500px !important; /* Allow the container to grow dynamically */
+        padding-bottom: 2rem; /* Add some bottom padding */
+        
+    }
+
+    .third-page-container p {
+        font-size: 1.2rem !important;
+        
+    }
+}
+
+
 /* THIRD PAGE */
 #third-page {
     background-color: var(--tennis-green);
@@ -517,6 +676,20 @@ button.selected {
     text-align: left !important; 
 }
 
+@media (max-width: 450px) {
+    #info-popup-2 {
+        width: 300px !important;
+        top: 70%;
+        left: 10%;
+    }
+
+    #info-popup {
+        width: 300px !important;
+        top: 70%;
+        left: 10%;
+    }
+}
+
 /* Show the popup when hovering over the info button */
 #info-button-2:hover + #info-popup-2 {
     display: block;
@@ -587,6 +760,35 @@ button.selected {
     padding-left: 30px; 
 }
 
+@media (max-width: 450px) {
+    .carousel {
+        /* Remove position: absolute */
+        position: relative;
+        flex-direction: column;
+        gap: 15px; /* Reduce gap for better spacing */
+        align-items: center; /* Center the slides */
+        margin-bottom: 100px;
+        padding-left: 15px;
+    }
+
+    .slide {
+        flex: 1 1 auto; /* Allow slides to take full width */
+        width: 90%; /* Make sure it spans the container */
+        transform: scale(1); /* Remove scaling effect */
+        opacity: 1; /* Ensure full visibility */
+        padding: 20px; /* Adjust padding for smaller screens */
+        pointer-events: none;
+        box-sizing: border-box;
+    }
+
+    .slide p {
+        width: 100%; /* Ensure text takes full width */
+        padding-left: 0; /* Remove extra padding */
+        text-align: left; /* Center text for better mobile experience */
+    }
+}
+
+
 
 /* Styling the box */
 #chart-introduction {
@@ -608,4 +810,12 @@ button.selected {
     padding-bottom: 10px;
     width: 95%;
     margin: 0 auto; 
+}
+
+@media (max-width: 450px) { 
+    #chart-introduction {
+        margin-top: 40rem; /* Add margin to avoid overlap */
+        margin-bottom: 10rem; /* Adjust margin for mobile */
+        margin-left: 20px !important;
+    }
 }
