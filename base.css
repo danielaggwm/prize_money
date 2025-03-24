@@ -75,7 +75,7 @@ h1 {
 #chart {
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 @media (max-width: 450px) {
@@ -272,7 +272,7 @@ button.selected {
     color: var(--tennis-green);
     font-size: 3rem;
     padding: 1.5rem;
-    width: 600px;
+    width: 650px;
     text-align: left;
 }
 
@@ -695,32 +695,43 @@ button.selected {
     display: block;
 }
 
-
+/* slider */
 #introduction-page {
-    height: 90vh;
+    position: relative;
 }
 
-/* slider */
+/* Main container that will trigger the scroll */
+.carousel-scroll-container {
+    height: 100vh;
+    position: relative;
+}
+
 /* Carousel Container */
 .carousel-container {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: visible;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px #0000001a;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 /* Carousel */
 .carousel {
     display: flex;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;;
     gap: 30px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 30px; 
+    will-change: transform;
 }
 
 /* Slide */
 .slide {
-    flex: 0 0 calc(100% - 30px);  /* to account for gap */
+    flex: 0 0 calc(100% - 60px); 
+    min-width: calc(100% - 60px);
     background-color: white;
     border-radius: 8px;         
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -732,6 +743,8 @@ button.selected {
     color: var(--tennis-green);
     transform: scale(0.8);
     opacity: 0.8;
+    filter: blur(1.5px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .slide p {
@@ -739,25 +752,34 @@ button.selected {
     padding-left: 10px;
 }
 
-
 /* Center Slide */
-.slide.center {
+.slide.active {
     transform: scale(1); 
     opacity: 1;
+    filter: none;
 }
 
-/* Left Slide */
-.slide.left {
-    cursor: pointer;
+/* Optional progress indicator */
+.scroll-progress {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 2px;
 }
 
-/* Right Slide */
-.slide.right {
-    cursor: pointer;
-}
-
-.custom-list {
-    padding-left: 30px; 
+.scroll-progress::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background: var(--tennis-green);
+    border-radius: 2px;
 }
 
 @media (max-width: 450px) {
@@ -792,13 +814,13 @@ button.selected {
 
 /* Styling the box */
 #chart-introduction {
-    width: 85%; 
+    width: 75%; 
     background: var(--tennis-blue) ;
     color: var(--tennis-green);
     padding: 20px;
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    text-align: center; 
+    text-align: left; 
     font-size: 1.2rem;
     line-height: 1.5;
     margin: 0 auto;
@@ -807,9 +829,9 @@ button.selected {
 
 #chart-introduction p {
     padding-top: 10px;
-    padding-bottom: 10px;
-    width: 95%;
-    margin: 0 auto; 
+    padding-bottom: 5px;
+    width: 90%;
+    padding-left: 20px;
 }
 
 @media (max-width: 450px) { 
@@ -818,4 +840,131 @@ button.selected {
         margin-bottom: 10rem; /* Adjust margin for mobile */
         margin-left: 20px !important;
     }
+}
+
+/* event structure chart */
+.event-structure {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* event structure chart */
+.bar-chart {
+    width: auto;
+    height: 70%;
+    max-height: 400px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* box */
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: var(--tennis-beige);
+    border-radius: 8px;         
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--tennis-green);
+    transform: scale(0.8);
+    opacity: 0.8;
+    filter: blur(1.5px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    flex: 0 0 auto; 
+    margin: 0; 
+}
+
+.box_2 {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    width: 800px;
+    background-color: var(--tennis-beige);
+    border-radius: 8px;         
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left; 
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--tennis-green);
+    transform: scale(0.8);
+    opacity: 0.8;
+    filter: blur(1.5px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    flex: 0 0 auto; 
+    margin: 0; 
+}
+
+
+.box_3 {
+    width: 60%;
+    margin: 50px auto;
+    background-color: var(--tennis-blue);
+    border-radius: 8px;         
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--tennis-green);
+}
+
+
+.box p, .box_2 p, .box_3 p {
+    width: 80%;
+    padding-left: 10px;
+}
+
+
+#second-introduction {
+    position: relative;
+}
+
+.boxes-carousel {
+    display: flex;
+    gap: 10px;
+    will-change: transform;
+    padding-left: 35vw; 
+    align-items: center;
+}
+
+
+.box.active, .box_2.active {
+    transform: scale(1) !important;
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+
+/* Main container that will trigger the scroll */
+.box-carousel-scroll-container {
+    height: 100vh;
+    position: relative;
+}
+
+/* Carousel Container */
+.box-carousel-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#comparison-chart {
+    height: 100vh;
 }

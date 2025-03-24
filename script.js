@@ -472,47 +472,165 @@ infoButton.addEventListener('mouseleave', () => {
 });
 
 
-const carousel = document.querySelector('.carousel');
-const slides = document.querySelectorAll('.slide');
-
-let currentIndex = 0;
-
-// Function to update the carousel
-function updateCarousel() {
-    const offset = -currentIndex * 100;
-    carousel.style.transform = `translateX(${offset}%)`;
-
-    slides.forEach((slide, index) => {
-        if (index === currentIndex) {
-            slide.classList.add('center');
-            slide.classList.remove('left', 'right');
-        } else if (index === currentIndex - 1 || (currentIndex === 0 && index === slides.length - 1)) {
-            slide.classList.add('left');
-            slide.classList.remove('center', 'right');
-        } else if (index === currentIndex + 1 || (currentIndex === slides.length - 1 && index === 0)) {
-            slide.classList.add('right');
-            slide.classList.remove('center', 'left');
-        } else {
-            slide.classList.remove('center', 'left', 'right');
+// FIRST SCROLL SLIDER
+document.addEventListener('DOMContentLoaded', function() {
+    // Verify GSAP is loaded
+    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+        console.error('GSAP or ScrollTrigger not loaded!');
+        return;
+    }
+    
+    gsap.registerPlugin(ScrollTrigger);
+    
+    const carousel = document.querySelector('.carousel');
+    const slides = document.querySelectorAll('.slide');
+    const scrollContainer = document.querySelector('.carousel-scroll-container');
+    
+    // Check if elements exist
+    if (!carousel || !slides.length || !scrollContainer) {
+        console.error('Required elements not found!');
+        return;
+    }
+    
+    // Set initial active slide
+    slides[0].classList.add('active');
+    
+    // Calculate total scrollable distance
+    const slideWidth = slides[0].offsetWidth;
+    const gap = 30;
+    const totalScrollDistance = (slideWidth + gap) * (slides.length - 1);
+    
+    // Create the horizontal scroll animation
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".carousel-scroll-container",
+            start: "top top",
+            end: () => `+=${totalScrollDistance + window.innerWidth}`,
+            scrub: 1,
+            pin: true,
+            anticipatePin: 1,
+            onUpdate: (self) => {
+                const progress = self.progress;
+                const activeIndex = Math.min(
+                    slides.length - 1, 
+                    Math.floor(progress * slides.length)
+                );
+                
+                // Update active class
+                slides.forEach((slide, index) => {
+                    slide.classList.toggle('active', index === activeIndex);
+                });
+            },
+            onEnter: () => {
+                document.body.style.overflow = 'auto';
+            },
+            onLeaveBack: () => {
+                document.body.style.overflow = 'auto';
+            },
+            markers: false 
         }
     });
-}
-
-// Click event for left slide
-document.querySelector('.carousel-container').addEventListener('click', (event) => {
-    if (event.target.closest('.slide.left')) {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        updateCarousel();
+    
+    tl.to(carousel, {
+        x: -totalScrollDistance,
+        ease: "none"
+    });
+    
+    // Handle window resize
+    function handleResize() {
+        ScrollTrigger.refresh();
     }
+    
+    // Debounced resize
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(handleResize, 250);
+    });
+    
+    // Initial refresh
+    ScrollTrigger.refresh();
 });
 
-// Click event for right slide
-document.querySelector('.carousel-container').addEventListener('click', (event) => {
-    if (event.target.closest('.slide.right')) {
-        currentIndex = (currentIndex + 1) % slides.length;
-        updateCarousel();
+// SECOND SCROLL SLIDER
+document.addEventListener('DOMContentLoaded', function() {
+    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+        console.error('GSAP or ScrollTrigger not loaded!');
+        return;
     }
+    
+    gsap.registerPlugin(ScrollTrigger);
+    
+    // Wait for the next frame to ensure all elements are rendered
+    requestAnimationFrame(function() {
+        const carousel = document.querySelector('.boxes-carousel');
+        const boxes = document.querySelectorAll('.box, .box_2');
+        const scrollContainer = document.querySelector('.box-carousel-scroll-container');
+        const section = document.getElementById('second-introduction');
+        
+        if (!carousel || !boxes.length || !scrollContainer || !section) {
+            console.error('Required elements not found!');
+            return;
+        }
+        
+        // Set initial active box
+        boxes[0].classList.add('active');
+        
+        // Calculate total scrollable distance
+        const gap = 120;
+        let totalScrollDistance = 0;
+        
+        // Get all box widths and calculate the total scrollable distance
+        boxes.forEach(box => {
+            totalScrollDistance += box.offsetWidth - gap; // Add gap between boxes
+        });
+        
+        // Create the horizontal scroll animation
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: section, // Use the parent section as trigger
+                start: "top top", // Same as first carousel
+                end: () => `+=${totalScrollDistance + window.innerWidth * 0.8}`,
+                scrub: 1,
+                pin: scrollContainer, // More precise pin target
+                anticipatePin: 1,
+                onUpdate: (self) => {
+                    const progress = self.progress;
+                    const activeIndex = Math.min(
+                        boxes.length - 1, 
+                        Math.floor(progress * boxes.length)
+                    );
+                    
+                    // Update active class
+                    boxes.forEach((box, index) => {
+                        box.classList.toggle('active', index === activeIndex);
+                    });
+                },
+                markers: false 
+            }
+        });
+        
+        tl.to(carousel, {
+            x: -totalScrollDistance,
+            ease: "none"
+        });
+        
+        // Force a refresh after a short delay to ensure correct calculations
+        setTimeout(() => {
+            ScrollTrigger.refresh();
+        }, 100);
+        
+        // Handle window resize
+        let resizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                ScrollTrigger.refresh();
+            }, 250);
+        });
+    });
 });
 
-// Initialize the carousel
-updateCarousel();
+
+
+

@@ -22,33 +22,25 @@
     </div>  
 
     <div id="introduction-page">
-        <div class="carousel-container">
-            <div class="carousel">
-                <div class="slide">
-                    <p>tennis boasts some of the highest-paid athletes in the world - especially among <strong>female athletes.</strong> 
-                        <br><br>
-                        but... how realistic is a successful tennis career?</p>
-                </div>
-                <div class="slide">
-                    <p>despite tennis being a lucrative sport, there’s a <strong>huge gap</strong> in prize money across different tournaments.
-                        <br><br>
-                        not all events pay millions... only a few do.</p>
-                </div>
-                <div class="slide">
-                    <p>Professional tennis events are classified as:</p>
-                        <ul class="custom-list">
-                            <li>Grand Slams (<strong>highest $$$</strong>)</li>
-                            <li>ATP/WTA Finals</li>
-                            <li>ATP/WTA Events</li>
-                            <li>ATP Challengers</li>
-                            <li>ITF World Tennis Tour (lowest $)</li>
-                        </ul>
-                </div>
-                <div class="slide">
-                    <p>Grand Slam prize pools keep growing every year...
-                        <br><br>
-                        winners take home <strong>millions</strong>, and even first-round losers can earn 
-                        six-figure sums.</p>
+        <div class="carousel-scroll-container">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="slide">
+                        <p>tennis boasts some of the highest-paid athletes in the world - especially among <strong>female athletes.</strong> 
+                            <br><br>
+                            but... how realistic is a successful tennis career?</p>
+                    </div>
+                    <div class="slide">
+                        <p>despite tennis being a lucrative sport, there’s a <strong>huge gap</strong> in prize money across different tournaments.
+                            <br><br>
+                            not all events pay millions... only a few do.</p>
+                    </div>
+                    <div class="slide">
+                        <p>the most exclusive tournaments, <br><strong>Grand Slams</strong>, keep growing their prize pools every year...
+                            <br><br>
+                            winners take home <strong>millions</strong>, and even first-round losers can earn 
+                            six-figure sums.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,10 +48,13 @@
 
 
     <div id="chart-introduction">
-        <p>in the chart below, you can compare the prize money awarded to winners for each of the <strong>4 Grand Slams</strong> on a given year, starting from <strong>1968</strong> (the beginning of the Open Era).</p>
-        <br>
-        <p>hover over the chart to see the specific figures, or click on the tournament icons to filter the chart and compare specific events. </p>
+        <p>in the chart below, you can compare the prize money awarded to <i>singles</i> winners for each of the <strong>4 Grand Slams</strong> on a given year, starting from <strong>1968</strong> (the beginning of the Open Era).</p>
+        
+        <p>prize amounts are displayed in the original currency of each tournament’s host country, reflecting historical values as awarded at the time.</p>
+        
+        <p><strong>hover</strong> over the chart to see the specific figures, or <strong>click</strong> on the tournament icons to filter the chart and compare specific events.</p>
     </div>
+    
 
 
     <div id="buttons-container">
@@ -79,9 +74,39 @@
 
     <svg id="chart"></svg>
 
+    <div id="second-introduction">
+        <div class="box-carousel-scroll-container">
+            <div class="box-carousel-container">
+                <div class="boxes-carousel">
+                    <div class="box">
+                        <p>seems promising? the truth is, only a fraction of players qualify for <i>Grand Slams</i>
+                            <br><br>
+                            and following the Grand Slams are the ATP and WTA Finals - also exclusive events only the top 7 players qualify to...</p>
+                    </div>
+                    <div class="box_2">
+                        <p>this is the general <br>professional event's <br>structure:</p>
+                        <img src="event_structure.png" alt="Event Structure" class="event-structure">
+                    </div>
+                    <div class="box">
+                        <p>and the vast majority of players will be competing in <i>ATP Challengers</i> and on the <i>ITF World Tennis Tour</i>, the less exclusive (and profitable) events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="comparison-chart">
+        <div class="box_3">
+            <p>for comparison, this is the disparity between <br>
+                a <strong>US Open</strong> and an <strong>M15 / W15</strong> <i>singles</i> winner</p>
+                <img src="bar_chart.png" alt="Comparison" class="bar-chart">
+        </div>
+    </div>
+
+
     <div id="second-page">
         <div class="text-container">
-            <h1>but what outside<br>the slams?</h1>
+            <h1>so, what exactly <br>is outside the slams?</h1>
             <p>most players won’t share the success of the Grand Slams, and the rest of the tour is not as lucrative.</p>
         </div>
         <hr class="custom-line">
@@ -164,6 +189,10 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <script src="chart.js"></script>
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
