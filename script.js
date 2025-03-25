@@ -493,6 +493,8 @@ document.addEventListener('DOMContentLoaded', function() {
             scrub: 1,
             pin: true,
             anticipatePin: 1,
+            invalidateOnRefresh: true,  
+            fastScrollEnd: true,  
             onUpdate: (self) => {
                 const progress = self.progress;
                 const activeIndex = Math.min(
@@ -586,6 +588,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 scrub: 1,
                 pin: scrollContainer,
                 anticipatePin: 1,
+                invalidateOnRefresh: true,  
+                fastScrollEnd: true,  
                 onUpdate: (self) => {
                     const progress = self.progress;
                     const activeIndex = Math.min(boxes.length - 1, Math.floor(progress * boxes.length));
