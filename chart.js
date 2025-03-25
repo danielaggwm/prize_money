@@ -8,9 +8,9 @@ const tooltip = d3.select("body").append("div")
 // Milestone data with year and annotation text
 const milestones = [
     { id: "us-open", year: 1973, text: "In 1973, US Open became the first Grand Slam to offer equal prize money, largely due to Billie Jean King" },
-    { id: "aus-open", year: 2001, text: "Australian Open achieves parity" },
-    { id: "roland-garros", year: 2006, text: "French Open achieves parity" },
-    { id: "wimbledon", year: 2007, text: "Wimbledon achieves parity" }
+    { id: "aus-open", year: 2001, text: "In 2001, Australian Open achieves parity" },
+    { id: "roland-garros", year: 2006, text: "French Open achieves parity in 2006" },
+    { id: "wimbledon", year: 2007, text: "Lastly, in 2007, Wimbledon achieves parity" }
 ];
 
 // Format numbers as M (for millions) or K (for thousands)
@@ -165,25 +165,53 @@ d3.csv("singles_slams.csv").then(data => {
             });
         
             // Create text for women total
-            const totalWomen = selectedCategories.filter(c => c.key.endsWith("_women"))
-                .reduce((sum, c) => sum + d[c.key], 0);
+            const totalWomen = selectedCategories
+                .filter(c => c.key.endsWith("_women"))
+                .reduce((sum, c) => {
+                    if (d.year === 1968 && c.key.includes("aus_open")) {
+                        return sum; // Skip Australian Open for 1968
+                    }
+                    return sum + d[c.key];
+                }, 0);
 
             // Create text for men total
-            const totalMen = selectedCategories.filter(c => c.key.endsWith("_men"))
-            .reduce((sum, c) => sum + d[c.key], 0);
+            const totalMen = selectedCategories
+                .filter(c => c.key.endsWith("_men"))
+                .reduce((sum, c) => {
+                    if (d.year === 1968 && c.key.includes("aus_open")) {
+                        return sum; // Skip Australian Open for 1968
+                    }
+                    return sum + d[c.key];
+                }, 0);
 
             // Calculate percentage difference
-            const percentageDifference = ((totalMen - totalWomen) / totalWomen) * 100;
+            // const percentageDifference = ((totalMen - totalWomen) / totalWomen) * 100;
 
             // Calculate percentage difference only for years before 2008
-            if (d.year < 2009 && (d.year - 1968) % 4 === 0) { // Show text every 4 years starting from 1968, but only before 2008
-                const percentageDifference = ((totalMen - totalWomen) / totalWomen) * 100;
+            if (d.year < 2009 && (d.year - 1968) % 4 === 0) {
+                const validWomenTotal = selectedCategories
+                    .filter(c => c.key.endsWith("_women"))
+                    .reduce((sum, c) => {
+                        if (d.year === 1968 && c.key.includes("aus_open")) return sum;
+                        return sum + d[c.key];
+                    }, 0);
+                
+                const validMenTotal = selectedCategories
+                    .filter(c => c.key.endsWith("_men"))
+                    .reduce((sum, c) => {
+                        if (d.year === 1968 && c.key.includes("aus_open")) return sum;
+                        return sum + d[c.key];
+                    }, 0);
+
+                const percentageDifference = validWomenTotal > 0 ? 
+                    ((validMenTotal - validWomenTotal) / validWomenTotal) * 100 : 0;
+                
                 svg.append("text")
                     .attr("class", "percentage-difference")
-                    .attr("x", x(0)) // Center of the chart
+                    .attr("x", x(0))
                     .attr("y", y(d.year) + y.bandwidth() / 2)
                     .attr("dy", "0.35em")
-                    .attr("text-anchor", "middle") // Center-align the text
+                    .attr("text-anchor", "middle")
                     .text(`${percentageDifference.toFixed(1)}%`);
             }
 
@@ -236,7 +264,7 @@ d3.csv("singles_slams.csv").then(data => {
             // Adjust position for Roland Garros (place it on the men's side)
             const lineX1 = isRolandGarros ? startX - milestoneLineLength : startX + 9;
             const lineX2 = isRolandGarros ? startX - 8 : startX + milestoneLineLength;
-            const textX = isRolandGarros ? startX - milestoneLineLength - 40 : startX + milestoneLineLength + 4;
+            const textX = isRolandGarros ? startX - milestoneLineLength - 60 : startX + milestoneLineLength + 4;
             const textAnchor = "start";
         
 
@@ -266,7 +294,7 @@ d3.csv("singles_slams.csv").then(data => {
             .attr("dy", "0.35em")
             .attr("text-anchor", textAnchor) // Adjust text anchor based on position
             .text(milestone.text)
-            .call(wrap, 60);
+            .call(wrap,75);
 
             // Function to position the rectangle
             const positionRectangle = () => {
@@ -279,7 +307,7 @@ d3.csv("singles_slams.csv").then(data => {
                 // Add a background rectangle for the text
                 svg.insert("rect", `.milestone-label.${milestone.id}`)
                     .attr("class", `milestone-rect ${milestone.id}`)
-                    .attr("x", isRolandGarros ? textBBox.x - textBBox.width + 45 : textBBox.x - 4)
+                    .attr("x", isRolandGarros ? textBBox.x - textBBox.width + 58 : textBBox.x - 4)
                     .attr("y", textBBox.y - 3)
                     .attr("width", textBBox.width + 9)
                     .attr("height", textBBox.height + 7)

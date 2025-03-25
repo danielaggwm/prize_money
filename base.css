@@ -81,7 +81,8 @@ h1 {
 @media (max-width: 450px) {
     #chart {
         padding-bottom: 10rem;
-        transform: scale(1.3);
+        margin-right: 1rem;
+        transform: scale(1.2);
     }
 
     #buttons-container button {
@@ -104,7 +105,7 @@ h1 {
         justify-content: center; 
         align-items: center;
         z-index: 10000 !important;
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
     }
     
     /* Style for the selected button */
@@ -216,7 +217,8 @@ button.selected {
     #chart-header {
         font-size: 10px;
         position: relative;
-        top: -30px; 
+        top: -10px; 
+        width: 95%;
     }
     .triangle {
         transform: scale(0.65);
@@ -582,7 +584,6 @@ button.selected {
         margin-top: 2rem; /* Add space between receipt and third page */
         height: auto; 
         width: 100%;
-        padding-left: 10px;
     }
 
     .third-page-container {
@@ -782,31 +783,65 @@ button.selected {
     border-radius: 2px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .carousel {
-        /* Remove position: absolute */
-        position: relative;
-        flex-direction: column;
-        gap: 15px; /* Reduce gap for better spacing */
-        align-items: center; /* Center the slides */
-        margin-bottom: 100px;
-        padding-left: 15px;
+        gap: 15px; /* Reduce gap for smaller screens */
+        max-width: 100%; /* Ensure full width */
+        padding: 0 15px; /* Adjust padding */
     }
 
     .slide {
-        flex: 1 1 auto; /* Allow slides to take full width */
-        width: 90%; /* Make sure it spans the container */
-        transform: scale(1); /* Remove scaling effect */
-        opacity: 1; /* Ensure full visibility */
-        padding: 20px; /* Adjust padding for smaller screens */
-        pointer-events: none;
-        box-sizing: border-box;
+        flex: 0 0 90%; /* Make slides take full width */
+        min-width: 90%;
+        padding: 20px; /* Reduce padding for better fit */
+        font-size: 1rem; /* Adjust font size */
+        transform: scale(1); /* Avoid smaller scaling */
+        opacity: 1;
+        filter: none;
     }
 
     .slide p {
-        width: 100%; /* Ensure text takes full width */
-        padding-left: 0; /* Remove extra padding */
-        text-align: left; /* Center text for better mobile experience */
+        width: 90%;
+        padding-left: 5px;
+    }
+
+    .scroll-progress {
+        width: 50px; /* Make progress bar smaller */
+        bottom: 10px; /* Move it up slightly */
+    }
+
+   .box_3 {
+        width: 90% !important;
+   }
+
+   .bar-chart {
+        width: auto;
+        height: 60% !important;
+        max-height: 300px !important;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .event-structure {
+        width: 50% !important;
+        margin-top: 30px !important;
+    }
+
+    .box_2 {
+        max-width: 400px !important;
+    }
+
+    .box_2 p {
+        width: 50% !important;
+        font-size: 1rem;
+    }
+
+    .box {
+        width: 40% !important;
+    }
+
+    .box p {
+        font-size: 1.1rem;
     }
 }
 
@@ -838,7 +873,7 @@ button.selected {
     #chart-introduction {
         margin-top: 40rem; /* Add margin to avoid overlap */
         margin-bottom: 10rem; /* Adjust margin for mobile */
-        margin-left: 20px !important;
+        margin-left: 30px !important;
     }
 }
 
@@ -853,7 +888,7 @@ button.selected {
     margin-top: 30px;
 }
 
-/* event structure chart */
+/* bar chart */
 .bar-chart {
     width: auto;
     height: 70%;

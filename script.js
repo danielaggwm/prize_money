@@ -166,37 +166,6 @@ function getDataFromCSV(gender, tournamentLevel, competitionType, round) {
 let totalMoney = 0;
 let totalPoints = 0;
 
-// Function to update the receipt by adding a new entry
-// function updateReceipt(data) {
-//     if (data) {
-//         const receiptEntries = document.getElementById('receipt-entries');
-//         const entry = document.createElement('p');
-
-//         // Create individual spans for each element
-//         entry.innerHTML = `
-//             <span>${data.tournamentLevel}</span>
-//             <span>${data.prizeMoney}</span>
-//             <span>${data.points}pts</span>
-//         `;
-
-//         // Append the entry to the receipt
-//         receiptEntries.appendChild(entry);
-
-//         // Remove '$' and ',' using a global regex to handle all formatting
-//         const prizeMoneyRaw = parseFloat(data.prizeMoney.replace(/[^0-9.]/g, ''));
-
-//         // Update totals with the raw values
-//         totalMoney += prizeMoneyRaw;
-//         totalPoints += parseInt(data.points);
-
-//         // Update the total row at the bottom (show total as formatted currency)
-//         document.getElementById('total-money').textContent = `$${totalMoney.toLocaleString()}`;
-//         document.getElementById('total-points').textContent = `${totalPoints}pts`;
-
-//     } else {
-//         alert('No data found for the selected options.');
-//     }
-// }
 
 function updateReceipt(data) {
     if (data) {
@@ -498,14 +467,29 @@ document.addEventListener('DOMContentLoaded', function() {
     // Calculate total scrollable distance
     const slideWidth = slides[0].offsetWidth;
     const gap = 30;
-    const totalScrollDistance = (slideWidth + gap) * (slides.length - 1);
+    // const totalScrollDistance = (slideWidth + gap) * (slides.length - 1);
+
+    // Function to calculate total scroll distance dynamically
+    function getTotalScrollDistance() {
+        let adjustment = window.innerWidth < 400 ? 50 : 20; // Reduce distance by 50px on small screens
+        return (slideWidth + gap) * (slides.length - 1) - adjustment;
+    }
+
+    // Adjust the initial position for smaller screens
+    function getStartPosition() {
+        return window.innerWidth < 400 ? "top 10%" : "top top"; 
+    }
+
+    function getInitialXPosition() {
+        return window.innerWidth < 400 ? 20 : 0; // Shifts left by 20px on small screens
+    }
     
     // Create the horizontal scroll animation
     const tl = gsap.timeline({
         scrollTrigger: {
             trigger: ".carousel-scroll-container",
-            start: "top top",
-            end: () => `+=${totalScrollDistance + window.innerWidth}`,
+            start: getStartPosition(),
+            end: () => `+=${getTotalScrollDistance() + window.innerWidth}`,
             scrub: 1,
             pin: true,
             anticipatePin: 1,
@@ -531,10 +515,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    tl.to(carousel, {
-        x: -totalScrollDistance,
-        ease: "none"
-    });
+    tl.fromTo(carousel, 
+        { x: getInitialXPosition() }, // Adjusts starting position for small screens
+        { x: -getTotalScrollDistance(), ease: "none" }
+    );
     
     // Handle window resize
     function handleResize() {
@@ -561,7 +545,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     gsap.registerPlugin(ScrollTrigger);
     
-    // Wait for the next frame to ensure all elements are rendered
     requestAnimationFrame(function() {
         const carousel = document.querySelector('.boxes-carousel');
         const boxes = document.querySelectorAll('.box, .box_2');
@@ -573,35 +556,39 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        // Set initial active box
         boxes[0].classList.add('active');
         
-        // Calculate total scrollable distance
-        const gap = 120;
+        const gap = window.innerWidth < 400 ? 90 : 120; 
         let totalScrollDistance = 0;
         
-        // Get all box widths and calculate the total scrollable distance
+        // Calculate total scrollable distance dynamically
         boxes.forEach(box => {
-            totalScrollDistance += box.offsetWidth - gap; // Add gap between boxes
+            totalScrollDistance += box.offsetWidth - gap;
         });
-        
-        // Create the horizontal scroll animation
+
+        function getTotalScrollDistance() {
+            return totalScrollDistance - (window.innerWidth < 400 ? -65 : 0); 
+        }
+
+        function getStartPosition() {
+            return window.innerWidth < 400 ? "top 15%" : "top top";
+        }
+
+        function getInitialXPosition() {
+            return window.innerWidth < 400 ? -85 : 0; // Shift slightly left for mobile
+        }
+
         const tl = gsap.timeline({
             scrollTrigger: {
-                trigger: section, // Use the parent section as trigger
-                start: "top top", // Same as first carousel
-                end: () => `+=${totalScrollDistance + window.innerWidth * 0.8}`,
+                trigger: section,
+                start: getStartPosition(),
+                end: () => `+=${getTotalScrollDistance() + window.innerWidth * 0.8}`,
                 scrub: 1,
-                pin: scrollContainer, // More precise pin target
+                pin: scrollContainer,
                 anticipatePin: 1,
                 onUpdate: (self) => {
                     const progress = self.progress;
-                    const activeIndex = Math.min(
-                        boxes.length - 1, 
-                        Math.floor(progress * boxes.length)
-                    );
-                    
-                    // Update active class
+                    const activeIndex = Math.min(boxes.length - 1, Math.floor(progress * boxes.length));
                     boxes.forEach((box, index) => {
                         box.classList.toggle('active', index === activeIndex);
                     });
@@ -609,27 +596,27 @@ document.addEventListener('DOMContentLoaded', function() {
                 markers: false 
             }
         });
-        
-        tl.to(carousel, {
-            x: -totalScrollDistance,
-            ease: "none"
-        });
-        
-        // Force a refresh after a short delay to ensure correct calculations
+
+        tl.fromTo(carousel, 
+            { x: getInitialXPosition() }, 
+            { x: -getTotalScrollDistance(), ease: "none" }
+        );
+
         setTimeout(() => {
             ScrollTrigger.refresh();
         }, 100);
-        
-        // Handle window resize
+
         let resizeTimeout;
         window.addEventListener('resize', () => {
             clearTimeout(resizeTimeout);
             resizeTimeout = setTimeout(() => {
+                ScrollTrigger.getAll().forEach(trigger => trigger.kill());
                 ScrollTrigger.refresh();
             }, 250);
         });
     });
 });
+
 
 
 
