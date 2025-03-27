@@ -449,6 +449,12 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
     
+    // Only apply scroll effect for screens larger than 400px
+    if (window.innerWidth < 400) {
+        // For small screens, just display the slides vertically without scroll effect
+        return;
+    }
+
     gsap.registerPlugin(ScrollTrigger);
     
     const carousel = document.querySelector('.carousel');
@@ -467,7 +473,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Calculate total scrollable distance
     const slideWidth = slides[0].offsetWidth;
     const gap = 30;
-    // const totalScrollDistance = (slideWidth + gap) * (slides.length - 1);
 
     // Function to calculate total scroll distance dynamically
     function getTotalScrollDistance() {
@@ -560,6 +565,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         boxes[0].classList.add('active');
         
+        // Adjust gap based on screen width
         const gap = window.innerWidth < 400 ? 90 : 120; 
         let totalScrollDistance = 0;
         
@@ -568,18 +574,31 @@ document.addEventListener('DOMContentLoaded', function() {
             totalScrollDistance += box.offsetWidth - gap;
         });
 
+        // Function to get total scroll distance dynamically
         function getTotalScrollDistance() {
             return totalScrollDistance - (window.innerWidth < 400 ? -65 : 0); 
         }
 
+        // Function to get start position dynamically based on screen width
         function getStartPosition() {
             return window.innerWidth < 400 ? "top 15%" : "top top";
         }
 
+        // Initial position for mobile screens
         function getInitialXPosition() {
             return window.innerWidth < 400 ? -85 : 0; // Shift slightly left for mobile
         }
+        
+        // If the screen is smaller than 400px, do not apply scroll trigger
+        if (window.innerWidth < 400) {
+            // Stack boxes vertically on smaller screens
+            gsap.set(carousel, { x: 0 });
+            carousel.style.display = 'block';
+            boxes.forEach(box => box.style.display = 'block'); // Stack the boxes vertically
+            return;
+        }
 
+        // Apply GSAP scroll effect for larger screens
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: section,
@@ -606,14 +625,17 @@ document.addEventListener('DOMContentLoaded', function() {
             { x: -getTotalScrollDistance(), ease: "none" }
         );
 
+        // Refresh ScrollTrigger after a short delay
         setTimeout(() => {
             ScrollTrigger.refresh();
         }, 100);
 
+        // Handle window resize
         let resizeTimeout;
         window.addEventListener('resize', () => {
             clearTimeout(resizeTimeout);
             resizeTimeout = setTimeout(() => {
+                // Kill any existing ScrollTriggers and refresh for new layout
                 ScrollTrigger.getAll().forEach(trigger => trigger.kill());
                 ScrollTrigger.refresh();
             }, 250);

@@ -783,31 +783,84 @@ button.selected {
     border-radius: 2px;
 }
 
+
 @media (max-width: 400px) {
     .carousel {
-        gap: 15px; /* Reduce gap for smaller screens */
-        max-width: 100%; /* Ensure full width */
-        padding: 0 15px; /* Adjust padding */
+        display: block; /* Stack slides vertically */
+        gap: 10px; /* No gap between slides */
+        padding: 0; /* Remove padding */
     }
 
     .slide {
-        flex: 0 0 90%; /* Make slides take full width */
-        min-width: 90%;
-        padding: 20px; /* Reduce padding for better fit */
-        font-size: 1rem; /* Adjust font size */
-        transform: scale(1); /* Avoid smaller scaling */
+        width: 90%;
+        padding: 20px; 
+        font-size: 1rem; 
+        transform: scale(1); 
         opacity: 1;
         filter: none;
-    }
-
-    .slide p {
-        width: 90%;
-        padding-left: 5px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .scroll-progress {
-        width: 50px; /* Make progress bar smaller */
-        bottom: 10px; /* Move it up slightly */
+        display: none; /* Hide scroll progress bar */
+    }
+
+    #chart-introduction {
+        margin-top: 10rem !important;
+    }
+    
+    #chart-introduction p {
+        font-size: 1rem;
+    }
+
+    .box-carousel-container {
+        height: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxes-carousel {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important; 
+        padding: 0 !important;
+        margin: 0 auto !important;
+        width: 100%;
+        max-width: 600px; 
+    }
+    
+    .box, .box_2 {
+        width: 90% !important; /* Adjusted width to be responsive */
+        max-width: 600px; /* Keeps content centered and prevents excessive stretching */
+        padding: 20px !important;
+        font-size: 1rem !important; /* Increased font size for readability */
+        transform: scale(1) !important;
+        opacity: 1 !important;
+        filter: none !important;
+        margin-top: 5px !important;
+        margin-bottom: 10px !important;
+        height: auto !important;
+    }
+    
+    .box_2 img {
+        width: 80% !important; 
+        display: block;
+        margin: 0 auto; /* Centers the image */
+    }
+    
+    .scroll-progress {
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 400px) {
+    #comparison-chart {
+        margin-top: 12rem;
     }
 
    .box_3 {
@@ -825,23 +878,6 @@ button.selected {
     .event-structure {
         width: 50% !important;
         margin-top: 30px !important;
-    }
-
-    .box_2 {
-        max-width: 400px !important;
-    }
-
-    .box_2 p {
-        width: 50% !important;
-        font-size: 1rem;
-    }
-
-    .box {
-        width: 40% !important;
-    }
-
-    .box p {
-        font-size: 1.1rem;
     }
 }
 
