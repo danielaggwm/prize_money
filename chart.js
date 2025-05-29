@@ -7,6 +7,7 @@ const tooltip = d3.select("body").append("div")
 
 const isMobile = window.innerWidth <= 450;
 
+
 const milestones = [
     {
         id: "us-open",
@@ -87,6 +88,7 @@ const categoryDisplayNames = {
     "us_open_men": "US Open"
 };
 
+
 // Load the data from CSV
 d3.csv("singles_slams.csv").then(data => {
     data.forEach(d => {
@@ -101,10 +103,12 @@ d3.csv("singles_slams.csv").then(data => {
         d.roland_garros_men = +d.roland_garros_men;
     });
 
+    const rowHeight = isMobile ? 4.5 : 2.7;
+
     const margin = { top: 20, right: 70, bottom: 20, left: 70};
     const width = 500 - margin.left - margin.right;
-    const height = data.length * 2.7 + margin.top + margin.bottom;
 
+    const height = data.length * rowHeight + margin.top + margin.bottom;
     const svg = d3.select("#chart").attr("viewBox", [0, 0, width, height]);
 
     const gap = 10000;

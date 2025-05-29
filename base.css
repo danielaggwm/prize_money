@@ -105,7 +105,6 @@ h1 {
     #chart {
         padding-bottom: 10rem;
         margin-right: 1rem;
-        transform: scale(1.2);
     }
 
     #buttons-container button {
@@ -255,7 +254,7 @@ button.selected {
     #chart-header {
         font-size: 10px;
         position: relative;
-        top: -10px; 
+        top: 15px; 
         width: 95%;
     }
     .triangle {
