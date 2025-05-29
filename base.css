@@ -79,7 +79,8 @@ h1 {
     }
 
     .home-page {
-        height: 80vh;
+        height: 75vh;
+        margin: 1.5rem;  
     }
 
 }
@@ -621,7 +622,7 @@ button.selected {
     }
 
     .third-page-container {
-        height: 80vh !important;
+        height: 88vh !important;
         padding-bottom: 2rem; 
         
     }
