@@ -32,21 +32,43 @@ svg {
     font-style: normal;
 }
 
-
 .home-page {
     display: flex;
     justify-content: right;  
     align-items: right;      
-    height: 100vh;                           
+    height: 85vh;    
+    margin: 3rem;  
+    border: 4px solid var(--tennis-blue); 
+    position: relative; 
+}
+
+.scroll-button {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    background: none;
+    color: white;
+    border: 2px solid var(--tennis-blue);
+    padding: 0.55rem 1.15rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+  
+.scroll-button:hover {
+    border-color: var(--tennis-yellow); 
+    color: var(--tennis-yellow); 
 }
 
 h1 {
     font-family: "Poppins", sans-serif;
     color: var(--tennis-blue);
-    font-size: 8rem;
-    line-height: 90%;
+    font-size: 6rem;
+    line-height: 95%;
     text-align: right;   
-    padding-right: 2rem;    
+    padding-right: 4rem;    
 }
 
 @media (max-width: 450px) {
@@ -57,7 +79,7 @@ h1 {
     }
 
     .home-page {
-        height: 50vh;
+        height: 80vh;
     }
 
 }
@@ -94,7 +116,7 @@ h1 {
     }
     
     #buttons-container button img {
-        width: 40px !important; /* Reduced from 100px */
+        width: 50px !important; /* Reduced from 100px */
         height: auto;
         z-index: 10000 !important;
     }
@@ -198,6 +220,21 @@ button.selected {
     left: 0; 
     transform: translateX(12px); 
     z-index: 10; 
+}
+
+@media (max-width: 450px) {
+    .milestone-label {
+        font-size: 8px;
+    }
+
+    .total-women,
+    .total-men {
+        font-size: 5px;
+    }
+
+    .percentage-difference {
+        font-size: 5px;
+    }
 }
 
 /* Mobile styles */
@@ -367,20 +404,17 @@ button.selected {
 #rewind-button {
     background-color: var(--tennis-beige);
     color: var(--tennis-green);
-    width: 8%;
-    
+    width: 9%;
 }
 
 #rewind-button:hover {
     background-color: #f0ece5;
 }
 
-
 .rewind-icon {
     width: 12px; 
     height: auto;
 }
-
 
 .receipt {
     position: relative; 
@@ -491,19 +525,19 @@ button.selected {
 /* Style the popup */
 #info-popup {
     position: fixed;
-    top: 60%;
-    left: 60%;
     transform: translateY(-50%) translateX(0%); 
     background-color: var(--tennis-beige);
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 20 !important;
     font-weight: 400;
     display: none; 
     border-radius: 5px; 
     max-width: 280px; 
     word-wrap: break-word; 
     white-space: normal;  
+    z-index: 20 !important;
+    top: 65%;
+    left: 55%;
 }
 
 /* Ensure the popup text is properly aligned */
@@ -581,20 +615,24 @@ button.selected {
     }
 
     #third-page {
-        margin-top: 2rem; /* Add space between receipt and third page */
+        margin-top: 2rem; 
         height: auto; 
         width: 100%;
     }
 
     .third-page-container {
-        height: 500px !important; /* Allow the container to grow dynamically */
-        padding-bottom: 2rem; /* Add some bottom padding */
+        height: 80vh !important;
+        padding-bottom: 2rem; 
         
     }
 
     .third-page-container p {
         font-size: 1.2rem !important;
         
+    }
+
+    #add-ranking-button {
+        width: 35% !important;
     }
 }
 
@@ -624,7 +662,7 @@ button.selected {
 }
 
 .third-page-container p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 70%;
     color: var(--tennis-green);
 }
@@ -653,7 +691,7 @@ button.selected {
 #info-popup-2 {
     background-color: white;
     position: fixed;
-    top: 70%;
+    top: 67%;
     left: 60%;
     transform: translateY(-20%) translateX(0%); 
     padding: 10px;
@@ -1038,4 +1076,81 @@ button.selected {
 
 #comparison-chart {
     height: 100vh;
+}
+
+#add-ranking-button {
+    background-color: var(--tennis-green);
+    color: var(--tennis-white);
+    width: 20%;
+    position: absolute;  
+    bottom: 2rem;       
+    left: 2.5rem;          
+    z-index: 10;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#add-ranking-button:hover {
+    background-color: #404d3c;
+}
+
+#ranking-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--tennis-white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    z-index: 1001;
+}
+
+.popup-content input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 80%;
+}
+
+.popup-content button {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit-ranking {
+    background-color: var(--tennis-green);
+    color: var(--tennis-white);
+}
+
+#close-popup {
+    background-color: grey;
+    color: white;
 }

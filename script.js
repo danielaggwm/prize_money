@@ -1,3 +1,36 @@
+function goToSecondPage() {
+    // First hide all intermediate content
+    const elementsToHide = [
+        'introduction-page',
+        'chart-introduction',
+        'buttons-container',
+        'chart-header',
+        'chart',
+        'second-introduction',
+        'comparison-chart'
+    ];
+    
+    // Hide elements
+    elementsToHide.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.style.display = 'none';
+    });
+    
+    // Then scroll smoothly to the target
+    const target = document.getElementById('second-page');
+    target.scrollIntoView({ behavior: 'smooth' });
+    
+    // After the scroll completes, show the elements again
+    setTimeout(() => {
+        elementsToHide.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.display = '';
+        });
+    }, 1000); 
+}
+
+
+
 // Update Tournament Level options based on gender.
 document.getElementById('gender').addEventListener('change', function () {
     const gender = this.value;
@@ -303,27 +336,17 @@ fetch('wta_rankings.json')
 
 // Function to estimate the ranking based on total points and number of entries
 function estimateRanking(totalPoints, gender, numberOfEntries) {
-    const rankings = gender === 'male' ? atpRankings : wtaRankings;
+    const rankings = (gender === 'male' ? atpRankings : wtaRankings).slice().sort((a, b) => Math.abs(a.points - totalPoints) - Math.abs(b.points - totalPoints));
 
-    // Assuming the totalPoints correlates with rank, find the first player with fewer points
-    let estimatedRank = rankings.findIndex(player => {
-        return parseInt(player.points) <= totalPoints;
-    });
+    const estimatedRank = rankings.length ? rankings[0].rank : null;
 
-    if (estimatedRank === -1) {
-        // If no player has fewer points, set rank to the last player in the list
-        estimatedRank = rankings.length;
-    }
-
-    // Cap the estimated rank at 1 (cannot be ranked higher than #1)
-    estimatedRank = Math.max(1, estimatedRank);
-
-    return estimatedRank;
+    return Math.max(1, estimatedRank || rankings.length);
 }
 
 
 let menRankings = null;
 let womenRankings = null;
+let userEnteredRanking = null;
 
 // Fetch the rankings CSV files on page load
 document.addEventListener('DOMContentLoaded', () => {
@@ -345,84 +368,151 @@ function getQualifyingTournament(estimatedRank, gender) {
     return rankings[rankings.length - 1].Category;
 }
 
+
+function getPointsForRanking(ranking, gender) {
+    const rankings = gender === 'male' ? atpRankings : wtaRankings;
+    if (!rankings || rankings.length === 0) return 0;
+
+    const player = rankings.find(p => p.rank === ranking);
+    return player ? parseInt(player.points) || 0 : 0;
+}
+
+
 function updateEstimatedRanking() {
     const gender = document.getElementById('gender').value;
-
-    // Get the number of entries (tournaments) from the receipt
     const numberOfEntries = document.getElementById('receipt-entries').childElementCount;
-
-    // Select the container where the paragraphs will be added
     const container = document.querySelector('.third-page-container');
 
-    // Remove previous dynamically added paragraphs (those with the 'dynamic-paragraph' class)
+    // Remove any existing dynamic paragraphs
     const existingParagraphs = container.querySelectorAll('.dynamic-paragraph');
-    existingParagraphs.forEach(paragraph => {
-        paragraph.remove();
-    });
+    existingParagraphs.forEach(paragraph => paragraph.remove());
 
-    // Create a new paragraph for the ranking estimation
-    const rankingParagraph = document.createElement('p');
-    rankingParagraph.classList.add('dynamic-paragraph');  // Add the class to the new paragraph
-
-    // Default message when no tournaments are added
-    if (numberOfEntries === 0) {
-        rankingParagraph.innerHTML = `add some tournaments above to see where you would stand in the rankings.`;
-    } 
-    // Handle the case where totalPoints is 0 (but there are entries)
-    else if (totalPoints === 0) {
-        rankingParagraph.innerHTML = `based on your total points of <strong>${totalPoints}</strong>, you would not be ranked.`;
-    } 
-    // Handle the case where there are entries and totalPoints > 0
-    else {
-        // Calculate the estimated rank
-        const estimatedRank = estimateRanking(totalPoints, gender, numberOfEntries);
-
-        // Handle the case where the estimated rank is above 1000
-        if (estimatedRank > 1000) {
-            rankingParagraph.innerHTML = `based on your total points of <strong>${totalPoints}</strong>, you would be ranked over <strong>1,000</strong> in the World.`;
-        } 
-        // Default case for other rankings
-        else {
-            rankingParagraph.innerHTML = `based on your total points of <strong>${totalPoints}</strong>, your ranking would be around <strong>${estimatedRank}</strong> in the World.`;
-        }
-
-        // Append the ranking paragraph first
-        container.appendChild(rankingParagraph);
-
-        // Add a new paragraph for the qualifying tournament information
-        if (estimatedRank <= 1000) {
-            const qualifyingTournament = getQualifyingTournament(estimatedRank, gender);
-            const tournamentParagraph = document.createElement('p');
-            tournamentParagraph.classList.add('dynamic-paragraph');
-
-            // Check if the qualifying tournament is W15 or M15
-            if (qualifyingTournament === 'W15' || qualifyingTournament === 'M15') {
-                tournamentParagraph.innerHTML = `with this ranking, you would qualify for a <strong>${qualifyingTournament}</strong> event.`;
-            } 
-            // Check if the qualifying tournament is an ATP event (ATP 250, ATP 500, ATP 1000)
-            else if (qualifyingTournament.startsWith('ATP')) {
-                tournamentParagraph.innerHTML = `with this ranking, you would qualify for an <strong>${qualifyingTournament}</strong> event or below.`;
-            } 
-            // Default case for other tournaments
-            else {
-                tournamentParagraph.innerHTML = `with this ranking, you would qualify for a <strong>${qualifyingTournament}</strong> event or below.`;
-            }
-
-            container.appendChild(tournamentParagraph); // Append after the ranking paragraph
-        }
+    // Remove the existing "add ranking" button, regardless of condition
+    const existingButton = document.getElementById('add-ranking-button');
+    if (existingButton) {
+        existingButton.remove();
     }
 
-    // If no qualifying tournament paragraph is added, ensure the ranking paragraph is still appended
-    if (numberOfEntries === 0 || totalPoints === 0 || estimatedRank > 1000) {
+    const rankingParagraph = document.createElement('p');
+    rankingParagraph.classList.add('dynamic-paragraph');
+
+    if (numberOfEntries === 0) {
+        // Clear the user entered ranking when there are no entries
+        userEnteredRanking = null;
+        rankingParagraph.innerHTML = `add some tournaments above to see where you would stand in the rankings.`;
         container.appendChild(rankingParagraph);
+        return;
+    }
+
+    // Calculate combined points
+    let combinedPoints = totalPoints;
+    let rankingPoints = 0;
+    
+    if (userEnteredRanking) {
+        rankingPoints = getPointsForRanking(userEnteredRanking, gender);
+        combinedPoints += rankingPoints;
+    }
+
+    if (combinedPoints === 0) {
+        rankingParagraph.innerHTML = `based on your total points of <strong>${combinedPoints}</strong>, you would not be ranked.`;
+        container.appendChild(rankingParagraph);
+        return;
+    }
+
+    const estimatedRank = estimateRanking(combinedPoints, gender, numberOfEntries);
+    let rankingText = '';
+
+    if (userEnteredRanking) {
+        rankingText = `based on your current ranking of ${userEnteredRanking} (${rankingPoints} points), and your recent ${totalPoints} points, `;
+    } else {
+        rankingText = `based on your total points of <strong>${combinedPoints}</strong>, `;
+    }
+
+    if (estimatedRank > 1000) {
+        rankingText += `your new ranking would be over <strong>1,000</strong> in the World.`;
+    } else {
+        rankingText += `your new ranking would be around <strong>${estimatedRank}</strong> in the World.`;
+    }
+
+    rankingParagraph.innerHTML = rankingText;
+    container.appendChild(rankingParagraph);
+
+    if (estimatedRank <= 1000) {
+        const qualifyingTournament = getQualifyingTournament(estimatedRank, gender);
+        const tournamentParagraph = document.createElement('p');
+        tournamentParagraph.classList.add('dynamic-paragraph');
+
+        if (qualifyingTournament === 'W15' || qualifyingTournament === 'M15') {
+            tournamentParagraph.innerHTML = `with this ranking, you would qualify for a <strong>${qualifyingTournament}</strong> event.`;
+        } else if (qualifyingTournament.startsWith('ATP')) {
+            tournamentParagraph.innerHTML = `with this ranking, you would qualify for an <strong>${qualifyingTournament}</strong> event or below.`;
+        } else {
+            tournamentParagraph.innerHTML = `with this ranking, you would qualify for a <strong>${qualifyingTournament}</strong> event or below.`;
+        }
+
+        container.appendChild(tournamentParagraph);
+    }
+
+    // Add button only if entries exist and rank is valid
+    if (numberOfEntries > 0) {
+        const addRankingButton = document.createElement('button');
+        addRankingButton.id = 'add-ranking-button';
+        addRankingButton.textContent = userEnteredRanking ? 'update ranking' : 'add ranking';
+        
+        addRankingButton.addEventListener('click', () => {
+            // Remove existing popup if any
+            const existingPopup = document.getElementById('ranking-popup');
+            if (existingPopup) existingPopup.remove();
+        
+            // Create the popup container
+            const popup = document.createElement('div');
+            popup.id = 'ranking-popup';
+            popup.innerHTML = `
+                <div class="popup-overlay"></div>
+                <div class="popup-content">
+                    <p>do you currently hold a singles ranking?<br>if so, enter it below.</p>
+                    <input type="number" id="user-ranking-input" placeholder="enter your ranking" min="1" 
+                           value="${userEnteredRanking || ''}" />
+                    <button id="submit-ranking">submit</button>
+                    <button id="close-popup">cancel</button>
+                </div>
+            `;
+            document.body.appendChild(popup);
+        
+            document.getElementById('close-popup').addEventListener('click', () => {
+                popup.remove();
+            });
+        
+            document.getElementById('submit-ranking').addEventListener('click', () => {
+                const rankingValue = parseInt(document.getElementById('user-ranking-input').value, 10);
+            
+                if (!isNaN(rankingValue)) {
+                    if (rankingValue > 1099) {
+                        alert("please enter a ranking under 1100");
+                    } else {
+                        userEnteredRanking = rankingValue;
+                        popup.remove();
+                        updateEstimatedRanking();
+                    }
+                } else {
+                    alert("please enter a valid number");
+                }
+            });
+        });
+        
+        container.appendChild(addRankingButton);
     }
 }
 
-document.getElementById('clear-button').addEventListener('click', updateEstimatedRanking);
+// Modify your clear button event listener to also clear the ranking
+document.getElementById('clear-button').addEventListener('click', () => {
+    userEnteredRanking = null; // Clear the ranking when clearing entries
+    updateEstimatedRanking();
+});
+
+
 document.getElementById('add-button').addEventListener('click', updateEstimatedRanking);
 document.getElementById('rewind-button').addEventListener('click', updateEstimatedRanking);
-
-// Event listener for gender change
 document.getElementById('gender').addEventListener('change', updateEstimatedRanking);
 
 
@@ -643,7 +733,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-
-
-
+  

@@ -5,14 +5,39 @@ const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip");
 
 
-// Milestone data with year and annotation text
-const milestones = [
-    { id: "us-open", year: 1973, text: "In 1973, US Open became the first Grand Slam to offer equal prize money, largely due to Billie Jean King" },
-    { id: "aus-open", year: 2001, text: "In 2001, Australian Open achieves parity" },
-    { id: "roland-garros", year: 2006, text: "French Open achieves parity in 2006" },
-    { id: "wimbledon", year: 2007, text: "Lastly, in 2007, Wimbledon achieves parity" }
-];
+const isMobile = window.innerWidth <= 450;
 
+const milestones = [
+    {
+        id: "us-open",
+        year: 1973,
+        text: isMobile
+            ? "1973: US Open parity "
+            : "In 1973, US Open became the first Grand Slam to offer equal prize money, largely due to Billie Jean King"
+    },
+    {
+        id: "aus-open",
+        year: 2001,
+        text: isMobile
+            ? "2001: AO parity"
+            : "In 2001, Australian Open achieves parity"
+    },
+    {
+        id: "roland-garros",
+        year: 2006,
+        text: isMobile
+            ? "2006: French Open parity"
+            : "French Open achieves parity in 2006"
+    },
+    {
+        id: "wimbledon",
+        year: 2007,
+        text: isMobile
+            ? "2007: Wimbledon parity"
+            : "Lastly, in 2007, Wimbledon achieves parity"
+    }
+];
+    
 // Format numbers as M (for millions) or K (for thousands)
 function formatNumber(value) {
     if (value === 0) {
@@ -184,8 +209,6 @@ d3.csv("singles_slams.csv").then(data => {
                     return sum + d[c.key];
                 }, 0);
 
-            // Calculate percentage difference
-            // const percentageDifference = ((totalMen - totalWomen) / totalWomen) * 100;
 
             // Calculate percentage difference only for years before 2008
             if (d.year < 2009 && (d.year - 1968) % 4 === 0) {
@@ -257,16 +280,31 @@ d3.csv("singles_slams.csv").then(data => {
         
             // Determine the starting x position based on the women's or men's side
             const isRolandGarros = milestone.id === "roland-garros";
+            const isAustralianOpen = milestone.id === "aus-open";
+            const isWimbledon = milestone.id === "wimbledon";
+
             const startX = isRolandGarros ? x(-totalMen) : x(totalWomen); // Use men's side for Roland Garros
         
             const milestoneLineLength = 50;
-        
+            
             // Adjust position for Roland Garros (place it on the men's side)
             const lineX1 = isRolandGarros ? startX - milestoneLineLength : startX + 9;
             const lineX2 = isRolandGarros ? startX - 8 : startX + milestoneLineLength;
             const textX = isRolandGarros ? startX - milestoneLineLength - 60 : startX + milestoneLineLength + 4;
             const textAnchor = "start";
         
+            let textY = y(milestone.year) + y.bandwidth() / 2;
+
+            // Adjust Y position for specific cases on mobile
+            const isMobile = window.innerWidth <= 450;
+            if (isMobile) {
+                if (isAustralianOpen) {
+                    textY += 5; // Lower the text for Aus Open
+                } else if (isWimbledon) {
+                    textY -= 5; // Raise the text for Wimbledon
+                }
+            }
+
 
             // Add a small dot at the start of the milestone line
             svg.append("circle")
@@ -288,33 +326,46 @@ d3.csv("singles_slams.csv").then(data => {
 
             // Add annotation text
             const text = svg.append("text")
-            .attr("class", `milestone-label ${milestone.id}`)
-            .attr("x", textX)
-            .attr("y", y(milestone.year) + y.bandwidth() / 2)
-            .attr("dy", "0.35em")
-            .attr("text-anchor", textAnchor) // Adjust text anchor based on position
-            .text(milestone.text)
-            .call(wrap,75);
+                .attr("class", `milestone-label ${milestone.id}`)
+                .attr("x", textX)
+                .attr("y", textY)
+                .attr("dy", "0.35em")
+                .attr("text-anchor", textAnchor) 
+                .text(milestone.text)
+                .call(wrap,75);
 
             // Function to position the rectangle
             const positionRectangle = () => {
-                // Force synchronous rendering of the text
-                text.node().getBoundingClientRect(); // Force layout calculation
-        
-                // Get the bounding box of the text
+                const isMobile = window.innerWidth <= 450;
                 const textBBox = text.node().getBBox();
-        
-                // Add a background rectangle for the text
+            
+                // Calculate x position with conditional offset for Roland Garros
+                const xPos = isRolandGarros
+                    ? (isMobile ? textBBox.x - textBBox.width + 68 : textBBox.x - textBBox.width + 58)
+                    : textBBox.x - 4;
+
+                
+                // Adjust Y for specific cases on mobile
+                let yPos = textBBox.y - 3;
+                
+                if (isAustralianOpen && isMobile) {
+                    yPos += 0.5;
+                } else if (isWimbledon && isMobile) {
+                    yPos -= 1.5;
+                }
+
+            
                 svg.insert("rect", `.milestone-label.${milestone.id}`)
                     .attr("class", `milestone-rect ${milestone.id}`)
-                    .attr("x", isRolandGarros ? textBBox.x - textBBox.width + 58 : textBBox.x - 4)
-                    .attr("y", textBBox.y - 3)
+                    .attr("x", xPos)
+                    .attr("y", yPos)
                     .attr("width", textBBox.width + 9)
                     .attr("height", textBBox.height + 7)
                     .attr("fill", "var(--tennis-blue)")
                     .attr("rx", 3)
                     .attr("ry", 3);
             };
+            
 
             // Apply delay only on first load
             if (isFirstLoad) {
@@ -418,16 +469,6 @@ d3.csv("singles_slams.csv").then(data => {
             showMilestones();
         });
     });
-
-    // Create the Y-axis with custom ticks (every 4 years)
-    // svg.append("g")
-    //     .call(d3.axisLeft(y).tickValues(
-    //         data.filter((d, i) => i % 4 === 0).map(d => d.year)  
-    //     ))
-    //     .attr("transform", `translate(${margin.left - 20},0)`)
-    //     .attr("class", "y-axis")
-    //     .selectAll(".tick line")  
-    //     .remove(); 
 
     svg.select(".y-axis path").remove();  // Remove the axis line
 });
