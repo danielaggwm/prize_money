@@ -226,11 +226,12 @@ button.selected {
 @media (max-width: 450px) {
     .milestone-label {
         font-size: 8px;
+        font-weight: 300 !important;
     }
 
     .total-women,
     .total-men {
-        font-size: 5px;
+        font-size: 5.5px;
     }
 
     .percentage-difference {
