@@ -1155,3 +1155,9 @@ button.selected {
     background-color: grey;
     color: white;
 }
+
+@media (max-width: 400px) {
+    .popup-content  {
+        width: 60%;
+    }
+}
