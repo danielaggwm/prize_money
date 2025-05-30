@@ -340,13 +340,23 @@ fetch('wta_rankings.json')
     .then(data => wtaRankings = data);
 
 // Function to estimate the ranking based on total points and number of entries
-function estimateRanking(totalPoints, gender, numberOfEntries) {
-    const rankings = (gender === 'male' ? atpRankings : wtaRankings).slice().sort((a, b) => Math.abs(a.points - totalPoints) - Math.abs(b.points - totalPoints));
+function estimateRanking(totalPoints, gender) {
+    const rankings = gender === 'male' ? atpRankings : wtaRankings;
 
-    const estimatedRank = rankings.length ? rankings[0].rank : null;
+    // Sort by rank (ascending)
+    const sortedRankings = rankings.slice().sort((a, b) => a.rank - b.rank);
 
-    return Math.max(1, estimatedRank || rankings.length);
+    // Find the lowest rank where player has at least this many points
+    for (const player of sortedRankings) {
+        if (totalPoints >= player.points) {
+            return player.rank;
+        }
+    }
+
+    // If not found (i.e. totalPoints too low), assign rank just beyond the last one
+    return sortedRankings[sortedRankings.length - 1].rank + 1;
 }
+
 
 
 let menRankings = null;
