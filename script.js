@@ -1,5 +1,6 @@
 function goToSecondPage() {
-    // First hide all intermediate content
+    const isMobile = window.innerWidth < 399;
+
     const elementsToHide = [
         'introduction-page',
         'chart-introduction',
@@ -9,24 +10,28 @@ function goToSecondPage() {
         'second-introduction',
         'comparison-chart'
     ];
-    
-    // Hide elements
-    elementsToHide.forEach(id => {
-        const el = document.getElementById(id);
-        if (el) el.style.display = 'none';
-    });
-    
-    // Then scroll smoothly to the target
+
     const target = document.getElementById('second-page');
-    target.scrollIntoView({ behavior: 'smooth' });
-    
-    // After the scroll completes, show the elements again
-    setTimeout(() => {
+
+    if (isMobile) {
+        // Just scroll smoothly on mobile
+        target.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        // Hide elements, scroll, then show them again
         elementsToHide.forEach(id => {
             const el = document.getElementById(id);
-            if (el) el.style.display = '';
+            if (el) el.style.display = 'none';
         });
-    }, 1000); 
+
+        target.scrollIntoView({ behavior: 'smooth' });
+
+        setTimeout(() => {
+            elementsToHide.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.style.display = '';
+            });
+        }, 1000);
+    }
 }
 
 

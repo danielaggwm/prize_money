@@ -104,9 +104,15 @@ d3.csv("singles_slams.csv").then(data => {
     });
 
     const rowHeight = isMobile ? 4.5 : 2.7;
+    const baseWidth = isMobile ? 500 : 500;
+    
 
-    const margin = { top: 20, right: 70, bottom: 20, left: 70};
-    const width = 500 - margin.left - margin.right;
+    const margin = { top: 20, right: 70, bottom: 20, left: 70 };
+    // if (window.innerWidth <= 768) { // mobile breakpoint
+    //     margin = { top: 20, right: 30, bottom: 10, left: 30 };
+    // }
+
+    const width = baseWidth - margin.left - margin.right;
 
     const height = data.length * rowHeight + margin.top + margin.bottom;
     const svg = d3.select("#chart").attr("viewBox", [0, 0, width, height]);
