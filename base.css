@@ -79,7 +79,7 @@ h1 {
     }
 
     .home-page {
-        height: 75vh;
+        height: 85vh;
         margin: 1.5rem;  
     }
 
@@ -292,6 +292,7 @@ button.selected {
         font-size: 1.5rem !important;
         padding-top: 2rem !important;
         width: 400px;
+        padding-left: 0.5rem !important;
     }
     .text-container p {
         font-size: 0.7rem !important;
@@ -559,21 +560,23 @@ button.selected {
 @media (max-width: 450px) {
     #second-page{ 
         height: auto;
-        padding-bottom: 20px;
+        padding-bottom: 20px !important;
+        padding: 0 1rem;
     }
 
     .quiz-container {
         flex-direction: column; /* Stack items vertically */
         height: auto; 
-        gap: 1rem; /* Reduce spacing */
+        gap: 1rem; 
         padding-top: 1rem;
         padding-left: 1rem;
-        padding-right: 1rem;
-        align-items: center; /* Center content */
+        margin-right: 1rem;
+        align-items: center !important; 
     }
 
     .quiz-options {
-        width: 100%; /* Full width */
+        width: 90%; 
+        margin-right: 20px;
         padding: 10px;
     }
 
@@ -582,20 +585,37 @@ button.selected {
     }
 
     .buttons {
-        justify-content: center; /* Center buttons */
-        flex-wrap: wrap; /* Allow wrapping if needed */
+        justify-content: center; 
+        flex-wrap: wrap; 
+        margin-bottom: 15px;
+    }
+
+    #round-level {
+        margin-bottom: 0px;
     }
 
     .quiz-options button {
         width: 100%; /* Make buttons full width for easier tapping */
     }
 
+    #clear-button {
+        width: auto;
+    }
+
+    #rewind-button {
+        width: auto;
+    }
+
     .receipt {
-        width: 105%; /* Full width */
+        margin-right: 1rem;
+        margin-left: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 100%; 
         height: 400px;
-        margin: 0; /* Remove margin-right */
         padding: 15px;
         overflow-x: hidden !important;
+        margin-bottom: 1rem;
     }
 
     #receipt-entries {
