@@ -79,7 +79,7 @@ h1 {
     }
 
     .home-page {
-        height: 85vh;
+        height: 83vh;
         margin: 1.5rem;  
     }
 
@@ -844,6 +844,10 @@ button.selected {
 
 
 @media (max-width: 400px) {
+    #introduction-page {
+        padding-top: 2.5rem;
+    }
+
     .carousel {
         display: block; /* Stack slides vertically */
         gap: 10px; /* No gap between slides */
