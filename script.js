@@ -492,8 +492,8 @@ function updateEstimatedRanking() {
                 const rankingValue = parseInt(document.getElementById('user-ranking-input').value, 10);
             
                 if (!isNaN(rankingValue)) {
-                    if (rankingValue > 1099) {
-                        alert("please enter a ranking under 1100");
+                    if (rankingValue > 1000) {
+                        alert("please enter a ranking under 1000");
                     } else {
                         userEnteredRanking = rankingValue;
                         popup.remove();
