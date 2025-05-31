@@ -90,7 +90,7 @@ const categoryDisplayNames = {
 
 
 // Load the data from CSV
-d3.csv("singles_slams.csv").then(data => {
+d3.csv("tables/singles_slams.csv").then(data => {
     data.forEach(d => {
         d.year = +d.year;
         d.wimbledon_women = +d.wimbledon_women;

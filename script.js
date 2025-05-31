@@ -158,10 +158,10 @@ function fetchCSV(file, callback) {
 
 // Fetch all CSV files on page load
 document.addEventListener('DOMContentLoaded', () => {
-    fetchCSV('Men_Point_System.csv', data => menPointSystem = data);
-    fetchCSV('Men_Prize_Money.csv', data => menPrizeMoney = data);
-    fetchCSV('Women_Point_System.csv', data => womenPointSystem = data);
-    fetchCSV('Women_Prize_Money.csv', data => womenPrizeMoney = data);
+    fetchCSV('tables/Men_Point_System.csv', data => menPointSystem = data);
+    fetchCSV('tables/Men_Prize_Money.csv', data => menPrizeMoney = data);
+    fetchCSV('tables/Women_Point_System.csv', data => womenPointSystem = data);
+    fetchCSV('tables/Women_Prize_Money.csv', data => womenPrizeMoney = data);
 });
 
 // Function to get prize money and points from CSV data
@@ -365,8 +365,8 @@ let userEnteredRanking = null;
 
 // Fetch the rankings CSV files on page load
 document.addEventListener('DOMContentLoaded', () => {
-    fetchCSV('Men_Rankings.csv', data => menRankings = data);
-    fetchCSV('Women_Rankings.csv', data => womenRankings = data);
+    fetchCSV('tables/Men_Rankings.csv', data => menRankings = data);
+    fetchCSV('tables/Women_Rankings.csv', data => womenRankings = data);
 });
 
 function getQualifyingTournament(estimatedRank, gender) {
