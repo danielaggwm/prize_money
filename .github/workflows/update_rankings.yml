@@ -29,11 +29,6 @@ jobs:
     - name: Run WTA script
       run: python python/wta.py
 
-    - name: Move JSON files to root
-      run: |
-        mv atp_rankings.json ./atp_rankings.json
-        mv wta_rankings.json ./wta_rankings.json
-
     - name: Commit and push changes
       run: |
         git config user.name "github-actions"
