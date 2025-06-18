@@ -18,8 +18,11 @@
 
 <body>
     <div class="home-page">
-    <h1>prize money<br>in tennis</h1>
-    <button class="scroll-button" onclick="goToSecondPage()">calculator</button>
+        <h1>prize money<br>in tennis</h1>
+        <div class="skip">
+            <button class="scroll-button" onclick="goToSecondPage()">calculator</button>
+            <button class="scroll-button" onclick="goToFourthPage()">rankings</button>
+        </div>
     </div>  
 
     <div id="introduction-page">
@@ -185,6 +188,93 @@
             </div>
         </div>
     </div>
+
+    <div id="fourth-page">
+        <div class="rankings-heading">
+            <h1>RANKINGS</h1>
+            <p>see where each player stands in the rankings</p>
+        </div>
+
+        <div class="rankings-divider"></div>
+
+        <div class="rankings-buttons">
+            <button class="gender-btn selected" >MEN</button>
+            <button class="gender-btn">WOMEN</button>
+            <button class="type-btn selected" >SINGLES RANKINGS</button>
+            <button class="type-btn">DOUBLES RANKINGS</button>
+        </div>
+        <div class="table-container">
+            <div class="filter-popup" style="display: none;">
+                <div class="filter-header">
+                    <button class="close-filter-btn">
+                      <img src="close.svg" alt="Close filters" />
+                    </button>
+                    <h3>FILTERS</h3>
+                    <button class="reset-filter-btn">
+                        <img src="reset.svg" alt="Reset image" />
+                    </button>
+                </div>
+                <div class="filter-options">
+                  <button class="region-filter-btn">BY REGION</button>
+                  <button class="ranking-filter-btn">BY RANKING</button>
+                </div>
+                <div class="dynamic-filters"></div>
+            </div>
+            <div class="rankings-header">
+              <div class="button-row">
+                <div class="left-buttons">
+                    <button class="filter-button">
+                      <img src="filter.svg" alt="Filter icon" />
+                      <span class="filter-text">filter</span>
+                    </button>
+                </div>
+                <div class="right-buttons">
+                    <div class="search-wrapper">
+                        <button class="search-button">
+                          <img src="search.svg" alt="Search" />
+                        </button>
+                        <input type="text" class="search-input" placeholder="search player..." style="display: none;" />
+                    </div>
+                    <button class="download-button">
+                        <img src="download2.svg" alt="Download" />
+                    </button>
+                </div>
+              </div>
+          
+              <table class="rankings-table no-scroll">
+                <colgroup>
+                  <col style="width: 20%">
+                  <col style="width: 45%">
+                  <col style="width: 15%">
+                  <col style="width: 25%">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th>RANK</th>
+                    <th>PLAYER</th>
+                    <th>AGE</th>
+                    <th>POINTS</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          
+            <div class="scrollable-body">
+              <table class="rankings-table">
+                <colgroup>
+                  <col style="width: 20%">
+                  <col style="width: 45%">
+                  <col style="width: 15%">
+                  <col style="width: 25%">
+                </colgroup>
+                <tbody>
+                  <!-- Populated by JavaScript -->
+                </tbody>
+              </table>
+            </div>
+        </div>          
+    </div>
+
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
