@@ -29,12 +29,18 @@ jobs:
     - name: Run WTA script
       run: python python/wta.py
 
+    - name: Run ATP Doubles script
+      run: python python/atp_doubles.py
+
+    - name: Run WTA Doubles script
+      run: python python/wta_doubles.py
+
     - name: Commit and push changes
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
-        git add atp_rankings.json wta_rankings.json
-        git commit -m "Update ATP and WTA rankings"
+        git add atp_rankings.json wta_rankings.json atp_doubles_rankings.json wta_doubles_rankings.json
+        git commit -m "Update ATP, WTA, and Doubles rankings"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
