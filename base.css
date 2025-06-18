@@ -1575,7 +1575,7 @@ button.selected {
       }
     
       .search-wrapper.active {
-        left: 35%;
+        left: 45%;
         transform: translateX(-50%);
         z-index: 10;
         justify-content: center;
