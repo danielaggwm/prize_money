@@ -1195,7 +1195,11 @@ button.selected {
 
 @media (max-width: 400px) {
     .popup-content  {
-        width: 60%;
+        width: 75%;
+    }
+
+    .ranking-options {
+        justify-content: center !important;
     }
 }
 
