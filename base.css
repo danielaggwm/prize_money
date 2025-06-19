@@ -1205,9 +1205,10 @@ button.selected {
 
 .ranking-options {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     gap: 30px;
     align-items: center;         /* Align vertically */
-    justify-content: flex-start; /* Align to left */
     margin-bottom: 10px;
 }
 
@@ -1218,6 +1219,12 @@ button.selected {
     font-size: 16px;
     cursor: pointer;
 }
+
+.ranking-label input[type="radio"] {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* rankings section */
 #fourth-page {
