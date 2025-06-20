@@ -113,12 +113,6 @@ h1 {
 }
 
 @media (max-width: 450px) {
-    #chart {
-        padding-bottom: 10rem;
-        margin-right: 1rem;
-        scale: 1.20;
-    }
-
     #buttons-container button {
         background: none;
         border: none;
@@ -267,8 +261,8 @@ button.selected {
     #chart-header {
         font-size: 10px;
         position: relative;
-        top: -20px; 
-        width: 95%;
+        top: 10px; 
+        width: 100%;
     }
     .triangle {
         transform: scale(0.65);
@@ -1587,7 +1581,7 @@ button.selected {
         position: relative;
       }
     
-    .search-wrapper.active {
+      .search-wrapper.active {
         display: flex !important;
         justify-content: center !important;
         width: 100%;
@@ -1626,4 +1620,22 @@ button.selected {
         font-family: "Poppins", sans-serif;
         
       }
+      
+      html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow-x: hidden !important;
+        width: 100% !important;
+      }
+
+      #chart {
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-bottom: 10rem !important;
+        scale: 1.05;
+      }
 }
+
