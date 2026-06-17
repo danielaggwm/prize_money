@@ -30,6 +30,14 @@ function goToSecondPage() {
                 const el = document.getElementById(id);
                 if (el) el.style.display = '';
             });
+            // GSAP's pin spacers come back when elements are restored, shifting the page layout.
+            // Wait one frame for GSAP to refresh, then re-anchor to the target.
+            requestAnimationFrame(() => {
+                if (typeof ScrollTrigger !== 'undefined') ScrollTrigger.refresh();
+                requestAnimationFrame(() => {
+                    target.scrollIntoView({ behavior: 'instant' });
+                });
+            });
         }, 1000);
     }
 }
@@ -65,6 +73,12 @@ function goToFourthPage() {
             elementsToHide.forEach(id => {
                 const el = document.getElementById(id);
                 if (el) el.style.display = '';
+            });
+            requestAnimationFrame(() => {
+                if (typeof ScrollTrigger !== 'undefined') ScrollTrigger.refresh();
+                requestAnimationFrame(() => {
+                    target.scrollIntoView({ behavior: 'instant' });
+                });
             });
         }, 1000);
     }
@@ -594,13 +608,9 @@ function updateEstimatedRanking() {
                     <p>do you currently hold a ranking? <br>if so, please enter it below.</p>
                     <div class="ranking-options">
                         <label class="ranking-label">
-                            <input type="radio" name="ranking-type" value="singles" ${userEnteredSinglesRanking ? 'checked' : ''}>
-                            Singles
-                        </label>
+                            <input type="radio" name="ranking-type" value="singles" ${userEnteredSinglesRanking ? 'checked' : ''}>Singles</label>
                         <label class="ranking-label">
-                            <input type="radio" name="ranking-type" value="doubles" ${userEnteredDoublesRanking ? 'checked' : ''}>
-                            Doubles
-                        </label>
+                            <input type="radio" name="ranking-type" value="doubles" ${userEnteredDoublesRanking ? 'checked' : ''}>Doubles</label>
                     </div>
                     <input type="number" id="user-ranking-input" placeholder="enter your ranking" min="1" max="1000" 
                         value="${userEnteredSinglesRanking || userEnteredDoublesRanking || ''}" />
