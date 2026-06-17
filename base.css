@@ -893,17 +893,18 @@ button.selected {
         font-size: 1rem;
     }
 
-    /* Remove GSAP-style pinning constraints for second carousel */
+    /* Remove GSAP-style pinning constraints for second carousel.
+       !important is required because these base rules are defined later in the file. */
     .box-carousel-scroll-container {
-        height: auto;
+        height: auto !important;
     }
 
     .box-carousel-container {
-        position: relative;
-        top: unset;
-        height: auto;
-        overflow: visible;
-        align-items: flex-start;
+        position: relative !important;
+        top: unset !important;
+        height: auto !important;
+        overflow: visible !important;
+        align-items: flex-start !important;
     }
 
     .boxes-carousel {
