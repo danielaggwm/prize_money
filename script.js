@@ -694,8 +694,8 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
     
-    // Only apply scroll effect for screens larger than 400px
-    if (window.innerWidth < 400) {
+    // Only apply scroll effect for screens larger than 450px
+    if (window.innerWidth <= 450) {
         // For small screens, just display the slides vertically without scroll effect
         return;
     }
@@ -811,9 +811,9 @@ document.addEventListener('DOMContentLoaded', function() {
         boxes[0].classList.add('active');
         
         // Adjust gap based on screen width
-        const gap = window.innerWidth < 400 ? 90 : 120; 
+        const gap = window.innerWidth <= 450 ? 90 : 120;
         let totalScrollDistance = 0;
-        
+
         // Calculate total scrollable distance dynamically
         boxes.forEach(box => {
             totalScrollDistance += box.offsetWidth - gap;
@@ -821,25 +821,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Function to get total scroll distance dynamically
         function getTotalScrollDistance() {
-            return totalScrollDistance - (window.innerWidth < 400 ? -65 : 0); 
+            return totalScrollDistance - (window.innerWidth <= 450 ? -65 : 0);
         }
 
         // Function to get start position dynamically based on screen width
         function getStartPosition() {
-            return window.innerWidth < 400 ? "top 15%" : "top top";
+            return window.innerWidth <= 450 ? "top 15%" : "top top";
         }
 
         // Initial position for mobile screens
         function getInitialXPosition() {
-            return window.innerWidth < 400 ? -85 : 0; // Shift slightly left for mobile
+            return window.innerWidth <= 450 ? -85 : 0;
         }
-        
-        // If the screen is smaller than 400px, do not apply scroll trigger
-        if (window.innerWidth < 400) {
+
+        // If the screen is 450px or smaller, do not apply scroll trigger
+        if (window.innerWidth <= 450) {
             // Stack boxes vertically on smaller screens
             gsap.set(carousel, { x: 0 });
             carousel.style.display = 'block';
-            boxes.forEach(box => box.style.display = 'block'); // Stack the boxes vertically
+            boxes.forEach(box => box.style.display = 'block');
             return;
         }
 

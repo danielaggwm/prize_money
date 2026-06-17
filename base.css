@@ -850,22 +850,34 @@ button.selected {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     #introduction-page {
         padding-top: 2.5rem;
     }
 
+    /* Remove GSAP-style pinning constraints so stacked slides are fully visible */
+    .carousel-scroll-container {
+        height: auto;
+    }
+
+    .carousel-container {
+        position: relative;
+        top: unset;
+        height: auto;
+        overflow: visible;
+    }
+
     .carousel {
-        display: block; /* Stack slides vertically */
-        gap: 10px; /* No gap between slides */
-        padding: 0; /* Remove padding */
+        display: block;
+        gap: 10px;
+        padding: 0;
     }
 
     .slide {
         width: 90%;
-        padding: 20px; 
-        font-size: 1rem; 
-        transform: scale(1); 
+        padding: 20px;
+        font-size: 1rem;
+        transform: scale(1);
         opacity: 1;
         filter: none;
         margin: 0 auto;
@@ -874,39 +886,42 @@ button.selected {
     }
 
     .scroll-progress {
-        display: none; /* Hide scroll progress bar */
+        display: none;
     }
 
-    #chart-introduction {
-        margin-top: 10rem !important;
-    }
-    
     #chart-introduction p {
         font-size: 1rem;
     }
 
-    .box-carousel-container {
-        height: auto !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    /* Remove GSAP-style pinning constraints for second carousel */
+    .box-carousel-scroll-container {
+        height: auto;
     }
+
+    .box-carousel-container {
+        position: relative;
+        top: unset;
+        height: auto;
+        overflow: visible;
+        align-items: flex-start;
+    }
+
     .boxes-carousel {
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        flex-direction: column !important; 
+        flex-direction: column !important;
         padding: 0 !important;
         margin: 0 auto !important;
         width: 100%;
-        max-width: 600px; 
+        max-width: 600px;
     }
-    
+
     .box, .box_2 {
-        width: 90% !important; /* Adjusted width to be responsive */
-        max-width: 600px; /* Keeps content centered and prevents excessive stretching */
+        width: 90% !important;
+        max-width: 600px;
         padding: 20px !important;
-        font-size: 1rem !important; /* Increased font size for readability */
+        font-size: 1rem !important;
         transform: scale(1) !important;
         opacity: 1 !important;
         filter: none !important;
@@ -914,21 +929,16 @@ button.selected {
         margin-bottom: 10px !important;
         height: auto !important;
     }
-    
+
     .box_2 img {
-        width: 80% !important; 
+        width: 80% !important;
         display: block;
-        margin: 0 auto; /* Centers the image */
+        margin: 0 auto;
     }
-    
-    .scroll-progress {
-        display: none;
-    }
-    
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     #comparison-chart {
         margin-top: 12rem;
     }
@@ -975,11 +985,11 @@ button.selected {
     padding-left: 20px;
 }
 
-@media (max-width: 450px) { 
+@media (max-width: 420px) {
     #chart-introduction {
-        margin-top: 40rem; /* Add margin to avoid overlap */
-        margin-bottom: 10rem; /* Adjust margin for mobile */
-        margin-left: 30px !important;
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
     }
 }
 
