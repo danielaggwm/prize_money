@@ -998,8 +998,11 @@ searchBtn.addEventListener('click', () => {
     // Toggle input visibility
     searchInput.style.display = isActive ? 'none' : 'inline-block';
   
-    // Focus input when showing
-    if (!isActive) {
+    // Clear search and reset table when closing
+    if (isActive) {
+      searchInput.value = '';
+      updateTable(currentData);
+    } else {
       searchInput.focus();
     }
   

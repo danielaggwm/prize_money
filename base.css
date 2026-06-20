@@ -435,6 +435,7 @@ button.selected {
     display: flex;
     flex-direction: column;
     overflow-y: hidden; 
+    overflow-x: hidden;
     align-self: center; 
 }
 
