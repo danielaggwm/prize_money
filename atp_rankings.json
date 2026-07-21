@@ -74,7 +74,7 @@
         "player": "Alexander Bublik",
         "age": 29,
         "country": "KAZ",
-        "points": 2810
+        "points": 2610
     },
     {
         "rank": 12,
@@ -92,24 +92,24 @@
     },
     {
         "rank": 14,
+        "player": "Andrey Rublev",
+        "age": 28,
+        "country": "RUS",
+        "points": 2380
+    },
+    {
+        "rank": 15,
         "player": "Lorenzo Musetti",
         "age": 24,
         "country": "ITA",
         "points": 2315
     },
     {
-        "rank": 15,
+        "rank": 16,
         "player": "Learner Tien",
         "age": 20,
         "country": "USA",
         "points": 2270
-    },
-    {
-        "rank": 16,
-        "player": "Andrey Rublev",
-        "age": 28,
-        "country": "RUS",
-        "points": 2230
     },
     {
         "rank": 17,
@@ -120,17 +120,17 @@
     },
     {
         "rank": 18,
-        "player": "Luciano Darderi",
-        "age": 24,
-        "country": "ITA",
-        "points": 2210
-    },
-    {
-        "rank": 19,
         "player": "Jakub Men\u0161\u00edk",
         "age": 20,
         "country": "CZE",
         "points": 2205
+    },
+    {
+        "rank": 19,
+        "player": "Valentin Vacherot",
+        "age": 27,
+        "country": "MON",
+        "points": 2188
     },
     {
         "rank": 20,
@@ -141,17 +141,17 @@
     },
     {
         "rank": 21,
-        "player": "Valentin Vacherot",
-        "age": 27,
-        "country": "MON",
-        "points": 2138
+        "player": "Luciano Darderi",
+        "age": 24,
+        "country": "ITA",
+        "points": 2125
     },
     {
         "rank": 22,
         "player": "Francisco Cer\u00fandolo",
         "age": 27,
         "country": "ARG",
-        "points": 2110
+        "points": 2060
     },
     {
         "rank": 23,
@@ -183,17 +183,17 @@
     },
     {
         "rank": 27,
+        "player": "Arthur Rinderknech",
+        "age": 30,
+        "country": "FRA",
+        "points": 1723
+    },
+    {
+        "rank": 28,
         "player": "Jo\u00e3o Fonseca",
         "age": 19,
         "country": "BRA",
         "points": 1710
-    },
-    {
-        "rank": 28,
-        "player": "Arthur Rinderknech",
-        "age": 30,
-        "country": "FRA",
-        "points": 1683
     },
     {
         "rank": 29,
@@ -204,17 +204,17 @@
     },
     {
         "rank": 30,
-        "player": "Tom\u00e1s Mart\u00edn Etcheverry",
-        "age": 26,
-        "country": "ARG",
-        "points": 1460
-    },
-    {
-        "rank": 31,
         "player": "Alejandro Tabilo",
         "age": 29,
         "country": "CHI",
-        "points": 1438
+        "points": 1508
+    },
+    {
+        "rank": 31,
+        "player": "Tom\u00e1s Mart\u00edn Etcheverry",
+        "age": 27,
+        "country": "ARG",
+        "points": 1460
     },
     {
         "rank": 32,
@@ -225,24 +225,24 @@
     },
     {
         "rank": 33,
-        "player": "Ignacio Buse",
-        "age": 22,
-        "country": "PER",
-        "points": 1413
-    },
-    {
-        "rank": 34,
         "player": "Matteo Arnaldi",
         "age": 25,
         "country": "ITA",
-        "points": 1349
+        "points": 1399
     },
     {
-        "rank": 35,
+        "rank": 34,
         "player": "Zizou Bergs",
         "age": 27,
         "country": "BEL",
         "points": 1340
+    },
+    {
+        "rank": 35,
+        "player": "Ignacio Buse",
+        "age": 22,
+        "country": "PER",
+        "points": 1312
     },
     {
         "rank": 36,
@@ -253,24 +253,24 @@
     },
     {
         "rank": 37,
-        "player": "Alexander Blockx",
-        "age": 21,
+        "player": "Rapha\u00ebl Collignon",
+        "age": 24,
         "country": "BEL",
-        "points": 1233
+        "points": 1234
     },
     {
         "rank": 38,
+        "player": "Alexander Blockx",
+        "age": 21,
+        "country": "BEL",
+        "points": 1218
+    },
+    {
+        "rank": 39,
         "player": "Cameron Norrie",
         "age": 30,
         "country": "GBR",
         "points": 1205
-    },
-    {
-        "rank": 39,
-        "player": "Denis Shapovalov",
-        "age": 27,
-        "country": "CAN",
-        "points": 1130
     },
     {
         "rank": 40,
@@ -288,80 +288,80 @@
     },
     {
         "rank": 42,
-        "player": "Rapha\u00ebl Collignon",
-        "age": 24,
-        "country": "BEL",
-        "points": 1091
-    },
-    {
-        "rank": 43,
         "player": "Matteo Berrettini",
         "age": 30,
         "country": "ITA",
         "points": 1075
     },
     {
-        "rank": 44,
+        "rank": 43,
         "player": "Jaume Munar",
         "age": 29,
         "country": "ESP",
         "points": 1075
     },
     {
-        "rank": 45,
-        "player": "Juan Manuel Cer\u00fandolo",
-        "age": 24,
-        "country": "ARG",
-        "points": 1054
-    },
-    {
-        "rank": 46,
+        "rank": 44,
         "player": "Alex Michelsen",
         "age": 21,
         "country": "USA",
         "points": 1050
     },
     {
-        "rank": 47,
+        "rank": 45,
         "player": "Ethan Quinn",
         "age": 22,
         "country": "USA",
         "points": 1021
     },
     {
-        "rank": 48,
-        "player": "Mariano Navone",
-        "age": 25,
-        "country": "ARG",
-        "points": 1016
-    },
-    {
-        "rank": 49,
+        "rank": 46,
         "player": "Adrian Mannarino",
         "age": 38,
         "country": "FRA",
         "points": 1005
     },
     {
-        "rank": 50,
+        "rank": 47,
+        "player": "Mariano Navone",
+        "age": 25,
+        "country": "ARG",
+        "points": 1005
+    },
+    {
+        "rank": 48,
+        "player": "Nuno Borges",
+        "age": 29,
+        "country": "POR",
+        "points": 995
+    },
+    {
+        "rank": 49,
         "player": "T\u00e9rence Atmane",
         "age": 24,
         "country": "FRA",
         "points": 992
     },
     {
+        "rank": 50,
+        "player": "Juan Manuel Cer\u00fandolo",
+        "age": 24,
+        "country": "ARG",
+        "points": 989
+    },
+    {
         "rank": 51,
+        "player": "Stefanos Tsitsipas",
+        "age": 27,
+        "country": "GRE",
+        "points": 980
+    },
+    {
+        "rank": 52,
         "player": "Yannick Hanfmann",
         "age": 34,
         "country": "GER",
         "points": 974
-    },
-    {
-        "rank": 52,
-        "player": "Nuno Borges",
-        "age": 29,
-        "country": "POR",
-        "points": 970
     },
     {
         "rank": 53,
@@ -389,42 +389,42 @@
         "player": "Sebasti\u00e1n B\u00e1ez",
         "age": 25,
         "country": "ARG",
-        "points": 935
+        "points": 950
     },
     {
         "rank": 57,
-        "player": "Tallon Griekspoor",
-        "age": 30,
-        "country": "NED",
-        "points": 935
+        "player": "Thiago Agust\u00edn Tirante",
+        "age": 25,
+        "country": "ARG",
+        "points": 936
     },
     {
         "rank": 58,
-        "player": "Camilo Ugo Carabelli",
-        "age": 27,
-        "country": "ARG",
-        "points": 930
-    },
-    {
-        "rank": 59,
         "player": "Miomir Kecmanovi\u0107",
         "age": 26,
         "country": "SRB",
         "points": 930
     },
     {
+        "rank": 59,
+        "player": "Daniel M\u00e9rida",
+        "age": 21,
+        "country": "ESP",
+        "points": 925
+    },
+    {
         "rank": 60,
+        "player": "Rom\u00e1n Andr\u00e9s Burruchaga",
+        "age": 24,
+        "country": "ARG",
+        "points": 925
+    },
+    {
+        "rank": 61,
         "player": "Daniel Altmaier",
         "age": 27,
         "country": "GER",
         "points": 924
-    },
-    {
-        "rank": 61,
-        "player": "Thiago Agust\u00edn Tirante",
-        "age": 25,
-        "country": "ARG",
-        "points": 921
     },
     {
         "rank": 62,
@@ -435,185 +435,185 @@
     },
     {
         "rank": 63,
+        "player": "Adolfo Daniel Vallejo",
+        "age": 22,
+        "country": "PAR",
+        "points": 918
+    },
+    {
+        "rank": 64,
         "player": "Sebastian Korda",
         "age": 26,
         "country": "USA",
         "points": 900
     },
     {
-        "rank": 64,
-        "player": "V\u00edt Kop\u0159iva",
-        "age": 29,
-        "country": "CZE",
-        "points": 893
-    },
-    {
         "rank": 65,
         "player": "Pablo Carre\u00f1o Busta",
         "age": 35,
         "country": "ESP",
-        "points": 884
+        "points": 896
     },
     {
         "rank": 66,
-        "player": "Kamil Majchrzak",
+        "player": "Tallon Griekspoor",
         "age": 30,
-        "country": "POL",
-        "points": 882
+        "country": "NED",
+        "points": 895
     },
     {
         "rank": 67,
-        "player": "Rom\u00e1n Andr\u00e9s Burruchaga",
-        "age": 24,
-        "country": "ARG",
-        "points": 875
+        "player": "Denis Shapovalov",
+        "age": 27,
+        "country": "CAN",
+        "points": 890
     },
     {
         "rank": 68,
+        "player": "V\u00edt Kop\u0159iva",
+        "age": 29,
+        "country": "CZE",
+        "points": 881
+    },
+    {
+        "rank": 69,
+        "player": "Camilo Ugo Carabelli",
+        "age": 27,
+        "country": "ARG",
+        "points": 880
+    },
+    {
+        "rank": 70,
         "player": "Hubert Hurkacz",
         "age": 29,
         "country": "POL",
         "points": 865
     },
     {
-        "rank": 69,
+        "rank": 71,
+        "player": "Kamil Majchrzak",
+        "age": 30,
+        "country": "POL",
+        "points": 857
+    },
+    {
+        "rank": 72,
         "player": "Hamad Medjedovi\u0107",
-        "age": 22,
+        "age": 23,
         "country": "SRB",
         "points": 844
     },
     {
-        "rank": 70,
-        "player": "Aleksandar Kova\u010devi\u0107",
-        "age": 27,
-        "country": "USA",
-        "points": 837
-    },
-    {
-        "rank": 71,
-        "player": "Adolfo Daniel Vallejo",
-        "age": 22,
-        "country": "PAR",
-        "points": 830
-    },
-    {
-        "rank": 72,
+        "rank": 73,
         "player": "Zachary Svajda",
         "age": 23,
         "country": "USA",
         "points": 822
     },
     {
-        "rank": 73,
-        "player": "Jesper de Jong",
-        "age": 26,
-        "country": "NED",
-        "points": 808
-    },
-    {
         "rank": 74,
-        "player": "James Duckworth",
-        "age": 34,
-        "country": "AUS",
-        "points": 788
-    },
-    {
-        "rank": 75,
-        "player": "Jan Choinski",
-        "age": 30,
-        "country": "GBR",
-        "points": 775
-    },
-    {
-        "rank": 76,
         "player": "Jenson Brooksby",
         "age": 25,
         "country": "USA",
         "points": 770
     },
     {
-        "rank": 77,
+        "rank": 75,
         "player": "Valentin Royer",
         "age": 25,
         "country": "FRA",
         "points": 768
     },
     {
-        "rank": 78,
+        "rank": 76,
         "player": "M\u00e1rton Fucsovics",
         "age": 34,
         "country": "HUN",
         "points": 765
     },
     {
-        "rank": 79,
-        "player": "Adam Walton",
-        "age": 27,
-        "country": "AUS",
-        "points": 754
+        "rank": 77,
+        "player": "Lorenzo Sonego",
+        "age": 31,
+        "country": "ITA",
+        "points": 758
     },
     {
-        "rank": 80,
+        "rank": 78,
+        "player": "Luca Van Assche",
+        "age": 22,
+        "country": "FRA",
+        "points": 755
+    },
+    {
+        "rank": 79,
         "player": "Mattia Bellucci",
         "age": 25,
         "country": "ITA",
         "points": 751
     },
     {
-        "rank": 81,
+        "rank": 80,
         "player": "Holger Rune",
         "age": 23,
         "country": "DEN",
         "points": 750
     },
     {
+        "rank": 81,
+        "player": "Alex Mol\u010dan",
+        "age": 28,
+        "country": "SVK",
+        "points": 747
+    },
+    {
         "rank": 82,
-        "player": "Daniel M\u00e9rida",
-        "age": 21,
-        "country": "ESP",
-        "points": 750
+        "player": "James Duckworth",
+        "age": 34,
+        "country": "AUS",
+        "points": 746
     },
     {
         "rank": 83,
-        "player": "Lorenzo Sonego",
-        "age": 31,
-        "country": "ITA",
+        "player": "Quentin Halys",
+        "age": 29,
+        "country": "FRA",
         "points": 743
     },
     {
         "rank": 84,
-        "player": "Dino Pri\u017emi\u0107",
-        "age": 20,
-        "country": "CRO",
-        "points": 741
+        "player": "Aleksandr Shevchenko",
+        "age": 25,
+        "country": "KAZ",
+        "points": 736
     },
     {
         "rank": 85,
-        "player": "Stefanos Tsitsipas",
-        "age": 27,
-        "country": "GRE",
-        "points": 740
-    },
-    {
-        "rank": 86,
-        "player": "Luca Van Assche",
-        "age": 22,
-        "country": "FRA",
-        "points": 737
-    },
-    {
-        "rank": 87,
         "player": "Marcos Giron",
         "age": 32,
         "country": "USA",
         "points": 730
     },
     {
-        "rank": 88,
+        "rank": 86,
         "player": "Marin \u010cili\u0107",
         "age": 37,
         "country": "CRO",
         "points": 721
+    },
+    {
+        "rank": 87,
+        "player": "Damir D\u017eumhur",
+        "age": 34,
+        "country": "BIH",
+        "points": 719
+    },
+    {
+        "rank": 88,
+        "player": "Jaime Faria",
+        "age": 22,
+        "country": "POR",
+        "points": 718
     },
     {
         "rank": 89,
@@ -624,346 +624,346 @@
     },
     {
         "rank": 90,
-        "player": "Quentin Halys",
-        "age": 29,
-        "country": "FRA",
-        "points": 706
+        "player": "Jan Choinski",
+        "age": 30,
+        "country": "GBR",
+        "points": 707
     },
     {
         "rank": 91,
-        "player": "Emilio Nava",
-        "age": 24,
-        "country": "USA",
-        "points": 701
+        "player": "Dino Pri\u017emi\u0107",
+        "age": 20,
+        "country": "CRO",
+        "points": 702
     },
     {
         "rank": 92,
-        "player": "Jaime Faria",
-        "age": 22,
-        "country": "POR",
-        "points": 700
-    },
-    {
-        "rank": 93,
         "player": "Gabriel Diallo",
         "age": 24,
         "country": "CAN",
         "points": 695
     },
     {
+        "rank": 93,
+        "player": "Aleksandar Kova\u010devi\u0107",
+        "age": 27,
+        "country": "USA",
+        "points": 685
+    },
+    {
         "rank": 94,
-        "player": "Francisco Comesa\u00f1a",
-        "age": 25,
-        "country": "ARG",
-        "points": 690
-    },
-    {
-        "rank": 95,
-        "player": "Sho Shimabukuro",
-        "age": 28,
-        "country": "JPN",
-        "points": 679
-    },
-    {
-        "rank": 96,
         "player": "Roman Safiullin",
         "age": 28,
         "country": "RUS",
         "points": 678
     },
     {
-        "rank": 97,
+        "rank": 95,
+        "player": "Marco Trungelliti",
+        "age": 36,
+        "country": "ARG",
+        "points": 678
+    },
+    {
+        "rank": 96,
         "player": "Rinky Hijikata",
         "age": 25,
         "country": "AUS",
         "points": 677
     },
     {
-        "rank": 98,
-        "player": "Arthur Cazaux",
-        "age": 23,
-        "country": "FRA",
+        "rank": 97,
+        "player": "Sho Shimabukuro",
+        "age": 28,
+        "country": "JPN",
         "points": 677
     },
     {
+        "rank": 98,
+        "player": "Jesper de Jong",
+        "age": 26,
+        "country": "NED",
+        "points": 668
+    },
+    {
         "rank": 99,
-        "player": "Marco Trungelliti",
-        "age": 36,
-        "country": "ARG",
-        "points": 666
+        "player": "Adam Walton",
+        "age": 27,
+        "country": "AUS",
+        "points": 668
     },
     {
         "rank": 100,
-        "player": "Aleksandr Shevchenko",
-        "age": 25,
-        "country": "KAZ",
-        "points": 658
+        "player": "Emilio Nava",
+        "age": 24,
+        "country": "USA",
+        "points": 664
     },
     {
         "rank": 101,
-        "player": "Alex Mol\u010dan",
-        "age": 28,
-        "country": "SVK",
-        "points": 649
+        "player": "Francisco Comesa\u00f1a",
+        "age": 25,
+        "country": "ARG",
+        "points": 650
     },
     {
         "rank": 102,
+        "player": "Aleksandar Vukic",
+        "age": 30,
+        "country": "AUS",
+        "points": 636
+    },
+    {
+        "rank": 103,
         "player": "Benjamin Bonzi",
         "age": 30,
         "country": "FRA",
         "points": 633
     },
     {
-        "rank": 103,
+        "rank": 104,
         "player": "Alexei Popyrin",
         "age": 26,
         "country": "AUS",
         "points": 630
     },
     {
-        "rank": 104,
+        "rank": 105,
         "player": "Martin Damm",
         "age": 22,
         "country": "USA",
         "points": 628
     },
     {
-        "rank": 105,
-        "player": "Eliot Spizzirri",
-        "age": 24,
-        "country": "USA",
-        "points": 626
-    },
-    {
         "rank": 106,
         "player": "Yibing Wu",
         "age": 26,
         "country": "CHN",
-        "points": 622
-    },
-    {
-        "rank": 107,
-        "player": "Hugo Gaston",
-        "age": 25,
-        "country": "FRA",
         "points": 619
     },
     {
-        "rank": 108,
-        "player": "Damir D\u017eumhur",
-        "age": 34,
-        "country": "BIH",
-        "points": 604
-    },
-    {
-        "rank": 109,
-        "player": "Yunchaokete Bu",
+        "rank": 107,
+        "player": "Eliot Spizzirri",
         "age": 24,
-        "country": "CHN",
+        "country": "USA",
         "points": 604
     },
     {
-        "rank": 110,
+        "rank": 108,
         "player": "Facundo D\u00edaz Acosta",
         "age": 25,
         "country": "ARG",
         "points": 604
     },
     {
+        "rank": 109,
+        "player": "Hugo Gaston",
+        "age": 25,
+        "country": "FRA",
+        "points": 602
+    },
+    {
+        "rank": 110,
+        "player": "Yunchaokete Bu",
+        "age": 24,
+        "country": "CHN",
+        "points": 601
+    },
+    {
         "rank": 111,
-        "player": "Coleman Wong",
-        "age": 22,
-        "country": "HKG",
-        "points": 576
+        "player": "Arthur Cazaux",
+        "age": 23,
+        "country": "FRA",
+        "points": 590
     },
     {
         "rank": 112,
-        "player": "Patrick Kypson",
-        "age": 26,
-        "country": "USA",
-        "points": 576
+        "player": "Coleman Wong",
+        "age": 22,
+        "country": "HKG",
+        "points": 588
     },
     {
         "rank": 113,
-        "player": "Aleksandar Vukic",
-        "age": 30,
-        "country": "AUS",
-        "points": 574
+        "player": "Patrick Kypson",
+        "age": 26,
+        "country": "USA",
+        "points": 570
     },
     {
         "rank": 114,
+        "player": "Titouan Droguet",
+        "age": 25,
+        "country": "FRA",
+        "points": 570
+    },
+    {
+        "rank": 115,
         "player": "Dalibor Svr\u010dina",
         "age": 23,
         "country": "CZE",
         "points": 554
     },
     {
-        "rank": 115,
+        "rank": 116,
         "player": "Shintaro Mochizuki",
         "age": 23,
         "country": "JPN",
         "points": 547
     },
     {
-        "rank": 116,
+        "rank": 117,
         "player": "Pablo Llamas Ruiz",
         "age": 23,
         "country": "ESP",
-        "points": 545
+        "points": 544
     },
     {
-        "rank": 117,
+        "rank": 118,
         "player": "Stan Wawrinka",
         "age": 41,
         "country": "SUI",
         "points": 538
     },
     {
-        "rank": 118,
-        "player": "Nicolai Budkov Kjaer",
-        "age": 19,
-        "country": "NOR",
-        "points": 530
-    },
-    {
         "rank": 119,
-        "player": "Titouan Droguet",
-        "age": 25,
-        "country": "FRA",
-        "points": 528
-    },
-    {
-        "rank": 120,
         "player": "Zsombor Piros",
         "age": 26,
         "country": "HUN",
         "points": 525
     },
     {
-        "rank": 121,
+        "rank": 120,
         "player": "Michael Zheng",
         "age": 22,
         "country": "USA",
         "points": 524
     },
     {
-        "rank": 122,
-        "player": "Dane Sweeny",
-        "age": 25,
-        "country": "AUS",
-        "points": 521
-    },
-    {
-        "rank": 123,
+        "rank": 121,
         "player": "Jacob Fearnley",
-        "age": 24,
+        "age": 25,
         "country": "GBR",
         "points": 520
     },
     {
-        "rank": 124,
+        "rank": 122,
+        "player": "Dane Sweeny",
+        "age": 25,
+        "country": "AUS",
+        "points": 518
+    },
+    {
+        "rank": 123,
         "player": "Henrique Rocha",
         "age": 22,
         "country": "POR",
         "points": 517
     },
     {
-        "rank": 125,
+        "rank": 124,
         "player": "Sebastian Ofner",
         "age": 30,
         "country": "AUT",
         "points": 515
     },
     {
-        "rank": 126,
+        "rank": 125,
         "player": "Otto Virtanen",
         "age": 25,
         "country": "FIN",
         "points": 512
     },
     {
-        "rank": 127,
+        "rank": 126,
         "player": "Christopher O'Connell",
         "age": 32,
         "country": "AUS",
         "points": 511
     },
     {
-        "rank": 128,
-        "player": "Vilius Gaubas",
-        "age": 21,
-        "country": "LTU",
-        "points": 508
-    },
-    {
-        "rank": 129,
+        "rank": 127,
         "player": "Toby Samuel",
         "age": 23,
         "country": "GBR",
         "points": 508
     },
     {
-        "rank": 130,
-        "player": "Kyrian Jacquet",
-        "age": 25,
+        "rank": 128,
+        "player": "Vilius Gaubas",
+        "age": 21,
+        "country": "LTU",
+        "points": 507
+    },
+    {
+        "rank": 129,
+        "player": "Arthur G\u00e9a",
+        "age": 21,
         "country": "FRA",
-        "points": 497
+        "points": 502
+    },
+    {
+        "rank": 130,
+        "player": "Nikoloz Basilashvili",
+        "age": 34,
+        "country": "GEO",
+        "points": 499
     },
     {
         "rank": 131,
+        "player": "Nicolai Budkov Kjaer",
+        "age": 19,
+        "country": "NOR",
+        "points": 498
+    },
+    {
+        "rank": 132,
         "player": "Reilly Opelka",
         "age": 28,
         "country": "USA",
         "points": 496
     },
     {
-        "rank": 132,
+        "rank": 133,
         "player": "Alexandre M\u00fcller",
         "age": 29,
         "country": "FRA",
         "points": 494
     },
     {
-        "rank": 133,
-        "player": "Nicol\u00e1s Mej\u00eda",
-        "age": 26,
-        "country": "COL",
-        "points": 493
-    },
-    {
         "rank": 134,
-        "player": "Leandro Riedi",
-        "age": 24,
-        "country": "SUI",
+        "player": "Kyrian Jacquet",
+        "age": 25,
+        "country": "FRA",
         "points": 489
     },
     {
         "rank": 135,
-        "player": "Nikoloz Basilashvili",
-        "age": 34,
-        "country": "GEO",
-        "points": 474
+        "player": "Leandro Riedi",
+        "age": 24,
+        "country": "SUI",
+        "points": 487
     },
     {
         "rank": 136,
+        "player": "Nicol\u00e1s Mej\u00eda",
+        "age": 26,
+        "country": "COL",
+        "points": 486
+    },
+    {
+        "rank": 137,
         "player": "Gustavo Heide",
         "age": 24,
         "country": "BRA",
         "points": 474
     },
     {
-        "rank": 137,
-        "player": "Arthur G\u00e9a",
-        "age": 21,
-        "country": "FRA",
-        "points": 465
-    },
-    {
         "rank": 138,
         "player": "Andrea Pellegrino",
         "age": 29,
         "country": "ITA",
-        "points": 459
+        "points": 446
     },
     {
         "rank": 139,
@@ -988,52 +988,52 @@
     },
     {
         "rank": 142,
-        "player": "Nishesh Basavareddy",
-        "age": 21,
-        "country": "USA",
-        "points": 436
+        "player": "Grigor Dimitrov",
+        "age": 35,
+        "country": "BUL",
+        "points": 432
     },
     {
         "rank": 143,
-        "player": "Jurij Rodionov",
-        "age": 27,
-        "country": "AUT",
-        "points": 427
+        "player": "Stefano Travaglia",
+        "age": 34,
+        "country": "ITA",
+        "points": 429
     },
     {
         "rank": 144,
         "player": "Hugo Dellien",
         "age": 33,
         "country": "BOL",
-        "points": 415
+        "points": 427
     },
     {
         "rank": 145,
+        "player": "Jurij Rodionov",
+        "age": 27,
+        "country": "AUT",
+        "points": 427
+    },
+    {
+        "rank": 146,
+        "player": "Nishesh Basavareddy",
+        "age": 21,
+        "country": "USA",
+        "points": 411
+    },
+    {
+        "rank": 147,
         "player": "Jack Draper",
         "age": 24,
         "country": "GBR",
         "points": 410
     },
     {
-        "rank": 146,
-        "player": "Grigor Dimitrov",
-        "age": 35,
-        "country": "BUL",
-        "points": 407
-    },
-    {
-        "rank": 147,
+        "rank": 148,
         "player": "Stefanos Sakellaridis",
         "age": 21,
         "country": "GRE",
         "points": 404
-    },
-    {
-        "rank": 148,
-        "player": "Tristan Schoolkate",
-        "age": 25,
-        "country": "AUS",
-        "points": 398
     },
     {
         "rank": 149,
@@ -1044,10 +1044,10 @@
     },
     {
         "rank": 150,
-        "player": "Stefano Travaglia",
-        "age": 34,
-        "country": "ITA",
-        "points": 385
+        "player": "Mark Lajal",
+        "age": 23,
+        "country": "EST",
+        "points": 387
     },
     {
         "rank": 151,
@@ -1065,262 +1065,262 @@
     },
     {
         "rank": 153,
+        "player": "Chris Rodesch",
+        "age": 25,
+        "country": "LUX",
+        "points": 377
+    },
+    {
+        "rank": 154,
         "player": "Zden\u011bk Kol\u00e1\u0159",
         "age": 29,
         "country": "CZE",
         "points": 370
     },
     {
-        "rank": 154,
+        "rank": 155,
         "player": "Billy Harris",
         "age": 31,
         "country": "GBR",
         "points": 365
     },
     {
-        "rank": 155,
+        "rank": 156,
+        "player": "Juan Carlos Prado Angelo",
+        "age": 21,
+        "country": "BOL",
+        "points": 362
+    },
+    {
+        "rank": 157,
         "player": "Soonwoo Kwon",
         "age": 28,
         "country": "KOR",
         "points": 360
     },
     {
-        "rank": 156,
+        "rank": 158,
         "player": "Zhizhen Zhang",
         "age": 29,
         "country": "CHN",
         "points": 359
     },
     {
-        "rank": 157,
+        "rank": 159,
         "player": "Pedro Mart\u00ednez",
         "age": 29,
         "country": "ESP",
         "points": 358
     },
     {
-        "rank": 158,
+        "rank": 160,
+        "player": "Tristan Schoolkate",
+        "age": 25,
+        "country": "AUS",
+        "points": 352
+    },
+    {
+        "rank": 161,
+        "player": "Cl\u00e9ment Tabur",
+        "age": 26,
+        "country": "FRA",
+        "points": 352
+    },
+    {
+        "rank": 162,
         "player": "Alexis Galarneau",
         "age": 27,
         "country": "CAN",
         "points": 351
     },
     {
-        "rank": 159,
-        "player": "Mark Lajal",
-        "age": 23,
-        "country": "EST",
-        "points": 350
+        "rank": 163,
+        "player": "Timofey Skatov",
+        "age": 25,
+        "country": "KAZ",
+        "points": 349
     },
     {
-        "rank": 160,
+        "rank": 164,
         "player": "Luca Nardi",
         "age": 22,
         "country": "ITA",
         "points": 346
     },
     {
-        "rank": 161,
+        "rank": 165,
         "player": "Rei Sakamoto",
         "age": 20,
         "country": "JPN",
         "points": 344
     },
     {
-        "rank": 162,
-        "player": "Lukas Neumayer",
-        "age": 23,
-        "country": "AUT",
-        "points": 343
-    },
-    {
-        "rank": 163,
-        "player": "Timofey Skatov",
-        "age": 25,
-        "country": "KAZ",
-        "points": 343
-    },
-    {
-        "rank": 164,
+        "rank": 166,
         "player": "Tristan Boyer",
         "age": 25,
         "country": "USA",
         "points": 342
     },
     {
-        "rank": 165,
-        "player": "Roberto Carball\u00e9s Baena",
-        "age": 33,
-        "country": "ESP",
-        "points": 342
-    },
-    {
-        "rank": 166,
+        "rank": 167,
         "player": "Alex Bolt",
         "age": 33,
         "country": "AUS",
         "points": 341
     },
     {
-        "rank": 167,
+        "rank": 168,
         "player": "Daniil Glinka",
         "age": 26,
         "country": "EST",
         "points": 341
     },
     {
-        "rank": 168,
+        "rank": 169,
         "player": "Borna Gojo",
         "age": 28,
         "country": "CRO",
         "points": 340
     },
     {
-        "rank": 169,
-        "player": "Gauthier Onclin",
-        "age": 25,
-        "country": "BEL",
-        "points": 335
+        "rank": 170,
+        "player": "Bernard Tomic",
+        "age": 33,
+        "country": "AUS",
+        "points": 339
     },
     {
-        "rank": 170,
+        "rank": 171,
         "player": "Jack Pinnington Jones",
         "age": 23,
         "country": "GBR",
         "points": 334
     },
     {
-        "rank": 171,
-        "player": "Joel Schw\u00e4rzler",
-        "age": 20,
+        "rank": 172,
+        "player": "Lukas Neumayer",
+        "age": 23,
         "country": "AUT",
-        "points": 331
+        "points": 334
     },
     {
-        "rank": 172,
+        "rank": 173,
+        "player": "Marco Cecchinato",
+        "age": 33,
+        "country": "ITA",
+        "points": 330
+    },
+    {
+        "rank": 174,
+        "player": "Colton Smith",
+        "age": 23,
+        "country": "USA",
+        "points": 329
+    },
+    {
+        "rank": 175,
         "player": "Luka Mikrut",
         "age": 22,
         "country": "CRO",
         "points": 328
     },
     {
-        "rank": 173,
-        "player": "Juan Carlos Prado Angelo",
-        "age": 21,
-        "country": "BOL",
-        "points": 327
-    },
-    {
-        "rank": 174,
+        "rank": 176,
         "player": "Ugo Blanchet",
         "age": 27,
         "country": "FRA",
         "points": 326
     },
     {
-        "rank": 175,
-        "player": "Marco Cecchinato",
+        "rank": 177,
+        "player": "Roberto Carball\u00e9s Baena",
         "age": 33,
-        "country": "ITA",
+        "country": "ESP",
         "points": 323
     },
     {
-        "rank": 176,
-        "player": "Gonzalo Bueno",
-        "age": 22,
-        "country": "PER",
-        "points": 322
+        "rank": 178,
+        "player": "Gauthier Onclin",
+        "age": 25,
+        "country": "BEL",
+        "points": 323
     },
     {
-        "rank": 177,
+        "rank": 179,
         "player": "Yoshihito Nishioka",
         "age": 30,
         "country": "JPN",
         "points": 321
     },
     {
-        "rank": 178,
-        "player": "Cl\u00e9ment Tabur",
-        "age": 26,
-        "country": "FRA",
+        "rank": 180,
+        "player": "Gonzalo Bueno",
+        "age": 22,
+        "country": "PER",
+        "points": 321
+    },
+    {
+        "rank": 181,
+        "player": "Max Alcal\u00e1 Gurri",
+        "age": 23,
+        "country": "ESP",
         "points": 319
     },
     {
-        "rank": 179,
+        "rank": 182,
         "player": "Remy Bertola",
         "age": 27,
         "country": "SUI",
         "points": 319
     },
     {
-        "rank": 180,
+        "rank": 183,
         "player": "Roberto Bautista Agut",
         "age": 38,
         "country": "ESP",
         "points": 318
     },
     {
-        "rank": 181,
-        "player": "Colton Smith",
-        "age": 23,
-        "country": "USA",
-        "points": 317
-    },
-    {
-        "rank": 182,
-        "player": "Francesco Passaro",
-        "age": 25,
-        "country": "ITA",
-        "points": 314
-    },
-    {
-        "rank": 183,
-        "player": "Elias Ymer",
-        "age": 30,
-        "country": "SWE",
-        "points": 313
-    },
-    {
         "rank": 184,
         "player": "Federico Cina",
         "age": 19,
         "country": "ITA",
-        "points": 312
+        "points": 317
     },
     {
         "rank": 185,
-        "player": "Luk\u00e1\u0161 Klein",
-        "age": 28,
-        "country": "SVK",
-        "points": 312
+        "player": "Joel Schw\u00e4rzler",
+        "age": 20,
+        "country": "AUT",
+        "points": 315
     },
     {
         "rank": 186,
-        "player": "J\u00e9r\u00f4me Kym",
-        "age": 23,
-        "country": "SUI",
-        "points": 310
-    },
-    {
-        "rank": 187,
         "player": "Lloyd Harris",
         "age": 29,
         "country": "RSA",
         "points": 309
     },
     {
-        "rank": 188,
+        "rank": 187,
         "player": "Michael Mmoh",
         "age": 28,
         "country": "USA",
         "points": 307
     },
     {
-        "rank": 189,
+        "rank": 188,
         "player": "David Jord\u00e1 Sanchis",
         "age": 32,
         "country": "ESP",
         "points": 305
+    },
+    {
+        "rank": 189,
+        "player": "Tom Gentzsch",
+        "age": 22,
+        "country": "GER",
+        "points": 303
     },
     {
         "rank": 190,
@@ -1331,338 +1331,338 @@
     },
     {
         "rank": 191,
-        "player": "Chris Rodesch",
-        "age": 24,
-        "country": "LUX",
-        "points": 302
+        "player": "Federico Agustin Gomez",
+        "age": 29,
+        "country": "ARG",
+        "points": 298
     },
     {
         "rank": 192,
-        "player": "August Holmgren",
-        "age": 28,
-        "country": "DEN",
-        "points": 301
-    },
-    {
-        "rank": 193,
-        "player": "Gianluca Cadenasso",
-        "age": 21,
-        "country": "ITA",
-        "points": 296
-    },
-    {
-        "rank": 194,
         "player": "Taro Daniel",
         "age": 33,
         "country": "JPN",
-        "points": 285
+        "points": 298
+    },
+    {
+        "rank": 193,
+        "player": "Guy Den Ouden",
+        "age": 24,
+        "country": "NED",
+        "points": 293
+    },
+    {
+        "rank": 194,
+        "player": "Lautaro Midon",
+        "age": 22,
+        "country": "ARG",
+        "points": 293
     },
     {
         "rank": 195,
         "player": "Vitaliy Sachko",
         "age": 29,
         "country": "UKR",
-        "points": 284
+        "points": 291
     },
     {
         "rank": 196,
+        "player": "Gianluca Cadenasso",
+        "age": 21,
+        "country": "ITA",
+        "points": 289
+    },
+    {
+        "rank": 197,
+        "player": "Elias Ymer",
+        "age": 30,
+        "country": "SWE",
+        "points": 288
+    },
+    {
+        "rank": 198,
+        "player": "J\u00e9r\u00f4me Kym",
+        "age": 23,
+        "country": "SUI",
+        "points": 285
+    },
+    {
+        "rank": 199,
+        "player": "Genaro Alberto Olivieri",
+        "age": 27,
+        "country": "ARG",
+        "points": 284
+    },
+    {
+        "rank": 200,
+        "player": "Francesco Passaro",
+        "age": 25,
+        "country": "ITA",
+        "points": 283
+    },
+    {
+        "rank": 201,
         "player": "Lorenzo Giustino",
         "age": 34,
         "country": "ITA",
         "points": 283
     },
     {
-        "rank": 197,
+        "rank": 202,
         "player": "Carlos Taberner",
         "age": 28,
         "country": "ESP",
         "points": 282
     },
     {
-        "rank": 198,
+        "rank": 203,
         "player": "Liam Broady",
         "age": 32,
         "country": "GBR",
         "points": 282
     },
     {
-        "rank": 199,
-        "player": "Kimmer Coppejans",
-        "age": 32,
-        "country": "BEL",
-        "points": 282
-    },
-    {
-        "rank": 200,
-        "player": "Harold Mayot",
-        "age": 24,
-        "country": "FRA",
-        "points": 281
-    },
-    {
-        "rank": 201,
-        "player": "Genaro Alberto Olivieri",
-        "age": 27,
-        "country": "ARG",
-        "points": 280
-    },
-    {
-        "rank": 202,
+        "rank": 204,
         "player": "Harry Wendelken",
         "age": 24,
         "country": "GBR",
         "points": 276
     },
     {
-        "rank": 203,
+        "rank": 205,
         "player": "Gilles Arnaud Bailly",
         "age": 20,
         "country": "BEL",
         "points": 273
     },
     {
-        "rank": 204,
-        "player": "Keegan Smith",
-        "age": 28,
-        "country": "USA",
-        "points": 273
-    },
-    {
-        "rank": 205,
+        "rank": 206,
         "player": "Daniel Rincon",
         "age": 23,
         "country": "ESP",
         "points": 272
     },
     {
-        "rank": 206,
-        "player": "Bernard Tomic",
-        "age": 33,
-        "country": "AUS",
-        "points": 271
-    },
-    {
         "rank": 207,
-        "player": "Cl\u00e9ment Chidekh",
-        "age": 25,
-        "country": "FRA",
-        "points": 271
-    },
-    {
-        "rank": 208,
         "player": "Pol Mart\u00edn Tiffon",
         "age": 26,
         "country": "ESP",
         "points": 269
     },
     {
+        "rank": 208,
+        "player": "Cl\u00e9ment Chidekh",
+        "age": 25,
+        "country": "FRA",
+        "points": 269
+    },
+    {
         "rank": 209,
-        "player": "Federico Agustin Gomez",
-        "age": 29,
-        "country": "ARG",
-        "points": 268
+        "player": "Keegan Smith",
+        "age": 28,
+        "country": "USA",
+        "points": 269
     },
     {
         "rank": 210,
         "player": "Yu-hsiou Hsu",
         "age": 27,
         "country": "TWN",
-        "points": 268
+        "points": 266
     },
     {
         "rank": 211,
+        "player": "Harold Mayot",
+        "age": 24,
+        "country": "FRA",
+        "points": 265
+    },
+    {
+        "rank": 212,
         "player": "Mo\u00efse Kouam\u00e9",
         "age": 17,
         "country": "FRA",
         "points": 263
     },
     {
-        "rank": 212,
-        "player": "Tom Gentzsch",
-        "age": 22,
-        "country": "GER",
-        "points": 263
-    },
-    {
         "rank": 213,
-        "player": "Lautaro Midon",
-        "age": 22,
-        "country": "ARG",
+        "player": "Andrea Guerrieri",
+        "age": 27,
+        "country": "ITA",
         "points": 261
     },
     {
         "rank": 214,
+        "player": "Nikol\u00e1s S\u00e1nchez Izquierdo",
+        "age": 27,
+        "country": "ESP",
+        "points": 261
+    },
+    {
+        "rank": 215,
         "player": "Henry Searle",
         "age": 20,
         "country": "GBR",
         "points": 260
     },
     {
-        "rank": 215,
+        "rank": 216,
+        "player": "Rio Noguchi",
+        "age": 27,
+        "country": "JPN",
+        "points": 260
+    },
+    {
+        "rank": 217,
+        "player": "Kimmer Coppejans",
+        "age": 32,
+        "country": "BEL",
+        "points": 260
+    },
+    {
+        "rank": 218,
         "player": "Henri Squire",
         "age": 25,
         "country": "GER",
         "points": 259
     },
     {
-        "rank": 216,
+        "rank": 219,
         "player": "Felix Gill",
         "age": 24,
         "country": "GBR",
         "points": 259
     },
     {
-        "rank": 217,
-        "player": "Nikol\u00e1s S\u00e1nchez Izquierdo",
-        "age": 27,
-        "country": "ESP",
-        "points": 258
-    },
-    {
-        "rank": 218,
+        "rank": 220,
         "player": "Giulio Zeppieri",
         "age": 24,
         "country": "ITA",
         "points": 256
     },
     {
-        "rank": 219,
-        "player": "Andrea Guerrieri",
-        "age": 27,
-        "country": "ITA",
-        "points": 256
-    },
-    {
-        "rank": 220,
+        "rank": 221,
         "player": "Laslo Djere",
         "age": 31,
         "country": "SRB",
         "points": 255
     },
     {
-        "rank": 221,
-        "player": "Hugo Grenier",
-        "age": 30,
-        "country": "FRA",
-        "points": 255
-    },
-    {
         "rank": 222,
-        "player": "Rio Noguchi",
-        "age": 27,
-        "country": "JPN",
-        "points": 254
-    },
-    {
-        "rank": 223,
-        "player": "Liam Draxl",
-        "age": 24,
-        "country": "CAN",
-        "points": 253
-    },
-    {
-        "rank": 224,
-        "player": "Juan Pablo Ficovich",
-        "age": 29,
-        "country": "ARG",
-        "points": 253
-    },
-    {
-        "rank": 225,
-        "player": "Darwin Blanch",
-        "age": 18,
-        "country": "USA",
-        "points": 253
-    },
-    {
-        "rank": 226,
-        "player": "Guido Iv\u00e1n Justo",
-        "age": 28,
-        "country": "ARG",
-        "points": 253
-    },
-    {
-        "rank": 227,
         "player": "Alejandro Moro Ca\u00f1as",
         "age": 25,
         "country": "ESP",
         "points": 252
     },
     {
-        "rank": 228,
-        "player": "Edas Butvilas",
-        "age": 21,
-        "country": "LTU",
+        "rank": 223,
+        "player": "Dan Added",
+        "age": 27,
+        "country": "FRA",
         "points": 251
     },
     {
-        "rank": 229,
-        "player": "Max Alcal\u00e1 Gurri",
-        "age": 23,
-        "country": "ESP",
+        "rank": 224,
+        "player": "Guido Iv\u00e1n Justo",
+        "age": 28,
+        "country": "ARG",
+        "points": 251
+    },
+    {
+        "rank": 225,
+        "player": "Darwin Blanch",
+        "age": 18,
+        "country": "USA",
+        "points": 249
+    },
+    {
+        "rank": 226,
+        "player": "Hugo Grenier",
+        "age": 30,
+        "country": "FRA",
+        "points": 249
+    },
+    {
+        "rank": 227,
+        "player": "August Holmgren",
+        "age": 28,
+        "country": "DEN",
         "points": 248
     },
     {
+        "rank": 228,
+        "player": "Franco Roncadelli",
+        "age": 26,
+        "country": "URU",
+        "points": 246
+    },
+    {
+        "rank": 229,
+        "player": "Stefano Napolitano",
+        "age": 31,
+        "country": "ITA",
+        "points": 245
+    },
+    {
         "rank": 230,
+        "player": "Sumit Nagal",
+        "age": 28,
+        "country": "IND",
+        "points": 243
+    },
+    {
+        "rank": 231,
         "player": "Ra\u00fal Brancaccio",
         "age": 29,
         "country": "ITA",
         "points": 243
     },
     {
-        "rank": 231,
-        "player": "Guy Den Ouden",
-        "age": 24,
-        "country": "NED",
-        "points": 240
+        "rank": 232,
+        "player": "Yi Zhou",
+        "age": 21,
+        "country": "CHN",
+        "points": 242
     },
     {
-        "rank": 232,
+        "rank": 233,
+        "player": "Edas Butvilas",
+        "age": 21,
+        "country": "LTU",
+        "points": 241
+    },
+    {
+        "rank": 234,
         "player": "Braden Shick",
         "age": 22,
         "country": "USA",
         "points": 240
     },
     {
-        "rank": 233,
+        "rank": 235,
         "player": "Frederico Ferreira Silva",
         "age": 31,
         "country": "POR",
         "points": 240
     },
     {
-        "rank": 234,
+        "rank": 236,
         "player": "Chun Hsin Tseng",
         "age": 24,
         "country": "TWN",
         "points": 237
     },
     {
-        "rank": 235,
+        "rank": 237,
         "player": "Oliver Crawford",
         "age": 27,
         "country": "GBR",
-        "points": 236
-    },
-    {
-        "rank": 236,
-        "player": "Yi Zhou",
-        "age": 21,
-        "country": "CHN",
-        "points": 236
-    },
-    {
-        "rank": 237,
-        "player": "Andrej Nedi\u0107",
-        "age": 21,
-        "country": "BIH",
-        "points": 236
+        "points": 237
     },
     {
         "rank": 238,
-        "player": "Franco Roncadelli",
-        "age": 26,
-        "country": "URU",
+        "player": "Andrej Nedi\u0107",
+        "age": 21,
+        "country": "BIH",
         "points": 236
     },
     {
@@ -1674,395 +1674,395 @@
     },
     {
         "rank": 240,
-        "player": "Stefano Napolitano",
-        "age": 31,
-        "country": "ITA",
-        "points": 233
-    },
-    {
-        "rank": 241,
-        "player": "Sumit Nagal",
-        "age": 28,
-        "country": "IND",
-        "points": 233
-    },
-    {
-        "rank": 242,
         "player": "James McCabe",
         "age": 23,
         "country": "AUS",
-        "points": 233
+        "points": 235
     },
     {
-        "rank": 243,
-        "player": "Dan Added",
-        "age": 27,
-        "country": "FRA",
-        "points": 232
-    },
-    {
-        "rank": 244,
+        "rank": 241,
         "player": "Max Houkes",
         "age": 26,
         "country": "NED",
-        "points": 228
+        "points": 234
     },
     {
-        "rank": 245,
-        "player": "Alex Barrena",
-        "age": 23,
-        "country": "ARG",
-        "points": 227
-    },
-    {
-        "rank": 246,
+        "rank": 242,
         "player": "Pavel Kotov",
         "age": 27,
         "country": "RUS",
         "points": 226
     },
     {
-        "rank": 247,
+        "rank": 243,
         "player": "Pierre Hugues Herbert",
         "age": 35,
         "country": "FRA",
         "points": 224
     },
     {
-        "rank": 248,
-        "player": "Felix Balshaw",
-        "age": 20,
-        "country": "FRA",
+        "rank": 244,
+        "player": "Liam Draxl",
+        "age": 24,
+        "country": "CAN",
         "points": 224
     },
     {
-        "rank": 249,
-        "player": "Mat\u00edas Soto",
-        "age": 27,
-        "country": "CHI",
-        "points": 224
-    },
-    {
-        "rank": 250,
+        "rank": 245,
         "player": "Jo\u00e3o Lucas Reis Da Silva",
         "age": 26,
         "country": "BRA",
         "points": 224
     },
     {
-        "rank": 251,
-        "player": "David Goffin",
-        "age": 35,
-        "country": "BEL",
+        "rank": 246,
+        "player": "Felix Balshaw",
+        "age": 20,
+        "country": "FRA",
         "points": 223
     },
     {
-        "rank": 252,
+        "rank": 247,
         "player": "Maks Ka\u015bnikowski",
         "age": 23,
         "country": "POL",
         "points": 223
     },
     {
-        "rank": 253,
+        "rank": 248,
         "player": "Andre Ilagan",
         "age": 25,
         "country": "USA",
         "points": 222
     },
     {
-        "rank": 254,
-        "player": "Matej Dodig",
-        "age": 20,
-        "country": "CRO",
-        "points": 220
+        "rank": 249,
+        "player": "Hynek Barto\u0148",
+        "age": 22,
+        "country": "CZE",
+        "points": 222
     },
     {
-        "rank": 255,
+        "rank": 250,
+        "player": "Florent Bax",
+        "age": 27,
+        "country": "FRA",
+        "points": 219
+    },
+    {
+        "rank": 251,
         "player": "Buvaysar Gadamauri",
         "age": 26,
         "country": "BEL",
         "points": 219
     },
     {
-        "rank": 256,
-        "player": "Hynek Barto\u0148",
-        "age": 22,
-        "country": "CZE",
-        "points": 219
-    },
-    {
-        "rank": 257,
+        "rank": 252,
         "player": "Diego Dedura",
         "age": 18,
         "country": "GER",
         "points": 219
     },
     {
-        "rank": 258,
+        "rank": 253,
+        "player": "Mat\u00edas Soto",
+        "age": 27,
+        "country": "CHI",
+        "points": 218
+    },
+    {
+        "rank": 254,
         "player": "Giles Hussey",
         "age": 29,
         "country": "GBR",
         "points": 218
     },
     {
-        "rank": 259,
+        "rank": 255,
         "player": "Kaichi Uchida",
         "age": 31,
         "country": "JPN",
         "points": 218
     },
     {
-        "rank": 260,
+        "rank": 256,
         "player": "Pedro Boscardin Dias",
         "age": 23,
         "country": "BRA",
         "points": 217
     },
     {
-        "rank": 261,
+        "rank": 257,
         "player": "Max Basing",
         "age": 23,
         "country": "GBR",
         "points": 216
     },
     {
-        "rank": 262,
-        "player": "Kilian Feldbausch",
-        "age": 20,
-        "country": "SUI",
-        "points": 216
-    },
-    {
-        "rank": 263,
-        "player": "Florent Bax",
-        "age": 27,
-        "country": "FRA",
-        "points": 215
-    },
-    {
-        "rank": 264,
-        "player": "Luka Pavlovic",
-        "age": 26,
-        "country": "FRA",
+        "rank": 258,
+        "player": "Matej Dodig",
+        "age": 21,
+        "country": "CRO",
         "points": 214
     },
     {
-        "rank": 265,
-        "player": "Michele Ribecai",
-        "age": 23,
-        "country": "ITA",
-        "points": 214
-    },
-    {
-        "rank": 266,
+        "rank": 259,
         "player": "Andy Andrade",
         "age": 27,
         "country": "ECU",
         "points": 213
     },
     {
-        "rank": 267,
-        "player": "Abdullah Shelbayh",
-        "age": 22,
-        "country": "JOR",
+        "rank": 260,
+        "player": "Martin Krumich",
+        "age": 23,
+        "country": "CZE",
         "points": 212
     },
     {
-        "rank": 268,
+        "rank": 261,
+        "player": "Abdullah Shelbayh",
+        "age": 22,
+        "country": "JOR",
+        "points": 211
+    },
+    {
+        "rank": 262,
         "player": "Cezar Cre\u021bu",
         "age": 25,
         "country": "ROU",
         "points": 211
     },
     {
-        "rank": 269,
-        "player": "Sascha Gueymard Wayenburg",
-        "age": 22,
-        "country": "FRA",
+        "rank": 263,
+        "player": "Alex Barrena",
+        "age": 23,
+        "country": "ARG",
         "points": 211
     },
     {
-        "rank": 270,
+        "rank": 264,
         "player": "Franco Agamenone",
         "age": 33,
         "country": "ITA",
         "points": 210
     },
     {
-        "rank": 271,
+        "rank": 265,
         "player": "Alastair Gray",
         "age": 28,
         "country": "GBR",
         "points": 209
     },
     {
-        "rank": 272,
+        "rank": 266,
         "player": "I\u00f1aki Montes De La Torre",
         "age": 23,
         "country": "ESP",
         "points": 209
     },
     {
-        "rank": 273,
-        "player": "Fajing Sun",
-        "age": 29,
-        "country": "CHN",
+        "rank": 267,
+        "player": "Michele Ribecai",
+        "age": 23,
+        "country": "ITA",
         "points": 209
     },
     {
-        "rank": 274,
+        "rank": 268,
+        "player": "Sascha Gueymard Wayenburg",
+        "age": 22,
+        "country": "FRA",
+        "points": 208
+    },
+    {
+        "rank": 269,
+        "player": "Murphy Cassone",
+        "age": 23,
+        "country": "USA",
+        "points": 206
+    },
+    {
+        "rank": 270,
         "player": "Juncheng Shang",
         "age": 21,
         "country": "CHN",
         "points": 205
     },
     {
-        "rank": 275,
-        "player": "Nick Hardt",
-        "age": 25,
-        "country": "DOM",
-        "points": 205
-    },
-    {
-        "rank": 276,
+        "rank": 271,
         "player": "Stefan Dostanic",
         "age": 24,
         "country": "USA",
         "points": 204
     },
     {
-        "rank": 277,
+        "rank": 272,
         "player": "\u00c1lvaro Guill\u00e9n Meza",
         "age": 23,
         "country": "ECU",
         "points": 204
     },
     {
-        "rank": 278,
-        "player": "Martin Krumich",
-        "age": 23,
-        "country": "CZE",
+        "rank": 273,
+        "player": "Juan Pablo Ficovich",
+        "age": 29,
+        "country": "ARG",
         "points": 203
     },
     {
-        "rank": 279,
+        "rank": 274,
+        "player": "Nick Hardt",
+        "age": 25,
+        "country": "DOM",
+        "points": 202
+    },
+    {
+        "rank": 275,
         "player": "Juan Pablo Varillas",
         "age": 30,
         "country": "PER",
         "points": 202
     },
     {
-        "rank": 280,
-        "player": "Justin Engel",
-        "age": 18,
-        "country": "GER",
-        "points": 201
+        "rank": 276,
+        "player": "Thiago Seyboth Wild",
+        "age": 26,
+        "country": "BRA",
+        "points": 200
     },
     {
-        "rank": 281,
-        "player": "Philip Henning",
-        "age": 25,
-        "country": "RSA",
+        "rank": 277,
+        "player": "David Goffin",
+        "age": 35,
+        "country": "BEL",
         "points": 198
     },
     {
-        "rank": 282,
+        "rank": 278,
+        "player": "Luka Pavlovic",
+        "age": 26,
+        "country": "FRA",
+        "points": 198
+    },
+    {
+        "rank": 279,
         "player": "Filip Jianu",
         "age": 24,
         "country": "ROU",
         "points": 197
     },
     {
-        "rank": 283,
+        "rank": 280,
         "player": "Charles Broom",
         "age": 28,
         "country": "GBR",
         "points": 195
     },
     {
-        "rank": 284,
-        "player": "Thiago Seyboth Wild",
-        "age": 26,
-        "country": "BRA",
-        "points": 194
-    },
-    {
-        "rank": 285,
+        "rank": 281,
         "player": "Petr Bar Biryukov",
         "age": 24,
         "country": "RUS",
         "points": 194
     },
     {
-        "rank": 286,
+        "rank": 282,
         "player": "Juan Manuel La Serna",
         "age": 22,
         "country": "ARG",
         "points": 193
     },
     {
-        "rank": 287,
-        "player": "Murphy Cassone",
-        "age": 23,
-        "country": "USA",
-        "points": 191
-    },
-    {
-        "rank": 288,
+        "rank": 283,
         "player": "Juan Bautista Torres",
         "age": 24,
         "country": "ARG",
-        "points": 190
+        "points": 193
     },
     {
-        "rank": 289,
-        "player": "Ilia Simakin",
-        "age": 22,
-        "country": "RUS",
+        "rank": 284,
+        "player": "Kilian Feldbausch",
+        "age": 20,
+        "country": "SUI",
+        "points": 191
+    },
+    {
+        "rank": 285,
+        "player": "Florian Broska",
+        "age": 28,
+        "country": "GER",
+        "points": 191
+    },
+    {
+        "rank": 286,
+        "player": "Miguel Damas",
+        "age": 26,
+        "country": "ESP",
         "points": 188
     },
     {
-        "rank": 290,
-        "player": "Thiago Monteiro",
-        "age": 32,
-        "country": "BRA",
+        "rank": 287,
+        "player": "Daniel Elahi Gal\u00e1n",
+        "age": 30,
+        "country": "COL",
         "points": 187
     },
     {
-        "rank": 291,
+        "rank": 288,
+        "player": "Luk\u00e1\u0161 Klein",
+        "age": 28,
+        "country": "SVK",
+        "points": 187
+    },
+    {
+        "rank": 289,
         "player": "Sandro Kopp",
         "age": 26,
         "country": "AUT",
         "points": 187
     },
     {
+        "rank": 290,
+        "player": "Federico Bondioli",
+        "age": 21,
+        "country": "ITA",
+        "points": 186
+    },
+    {
+        "rank": 291,
+        "player": "Ilia Simakin",
+        "age": 22,
+        "country": "RUS",
+        "points": 185
+    },
+    {
         "rank": 292,
-        "player": "Florian Broska",
-        "age": 28,
+        "player": "Justin Engel",
+        "age": 18,
         "country": "GER",
         "points": 185
     },
     {
         "rank": 293,
-        "player": "Filip Misolic",
-        "age": 24,
-        "country": "AUT",
-        "points": 184
+        "player": "Akira Santillan",
+        "age": 29,
+        "country": "JPN",
+        "points": 185
     },
     {
         "rank": 294,
-        "player": "Matheus Pucinelli De Almeida",
+        "player": "Philip Henning",
         "age": 25,
-        "country": "BRA",
+        "country": "RSA",
         "points": 183
     },
     {
         "rank": 295,
-        "player": "Johannus Monday",
-        "age": 24,
-        "country": "GBR",
-        "points": 182
+        "player": "Matheus Pucinelli De Almeida",
+        "age": 25,
+        "country": "BRA",
+        "points": 183
     },
     {
         "rank": 296,
@@ -2073,185 +2073,185 @@
     },
     {
         "rank": 297,
-        "player": "Sergey Fomin",
-        "age": 25,
-        "country": "UZB",
-        "points": 181
+        "player": "Marc-Andrea H\u00fcsler",
+        "age": 30,
+        "country": "SUI",
+        "points": 182
     },
     {
         "rank": 298,
-        "player": "Calvin H\u00e9mery",
-        "age": 31,
-        "country": "FRA",
-        "points": 178
+        "player": "Thiago Monteiro",
+        "age": 32,
+        "country": "BRA",
+        "points": 181
     },
     {
         "rank": 299,
+        "player": "Yank\u0131 Erel",
+        "age": 25,
+        "country": "TUR",
+        "points": 181
+    },
+    {
+        "rank": 300,
+        "player": "Filippo Romano",
+        "age": 21,
+        "country": "ITA",
+        "points": 181
+    },
+    {
+        "rank": 301,
+        "player": "Philip Sekulic",
+        "age": 22,
+        "country": "AUS",
+        "points": 180
+    },
+    {
+        "rank": 302,
+        "player": "Sergey Fomin",
+        "age": 25,
+        "country": "UZB",
+        "points": 180
+    },
+    {
+        "rank": 303,
+        "player": "Maxim Mrva",
+        "age": 18,
+        "country": "CZE",
+        "points": 179
+    },
+    {
+        "rank": 304,
         "player": "Daniel Michalski",
         "age": 26,
         "country": "POL",
         "points": 178
     },
     {
-        "rank": 300,
-        "player": "Miguel Damas",
-        "age": 26,
-        "country": "ESP",
-        "points": 178
-    },
-    {
-        "rank": 301,
-        "player": "Akira Santillan",
-        "age": 29,
-        "country": "JPN",
-        "points": 178
-    },
-    {
-        "rank": 302,
+        "rank": 305,
         "player": "Dali Blanch",
         "age": 23,
         "country": "USA",
         "points": 176
     },
     {
-        "rank": 303,
+        "rank": 306,
         "player": "Duje Ajdukovi\u0107",
         "age": 25,
         "country": "CRO",
         "points": 176
     },
     {
-        "rank": 304,
-        "player": "Daniel Elahi Gal\u00e1n",
-        "age": 30,
-        "country": "COL",
-        "points": 175
-    },
-    {
-        "rank": 305,
-        "player": "Yosuke Watanuki",
-        "age": 28,
-        "country": "JPN",
-        "points": 175
-    },
-    {
-        "rank": 306,
+        "rank": 307,
         "player": "George Loffhagen",
         "age": 25,
         "country": "GBR",
         "points": 175
     },
     {
-        "rank": 307,
-        "player": "Marc-Andrea H\u00fcsler",
-        "age": 30,
-        "country": "SUI",
-        "points": 175
-    },
-    {
         "rank": 308,
-        "player": "Filippo Romano",
-        "age": 21,
-        "country": "ITA",
-        "points": 175
-    },
-    {
-        "rank": 309,
         "player": "Jordan Thompson",
         "age": 32,
         "country": "AUS",
         "points": 173
     },
     {
-        "rank": 310,
-        "player": "Maxim Mrva",
-        "age": 18,
-        "country": "CZE",
-        "points": 173
-    },
-    {
-        "rank": 311,
+        "rank": 309,
         "player": "Mert Alkaya",
         "age": 26,
         "country": "TUR",
         "points": 173
     },
     {
+        "rank": 310,
+        "player": "Matthew Dellavedova",
+        "age": 26,
+        "country": "AUS",
+        "points": 173
+    },
+    {
+        "rank": 311,
+        "player": "Max Sch\u00f6nhaus",
+        "age": 18,
+        "country": "GER",
+        "points": 172
+    },
+    {
         "rank": 312,
-        "player": "Jon\u00e1\u0161 Forejtek",
-        "age": 25,
-        "country": "CZE",
+        "player": "Calvin H\u00e9mery",
+        "age": 31,
+        "country": "FRA",
         "points": 172
     },
     {
         "rank": 313,
-        "player": "Matthew Dellavedova",
-        "age": 26,
-        "country": "AUS",
-        "points": 172
-    },
-    {
-        "rank": 314,
-        "player": "Marvin M\u00f6ller",
-        "age": 27,
-        "country": "GER",
-        "points": 171
-    },
-    {
-        "rank": 315,
         "player": "Luciano Emanuel Ambrogi",
         "age": 22,
         "country": "ARG",
         "points": 171
     },
     {
+        "rank": 314,
+        "player": "Thomas Faurel",
+        "age": 20,
+        "country": "FRA",
+        "points": 170
+    },
+    {
+        "rank": 315,
+        "player": "Johannus Monday",
+        "age": 24,
+        "country": "GBR",
+        "points": 170
+    },
+    {
         "rank": 316,
+        "player": "Yosuke Watanuki",
+        "age": 28,
+        "country": "JPN",
+        "points": 169
+    },
+    {
+        "rank": 317,
         "player": "Mikhail Kukushkin",
         "age": 38,
         "country": "KAZ",
         "points": 169
     },
     {
-        "rank": 317,
-        "player": "Philip Sekulic",
-        "age": 22,
-        "country": "AUS",
-        "points": 168
-    },
-    {
         "rank": 318,
-        "player": "Andres Martin",
-        "age": 25,
-        "country": "USA",
+        "player": "Igor Marcondes",
+        "age": 29,
+        "country": "BRA",
         "points": 167
     },
     {
         "rank": 319,
-        "player": "Thomas Faurel",
-        "age": 20,
-        "country": "FRA",
-        "points": 166
-    },
-    {
-        "rank": 320,
-        "player": "Max Sch\u00f6nhaus",
-        "age": 18,
-        "country": "GER",
-        "points": 166
-    },
-    {
-        "rank": 321,
         "player": "Eliakim Coulibaly",
         "age": 24,
         "country": "CIV",
         "points": 166
     },
     {
-        "rank": 322,
-        "player": "Nicol\u00e1s Kicker",
-        "age": 33,
+        "rank": 320,
+        "player": "Gonzalo Villanueva",
+        "age": 31,
         "country": "ARG",
+        "points": 166
+    },
+    {
+        "rank": 321,
+        "player": "Marvin M\u00f6ller",
+        "age": 27,
+        "country": "GER",
         "points": 164
+    },
+    {
+        "rank": 322,
+        "player": "Andres Martin",
+        "age": 25,
+        "country": "USA",
+        "points": 163
     },
     {
         "rank": 323,
@@ -2262,72 +2262,72 @@
     },
     {
         "rank": 324,
-        "player": "Igor Marcondes",
+        "player": "Fajing Sun",
         "age": 29,
-        "country": "BRA",
-        "points": 161
+        "country": "CHN",
+        "points": 162
     },
     {
         "rank": 325,
+        "player": "Enrico Dalla Valle",
+        "age": 28,
+        "country": "ITA",
+        "points": 162
+    },
+    {
+        "rank": 326,
+        "player": "Daniel Milavsky",
+        "age": 24,
+        "country": "USA",
+        "points": 161
+    },
+    {
+        "rank": 327,
         "player": "Ga\u00ebl Monfils",
         "age": 39,
         "country": "FRA",
         "points": 160
     },
     {
-        "rank": 326,
+        "rank": 328,
         "player": "Tyler Zink",
         "age": 25,
         "country": "USA",
         "points": 159
     },
     {
-        "rank": 327,
-        "player": "Enrico Dalla Valle",
-        "age": 28,
-        "country": "ITA",
-        "points": 159
-    },
-    {
-        "rank": 328,
-        "player": "Michael Geerts",
-        "age": 31,
-        "country": "BEL",
-        "points": 159
-    },
-    {
         "rank": 329,
+        "player": "Juan Estevez",
+        "age": 20,
+        "country": "ARG",
+        "points": 159
+    },
+    {
+        "rank": 330,
         "player": "Tung Lin Wu",
         "age": 28,
         "country": "TWN",
         "points": 158
     },
     {
-        "rank": 330,
+        "rank": 331,
         "player": "Petr Bruncl\u00edk",
-        "age": 19,
+        "age": 20,
         "country": "CZE",
         "points": 157
     },
     {
-        "rank": 331,
+        "rank": 332,
         "player": "Facundo Mena",
         "age": 33,
         "country": "ARG",
         "points": 157
     },
     {
-        "rank": 332,
+        "rank": 333,
         "player": "Hamish Stewart",
         "age": 26,
         "country": "GBR",
-        "points": 157
-    },
-    {
-        "rank": 333,
-        "player": "Matt\u00e9o Martineau",
-        "age": 27,
-        "country": "FRA",
         "points": 157
     },
     {
@@ -2339,9 +2339,9 @@
     },
     {
         "rank": 335,
-        "player": "Daniel Milavsky",
-        "age": 24,
-        "country": "USA",
+        "player": "Matt\u00e9o Martineau",
+        "age": 27,
+        "country": "FRA",
         "points": 157
     },
     {
@@ -2367,9 +2367,9 @@
     },
     {
         "rank": 339,
-        "player": "Sean Cuenin",
-        "age": 22,
-        "country": "FRA",
+        "player": "Ognjen Mili\u0107",
+        "age": 19,
+        "country": "SRB",
         "points": 156
     },
     {
@@ -2381,87 +2381,87 @@
     },
     {
         "rank": 341,
-        "player": "Yank\u0131 Erel",
-        "age": 25,
-        "country": "TUR",
-        "points": 153
+        "player": "Sean Cuenin",
+        "age": 22,
+        "country": "FRA",
+        "points": 156
     },
     {
         "rank": 342,
+        "player": "Michael Geerts",
+        "age": 31,
+        "country": "BEL",
+        "points": 156
+    },
+    {
+        "rank": 343,
+        "player": "Hayato Matsuoka",
+        "age": 21,
+        "country": "JPN",
+        "points": 155
+    },
+    {
+        "rank": 344,
         "player": "Oriol Roca Batalla",
         "age": 33,
         "country": "ESP",
         "points": 153
     },
     {
-        "rank": 343,
-        "player": "Juan Estevez",
-        "age": 20,
-        "country": "ARG",
-        "points": 153
-    },
-    {
-        "rank": 344,
+        "rank": 345,
         "player": "Marc Polmans",
         "age": 29,
         "country": "AUS",
         "points": 152
     },
     {
-        "rank": 345,
+        "rank": 346,
         "player": "Carl Emil Overbeck",
         "age": 24,
         "country": "DEN",
         "points": 152
     },
     {
-        "rank": 346,
-        "player": "Federico Bondioli",
-        "age": 21,
-        "country": "ITA",
-        "points": 152
-    },
-    {
         "rank": 347,
-        "player": "Hayato Matsuoka",
-        "age": 21,
-        "country": "JPN",
+        "player": "Blaise Bicknell",
+        "age": 24,
+        "country": "JAM",
         "points": 150
     },
     {
         "rank": 348,
-        "player": "Mili Polji\u010dak",
-        "age": 22,
-        "country": "CRO",
-        "points": 149
+        "player": "Jon\u00e1\u0161 Forejtek",
+        "age": 25,
+        "country": "CZE",
+        "points": 150
     },
     {
         "rank": 349,
-        "player": "Ognjen Mili\u0107",
-        "age": 19,
-        "country": "SRB",
-        "points": 149
+        "player": "Mitchell Krueger",
+        "age": 32,
+        "country": "USA",
+        "points": 148
     },
     {
         "rank": 350,
-        "player": "Lilian Marmousez",
-        "age": 24,
-        "country": "FRA",
-        "points": 147
+        "player": "Nicol\u00e1s Kicker",
+        "age": 33,
+        "country": "ARG",
+        "points": 148
     },
     {
         "rank": 351,
-        "player": "Ioannis Xilas",
-        "age": 25,
-        "country": "GRE",
-        "points": 145
+        "player": "Marko Topo",
+        "age": 22,
+        "country": "GER",
+        "points": 147
     },
     {
         "rank": 352,
-        "player": "Gonzalo Villanueva",
-        "age": 31,
-        "country": "ARG",
-        "points": 145
+        "player": "Antoine Ghibaudo",
+        "age": 21,
+        "country": "FRA",
+        "points": 146
     },
     {
         "rank": 353,
@@ -2472,387 +2472,387 @@
     },
     {
         "rank": 354,
-        "player": "Blaise Bicknell",
-        "age": 24,
-        "country": "JAM",
-        "points": 144
-    },
-    {
-        "rank": 355,
-        "player": "Alex Martinez",
-        "age": 25,
-        "country": "ESP",
-        "points": 144
-    },
-    {
-        "rank": 356,
-        "player": "Eduardo Ribeiro",
-        "age": 28,
-        "country": "BRA",
-        "points": 143
-    },
-    {
-        "rank": 357,
-        "player": "Mathys Erhard",
-        "age": 24,
-        "country": "FRA",
-        "points": 143
-    },
-    {
-        "rank": 358,
         "player": "Mats Rosenkranz",
         "age": 27,
         "country": "GER",
         "points": 142
     },
     {
-        "rank": 359,
-        "player": "Antoine Ghibaudo",
-        "age": 21,
-        "country": "FRA",
+        "rank": 355,
+        "player": "Eduardo Ribeiro",
+        "age": 28,
+        "country": "BRA",
+        "points": 142
+    },
+    {
+        "rank": 356,
+        "player": "Mili Polji\u010dak",
+        "age": 22,
+        "country": "CRO",
         "points": 141
     },
     {
-        "rank": 360,
+        "rank": 357,
         "player": "Dominic Stricker",
         "age": 23,
         "country": "SUI",
         "points": 140
     },
     {
-        "rank": 361,
+        "rank": 358,
         "player": "Tommaso Compagnucci",
         "age": 26,
         "country": "ITA",
         "points": 140
     },
     {
-        "rank": 362,
-        "player": "Carlos S\u00e1nchez Jover",
-        "age": 25,
-        "country": "ESP",
-        "points": 140
-    },
-    {
-        "rank": 363,
+        "rank": 359,
         "player": "Robin Bertrand",
         "age": 23,
         "country": "FRA",
         "points": 140
     },
     {
-        "rank": 364,
-        "player": "Mitchell Krueger",
-        "age": 32,
-        "country": "USA",
+        "rank": 360,
+        "player": "Alex Martinez",
+        "age": 25,
+        "country": "ESP",
         "points": 139
     },
     {
-        "rank": 365,
+        "rank": 361,
+        "player": "Mathys Erhard",
+        "age": 24,
+        "country": "FRA",
+        "points": 139
+    },
+    {
+        "rank": 362,
         "player": "Marat Sharipov",
         "age": 23,
         "country": "RUS",
         "points": 138
     },
     {
-        "rank": 366,
+        "rank": 363,
         "player": "Cedrik Marcel Stebe",
         "age": 35,
         "country": "GER",
         "points": 137
     },
     {
-        "rank": 367,
+        "rank": 364,
         "player": "Jacopo Vasami",
         "age": 18,
         "country": "ITA",
         "points": 137
     },
     {
-        "rank": 368,
-        "player": "Olle Wallin",
-        "age": 24,
-        "country": "SWE",
-        "points": 137
-    },
-    {
-        "rank": 369,
+        "rank": 365,
         "player": "Petr Nesterov",
         "age": 23,
         "country": "BUL",
         "points": 137
     },
     {
-        "rank": 370,
+        "rank": 366,
         "player": "Norbert Gombos",
         "age": 35,
         "country": "SVK",
         "points": 136
     },
     {
-        "rank": 371,
-        "player": "Yuta Shimizu",
-        "age": 27,
-        "country": "JPN",
-        "points": 136
-    },
-    {
-        "rank": 372,
+        "rank": 367,
         "player": "Lucio Ratti",
         "age": 22,
         "country": "ARG",
         "points": 136
     },
     {
-        "rank": 373,
-        "player": "Marek Gengel",
-        "age": 30,
-        "country": "CZE",
-        "points": 136
-    },
-    {
-        "rank": 374,
-        "player": "Marko Topo",
-        "age": 22,
-        "country": "GER",
-        "points": 134
-    },
-    {
-        "rank": 375,
+        "rank": 368,
         "player": "Gabriele Piraino",
         "age": 22,
         "country": "ITA",
         "points": 134
     },
     {
-        "rank": 376,
+        "rank": 369,
         "player": "Ivan Marrero Curbelo",
         "age": 27,
         "country": "ESP",
         "points": 133
     },
     {
-        "rank": 377,
-        "player": "Anton Matusevich",
+        "rank": 370,
+        "player": "Ioannis Xilas",
         "age": 25,
-        "country": "GBR",
+        "country": "GRE",
         "points": 133
     },
     {
-        "rank": 378,
-        "player": "Carlo Alberto Caniato",
-        "age": 20,
-        "country": "ITA",
-        "points": 133
-    },
-    {
-        "rank": 379,
+        "rank": 371,
         "player": "Tiago Pereira",
         "age": 22,
         "country": "POR",
         "points": 133
     },
     {
-        "rank": 380,
-        "player": "Francesco Forti",
-        "age": 26,
-        "country": "ITA",
+        "rank": 372,
+        "player": "Lilian Marmousez",
+        "age": 24,
+        "country": "FRA",
         "points": 132
     },
     {
-        "rank": 381,
+        "rank": 373,
+        "player": "Anton Matusevich",
+        "age": 25,
+        "country": "GBR",
+        "points": 132
+    },
+    {
+        "rank": 374,
         "player": "Manas Dhamne",
         "age": 18,
         "country": "IND",
         "points": 132
     },
     {
-        "rank": 382,
+        "rank": 375,
         "player": "Garrett Johns",
         "age": 25,
         "country": "USA",
         "points": 132
     },
     {
-        "rank": 383,
-        "player": "Jay Friend",
-        "age": 22,
-        "country": "JPN",
+        "rank": 376,
+        "player": "Francesco Forti",
+        "age": 26,
+        "country": "ITA",
         "points": 131
     },
     {
-        "rank": 384,
+        "rank": 377,
+        "player": "Marek Gengel",
+        "age": 30,
+        "country": "CZE",
+        "points": 131
+    },
+    {
+        "rank": 378,
         "player": "Jake Delaney",
         "age": 29,
         "country": "AUS",
         "points": 131
     },
     {
-        "rank": 385,
-        "player": "Edward Winter",
-        "age": 21,
-        "country": "AUS",
+        "rank": 379,
+        "player": "Carlos S\u00e1nchez Jover",
+        "age": 26,
+        "country": "ESP",
+        "points": 131
+    },
+    {
+        "rank": 380,
+        "player": "Jay Friend",
+        "age": 22,
+        "country": "JPN",
         "points": 130
     },
     {
-        "rank": 386,
+        "rank": 381,
         "player": "Daniel Masur",
         "age": 31,
         "country": "GER",
         "points": 130
     },
     {
-        "rank": 387,
+        "rank": 382,
         "player": "Beibit Zhukayev",
         "age": 25,
         "country": "KAZ",
         "points": 130
     },
     {
-        "rank": 388,
-        "player": "Ivan Gakhov",
-        "age": 29,
-        "country": "RUS",
+        "rank": 383,
+        "player": "Yuta Shimizu",
+        "age": 27,
+        "country": "JPN",
         "points": 130
     },
     {
-        "rank": 389,
+        "rank": 384,
+        "player": "Olle Wallin",
+        "age": 24,
+        "country": "SWE",
+        "points": 130
+    },
+    {
+        "rank": 385,
         "player": "Jack Kennedy",
         "age": 18,
         "country": "USA",
         "points": 129
     },
     {
-        "rank": 390,
-        "player": "Geoffrey Blancaneaux",
-        "age": 27,
-        "country": "FRA",
+        "rank": 386,
+        "player": "Carlos Maria Zarate",
+        "age": 21,
+        "country": "ARG",
         "points": 129
     },
     {
-        "rank": 391,
+        "rank": 387,
+        "player": "Laurent Lokoli",
+        "age": 31,
+        "country": "FRA",
+        "points": 128
+    },
+    {
+        "rank": 388,
         "player": "Radu Mihai Papoe",
         "age": 23,
         "country": "ROU",
         "points": 128
     },
     {
-        "rank": 392,
-        "player": "Andrej Martin",
-        "age": 36,
-        "country": "SVK",
-        "points": 127
+        "rank": 389,
+        "player": "Georgii Kravchenko",
+        "age": 25,
+        "country": "UKR",
+        "points": 128
     },
     {
-        "rank": 393,
+        "rank": 390,
         "player": "Rapha\u00ebl P\u00e9rot",
         "age": 25,
         "country": "FRA",
         "points": 127
     },
     {
-        "rank": 394,
-        "player": "Dimitar Kuzmanov",
-        "age": 32,
-        "country": "BUL",
-        "points": 127
-    },
-    {
-        "rank": 395,
-        "player": "Kasidit Samrej",
-        "age": 25,
-        "country": "THA",
+        "rank": 391,
+        "player": "Carlo Alberto Caniato",
+        "age": 20,
+        "country": "ITA",
         "points": 126
     },
     {
-        "rank": 396,
+        "rank": 392,
         "player": "Nerman Fati\u0107",
         "age": 31,
         "country": "BIH",
         "points": 125
     },
     {
+        "rank": 393,
+        "player": "Justin Boulais",
+        "age": 24,
+        "country": "CAN",
+        "points": 125
+    },
+    {
+        "rank": 394,
+        "player": "Max Wiskandt",
+        "age": 24,
+        "country": "GER",
+        "points": 125
+    },
+    {
+        "rank": 395,
+        "player": "Dimitar Kuzmanov",
+        "age": 32,
+        "country": "BUL",
+        "points": 125
+    },
+    {
+        "rank": 396,
+        "player": "Andrej Martin",
+        "age": 36,
+        "country": "SVK",
+        "points": 124
+    },
+    {
         "rank": 397,
-        "player": "Henry Bernet",
-        "age": 19,
-        "country": "SUI",
-        "points": 125
-    },
-    {
-        "rank": 398,
-        "player": "Georgii Kravchenko",
-        "age": 25,
-        "country": "UKR",
-        "points": 125
-    },
-    {
-        "rank": 399,
         "player": "Andrew Fenty",
         "age": 26,
         "country": "USA",
         "points": 124
     },
     {
-        "rank": 400,
-        "player": "Oleg Prihodko",
-        "age": 28,
-        "country": "MKD",
-        "points": 123
-    },
-    {
-        "rank": 401,
+        "rank": 398,
         "player": "Samuele Pieri",
         "age": 24,
         "country": "ITA",
         "points": 123
     },
     {
-        "rank": 402,
+        "rank": 399,
         "player": "Santiago Taverna",
-        "age": 26,
+        "age": 27,
         "country": "ARG",
         "points": 123
     },
     {
-        "rank": 403,
+        "rank": 400,
+        "player": "Edward Winter",
+        "age": 21,
+        "country": "AUS",
+        "points": 122
+    },
+    {
+        "rank": 401,
         "player": "Arthur Weber",
         "age": 34,
         "country": "FRA",
         "points": 122
     },
     {
-        "rank": 404,
+        "rank": 402,
         "player": "Stefan Palosi",
         "age": 26,
         "country": "ROU",
         "points": 122
     },
     {
-        "rank": 405,
+        "rank": 403,
+        "player": "Filip Misolic",
+        "age": 24,
+        "country": "AUT",
+        "points": 121
+    },
+    {
+        "rank": 404,
         "player": "Lui Maxted",
         "age": 22,
         "country": "GBR",
         "points": 121
     },
     {
-        "rank": 406,
+        "rank": 405,
         "player": "Arthur Nagel",
         "age": 23,
         "country": "FRA",
         "points": 121
     },
     {
+        "rank": 406,
+        "player": "Ilya Ivashka",
+        "age": 32,
+        "country": "BLR",
+        "points": 120
+    },
+    {
         "rank": 407,
-        "player": "Jack Log\u00e9",
-        "age": 21,
-        "country": "BEL",
+        "player": "Kasidit Samrej",
+        "age": 25,
+        "country": "THA",
         "points": 120
     },
     {
         "rank": 408,
-        "player": "Samir Banerjee",
-        "age": 22,
-        "country": "USA",
+        "player": "Henry Bernet",
+        "age": 19,
+        "country": "SUI",
         "points": 118
     },
     {
@@ -2864,64 +2864,64 @@
     },
     {
         "rank": 410,
-        "player": "Cyril Vandermeersch",
+        "player": "Geoffrey Blancaneaux",
         "age": 27,
         "country": "FRA",
         "points": 117
     },
     {
         "rank": 411,
+        "player": "Jack Log\u00e9",
+        "age": 21,
+        "country": "BEL",
+        "points": 117
+    },
+    {
+        "rank": 412,
         "player": "Johan Nikles",
         "age": 29,
         "country": "SUI",
         "points": 116
     },
     {
-        "rank": 412,
+        "rank": 413,
         "player": "Sergio Callejon Hernando",
         "age": 21,
         "country": "ESP",
         "points": 116
     },
     {
-        "rank": 413,
-        "player": "Carlos Maria Zarate",
-        "age": 21,
-        "country": "ARG",
+        "rank": 414,
+        "player": "Cyril Vandermeersch",
+        "age": 27,
+        "country": "FRA",
         "points": 116
     },
     {
-        "rank": 414,
+        "rank": 415,
         "player": "Mika Brunold",
         "age": 21,
         "country": "SUI",
         "points": 115
     },
     {
-        "rank": 415,
-        "player": "Vadym Ursu",
-        "age": 29,
-        "country": "UKR",
-        "points": 115
-    },
-    {
         "rank": 416,
-        "player": "Alex Hernandez",
-        "age": 27,
-        "country": "MEX",
+        "player": "Oleg Prihodko",
+        "age": 28,
+        "country": "MKD",
         "points": 114
     },
     {
         "rank": 417,
-        "player": "Ryan Peniston",
-        "age": 30,
-        "country": "GBR",
-        "points": 113
+        "player": "Vadym Ursu",
+        "age": 29,
+        "country": "UKR",
+        "points": 114
     },
     {
         "rank": 418,
-        "player": "Renta Tokuda",
-        "age": 28,
+        "player": "Masamichi Imamura",
+        "age": 27,
         "country": "JPN",
         "points": 113
     },
@@ -2934,297 +2934,297 @@
     },
     {
         "rank": 420,
-        "player": "Masamichi Imamura",
-        "age": 27,
-        "country": "JPN",
-        "points": 113
-    },
-    {
-        "rank": 421,
         "player": "Cannon Kingsley",
         "age": 25,
         "country": "USA",
         "points": 112
     },
     {
-        "rank": 422,
-        "player": "Justin Boulais",
-        "age": 24,
-        "country": "CAN",
-        "points": 112
-    },
-    {
-        "rank": 423,
+        "rank": 421,
         "player": "Lucas Poullain",
         "age": 30,
         "country": "FRA",
         "points": 112
     },
     {
-        "rank": 424,
+        "rank": 422,
         "player": "Semen Pankin",
         "age": 26,
         "country": "RUS",
         "points": 111
     },
     {
-        "rank": 425,
-        "player": "Patrick Zahraj",
-        "age": 26,
-        "country": "GER",
-        "points": 111
-    },
-    {
-        "rank": 426,
+        "rank": 423,
         "player": "Daniel Dutra da Silva",
         "age": 38,
         "country": "BRA",
         "points": 111
     },
     {
-        "rank": 427,
+        "rank": 424,
         "player": "Valerio Aboian",
         "age": 24,
         "country": "ARG",
         "points": 110
     },
     {
-        "rank": 428,
-        "player": "Alex Rybakov",
-        "age": 29,
-        "country": "USA",
-        "points": 109
-    },
-    {
-        "rank": 429,
+        "rank": 425,
         "player": "Massimo Giunta",
         "age": 22,
         "country": "ITA",
+        "points": 110
+    },
+    {
+        "rank": 426,
+        "player": "Vladyslav Orlov",
+        "age": 31,
+        "country": "UKR",
         "points": 109
     },
     {
-        "rank": 430,
+        "rank": 427,
         "player": "Tiago Torres",
         "age": 24,
         "country": "POR",
         "points": 109
     },
     {
-        "rank": 431,
-        "player": "Facundo Bagnis",
-        "age": 36,
-        "country": "ARG",
-        "points": 108
-    },
-    {
-        "rank": 432,
-        "player": "James Trotter",
-        "age": 26,
-        "country": "JPN",
-        "points": 108
-    },
-    {
-        "rank": 433,
-        "player": "Javier Barranco Cosano",
-        "age": 27,
-        "country": "ESP",
-        "points": 108
-    },
-    {
-        "rank": 434,
+        "rank": 428,
         "player": "Adrian Boitan",
         "age": 27,
         "country": "ROU",
         "points": 108
     },
     {
-        "rank": 435,
+        "rank": 429,
         "player": "Luca Castelnuovo",
         "age": 29,
         "country": "SUI",
         "points": 108
     },
     {
-        "rank": 436,
-        "player": "Sanhui Shin",
-        "age": 29,
-        "country": "KOR",
-        "points": 108
-    },
-    {
-        "rank": 437,
+        "rank": 430,
         "player": "Oliver Tarvet",
         "age": 22,
         "country": "GBR",
         "points": 107
     },
     {
-        "rank": 438,
-        "player": "Daniel Siniakov",
-        "age": 23,
-        "country": "CZE",
+        "rank": 431,
+        "player": "Javier Barranco Cosano",
+        "age": 27,
+        "country": "ESP",
         "points": 107
     },
     {
-        "rank": 439,
+        "rank": 432,
         "player": "Corentin Denolly",
         "age": 29,
         "country": "FRA",
         "points": 107
     },
     {
-        "rank": 440,
-        "player": "Sebastian Sorger",
-        "age": 20,
-        "country": "AUT",
-        "points": 107
-    },
-    {
-        "rank": 441,
+        "rank": 433,
         "player": "Pietro Fellin",
         "age": 24,
         "country": "ITA",
         "points": 107
     },
     {
-        "rank": 442,
-        "player": "Eero Vasa",
+        "rank": 434,
+        "player": "Mika Petkovi\u0107",
+        "age": 19,
+        "country": "GER",
+        "points": 107
+    },
+    {
+        "rank": 435,
+        "player": "Trevor Svajda",
+        "age": 20,
+        "country": "USA",
+        "points": 106
+    },
+    {
+        "rank": 436,
+        "player": "Dhakshineswar Suresh",
+        "age": 26,
+        "country": "IND",
+        "points": 106
+    },
+    {
+        "rank": 437,
+        "player": "Juan Cruz Martin Manzano",
+        "age": 21,
+        "country": "ITA",
+        "points": 106
+    },
+    {
+        "rank": 438,
+        "player": "Ivan Gakhov",
         "age": 29,
-        "country": "FIN",
+        "country": "RUS",
         "points": 105
     },
     {
-        "rank": 443,
-        "player": "Vladyslav Orlov",
-        "age": 31,
-        "country": "UKR",
+        "rank": 439,
+        "player": "Niels Visker",
+        "age": 24,
+        "country": "NED",
         "points": 105
     },
     {
-        "rank": 444,
+        "rank": 440,
         "player": "Robert Strombachs",
         "age": 26,
         "country": "LAT",
         "points": 105
     },
     {
-        "rank": 445,
+        "rank": 441,
         "player": "Denis Yevseyev",
         "age": 33,
         "country": "KAZ",
         "points": 105
     },
     {
-        "rank": 446,
-        "player": "Dhakshineswar Suresh",
-        "age": 26,
-        "country": "IND",
+        "rank": 442,
+        "player": "Sanhui Shin",
+        "age": 29,
+        "country": "KOR",
         "points": 104
     },
     {
-        "rank": 447,
-        "player": "Milo\u0161 Karol",
-        "age": 23,
-        "country": "SVK",
-        "points": 104
-    },
-    {
-        "rank": 448,
-        "player": "Mika Petkovi\u0107",
-        "age": 19,
+        "rank": 443,
+        "player": "Patrick Zahraj",
+        "age": 27,
         "country": "GER",
         "points": 104
     },
     {
-        "rank": 449,
-        "player": "Laurent Lokoli",
-        "age": 31,
-        "country": "FRA",
+        "rank": 444,
+        "player": "Ryan Peniston",
+        "age": 30,
+        "country": "GBR",
         "points": 103
     },
     {
-        "rank": 450,
+        "rank": 445,
         "player": "Tom Paris",
         "age": 23,
         "country": "FRA",
         "points": 103
     },
     {
-        "rank": 451,
+        "rank": 446,
         "player": "Luca Potenza",
         "age": 25,
         "country": "ITA",
         "points": 103
     },
     {
-        "rank": 452,
+        "rank": 447,
         "player": "Sergi Perez Contri",
         "age": 28,
         "country": "ESP",
         "points": 103
     },
     {
-        "rank": 453,
-        "player": "Niels Visker",
-        "age": 24,
-        "country": "NED",
+        "rank": 448,
+        "player": "Daniel Siniakov",
+        "age": 23,
+        "country": "CZE",
         "points": 102
     },
     {
-        "rank": 454,
+        "rank": 449,
+        "player": "Mateus Alves",
+        "age": 25,
+        "country": "BRA",
+        "points": 102
+    },
+    {
+        "rank": 450,
+        "player": "Alejo Sanchez Quilez",
+        "age": 21,
+        "country": "ESP",
+        "points": 102
+    },
+    {
+        "rank": 451,
+        "player": "Jie Cui",
+        "age": 28,
+        "country": "CHN",
+        "points": 102
+    },
+    {
+        "rank": 452,
+        "player": "Facundo Bagnis",
+        "age": 36,
+        "country": "ARG",
+        "points": 101
+    },
+    {
+        "rank": 453,
         "player": "Alafia Ayeni",
         "age": 26,
         "country": "USA",
         "points": 101
     },
     {
-        "rank": 455,
-        "player": "Mateus Alves",
-        "age": 25,
-        "country": "BRA",
-        "points": 101
-    },
-    {
-        "rank": 456,
+        "rank": 454,
         "player": "Gianmarco Ferrari",
         "age": 25,
         "country": "ITA",
         "points": 101
     },
     {
-        "rank": 457,
-        "player": "Juan Cruz Martin Manzano",
-        "age": 21,
-        "country": "ITA",
-        "points": 101
-    },
-    {
-        "rank": 458,
-        "player": "Max Wiskandt",
-        "age": 24,
-        "country": "GER",
-        "points": 101
-    },
-    {
-        "rank": 459,
+        "rank": 455,
         "player": "Moerani Bouzige",
         "age": 27,
         "country": "AUS",
         "points": 101
     },
     {
-        "rank": 460,
+        "rank": 456,
         "player": "Thanasi Kokkinakis",
         "age": 30,
         "country": "AUS",
         "points": 100
     },
     {
-        "rank": 461,
+        "rank": 457,
+        "player": "James Trotter",
+        "age": 26,
+        "country": "JPN",
+        "points": 100
+    },
+    {
+        "rank": 458,
         "player": "Quinn Vandecasteele",
         "age": 23,
         "country": "USA",
         "points": 100
+    },
+    {
+        "rank": 459,
+        "player": "Matthew William Donald",
+        "age": 21,
+        "country": "CZE",
+        "points": 100
+    },
+    {
+        "rank": 460,
+        "player": "Christian Langmo",
+        "age": 30,
+        "country": "USA",
+        "points": 100
+    },
+    {
+        "rank": 461,
+        "player": "Milo\u0161 Karol",
+        "age": 23,
+        "country": "SVK",
+        "points": 99
     },
     {
         "rank": 462,
@@ -3235,9 +3235,9 @@
     },
     {
         "rank": 463,
-        "player": "Benjamin Hassan",
-        "age": 31,
-        "country": "LBN",
+        "player": "Yannik Kelm",
+        "age": 21,
+        "country": "GER",
         "points": 99
     },
     {
@@ -3249,31 +3249,31 @@
     },
     {
         "rank": 465,
-        "player": "Bor Artnak",
-        "age": 22,
-        "country": "SLO",
+        "player": "Dominik Pal\u00e1n",
+        "age": 25,
+        "country": "CZE",
         "points": 98
     },
     {
         "rank": 466,
-        "player": "Miguel Tobon",
-        "age": 20,
-        "country": "COL",
+        "player": "Renta Tokuda",
+        "age": 28,
+        "country": "JPN",
         "points": 98
     },
     {
         "rank": 467,
-        "player": "Christian Langmo",
-        "age": 30,
-        "country": "USA",
-        "points": 98
-    },
-    {
-        "rank": 468,
         "player": "Jason Kubler",
         "age": 33,
         "country": "AUS",
         "points": 97
+    },
+    {
+        "rank": 468,
+        "player": "Bor Artnak",
+        "age": 22,
+        "country": "SLO",
+        "points": 96
     },
     {
         "rank": 469,
@@ -3284,212 +3284,212 @@
     },
     {
         "rank": 470,
-        "player": "Jie Cui",
-        "age": 28,
-        "country": "CHN",
-        "points": 96
+        "player": "Yassine Dlimi",
+        "age": 23,
+        "country": "MAR",
+        "points": 95
     },
     {
         "rank": 471,
+        "player": "Mees Rottgering",
+        "age": 19,
+        "country": "NED",
+        "points": 95
+    },
+    {
+        "rank": 472,
         "player": "Lorenzo Carboni",
         "age": 20,
         "country": "ITA",
         "points": 95
     },
     {
-        "rank": 472,
+        "rank": 473,
+        "player": "Miguel Tobon",
+        "age": 20,
+        "country": "COL",
+        "points": 95
+    },
+    {
+        "rank": 474,
         "player": "Blake Ellis",
         "age": 27,
         "country": "AUS",
         "points": 94
     },
     {
-        "rank": 473,
-        "player": "Mees Rottgering",
-        "age": 19,
-        "country": "NED",
-        "points": 94
-    },
-    {
-        "rank": 474,
+        "rank": 475,
         "player": "Viktor Durasovic",
         "age": 29,
         "country": "NOR",
         "points": 94
     },
     {
-        "rank": 475,
+        "rank": 476,
         "player": "Alexander Binda",
         "age": 24,
         "country": "ITA",
         "points": 94
     },
     {
-        "rank": 476,
+        "rank": 477,
         "player": "Du\u0161an Obradovi\u0107",
         "age": 25,
         "country": "SRB",
         "points": 94
     },
     {
-        "rank": 477,
-        "player": "Andrea Picchione",
-        "age": 28,
-        "country": "ITA",
-        "points": 93
-    },
-    {
         "rank": 478,
-        "player": "Adria Soriano Barrera",
-        "age": 27,
-        "country": "COL",
+        "player": "Samir Banerjee",
+        "age": 22,
+        "country": "USA",
         "points": 93
     },
     {
         "rank": 479,
-        "player": "Yassine Dlimi",
-        "age": 23,
-        "country": "MAR",
-        "points": 93
-    },
-    {
-        "rank": 480,
         "player": "Viacheslav Bielinskyi",
         "age": 22,
         "country": "UKR",
         "points": 93
     },
     {
+        "rank": 480,
+        "player": "Alex Rybakov",
+        "age": 29,
+        "country": "USA",
+        "points": 93
+    },
+    {
         "rank": 481,
+        "player": "Sebastian Sorger",
+        "age": 20,
+        "country": "AUT",
+        "points": 93
+    },
+    {
+        "rank": 482,
+        "player": "Thijs Boogaard",
+        "age": 18,
+        "country": "NED",
+        "points": 92
+    },
+    {
+        "rank": 483,
         "player": "Nicol\u00e1s \u00c1lvarez Varona",
         "age": 25,
         "country": "ESP",
         "points": 92
     },
     {
-        "rank": 482,
+        "rank": 484,
         "player": "Rudolf Molleker",
         "age": 25,
         "country": "GER",
         "points": 92
     },
     {
-        "rank": 483,
-        "player": "Eric Vanshelboim",
-        "age": 24,
-        "country": "UKR",
-        "points": 92
-    },
-    {
-        "rank": 484,
-        "player": "Yannik Kelm",
-        "age": 21,
-        "country": "GER",
-        "points": 92
-    },
-    {
         "rank": 485,
-        "player": "Fabrizio Andaloro",
-        "age": 25,
-        "country": "ITA",
-        "points": 91
-    },
-    {
-        "rank": 486,
         "player": "Patrick Schoen",
         "age": 21,
         "country": "SUI",
         "points": 91
     },
     {
+        "rank": 486,
+        "player": "Eero Vasa",
+        "age": 29,
+        "country": "FIN",
+        "points": 91
+    },
+    {
         "rank": 487,
+        "player": "Karl Poling",
+        "age": 26,
+        "country": "USA",
+        "points": 91
+    },
+    {
+        "rank": 488,
         "player": "Hikaru Shiraishi",
         "age": 26,
         "country": "JPN",
         "points": 91
     },
     {
-        "rank": 488,
+        "rank": 489,
         "player": "Ryan Nijboer",
         "age": 26,
         "country": "NED",
         "points": 91
     },
     {
-        "rank": 489,
-        "player": "Aidan McHugh",
+        "rank": 490,
+        "player": "Aziz Ouakaa",
         "age": 26,
-        "country": "GBR",
+        "country": "TUN",
+        "points": 91
+    },
+    {
+        "rank": 491,
+        "player": "Andrea Picchione",
+        "age": 28,
+        "country": "ITA",
         "points": 90
     },
     {
-        "rank": 490,
+        "rank": 492,
         "player": "Radu Albot",
         "age": 36,
         "country": "MDA",
         "points": 90
     },
     {
-        "rank": 491,
+        "rank": 493,
         "player": "Enzo Aguiard",
         "age": 23,
         "country": "AUS",
         "points": 90
     },
     {
-        "rank": 492,
-        "player": "Alejo Sanchez Quilez",
-        "age": 21,
-        "country": "ESP",
-        "points": 90
-    },
-    {
-        "rank": 493,
-        "player": "Matthew William Donald",
-        "age": 21,
-        "country": "CZE",
-        "points": 90
-    },
-    {
         "rank": 494,
+        "player": "Anton Shepp",
+        "age": 23,
+        "country": "NZL",
+        "points": 90
+    },
+    {
+        "rank": 495,
+        "player": "Eric Vanshelboim",
+        "age": 25,
+        "country": "UKR",
+        "points": 90
+    },
+    {
+        "rank": 496,
+        "player": "Omar Jasika",
+        "age": 29,
+        "country": "AUS",
+        "points": 90
+    },
+    {
+        "rank": 497,
         "player": "Pedro Sakamoto",
         "age": 33,
         "country": "BRA",
         "points": 90
     },
     {
-        "rank": 495,
-        "player": "Tibo Colson",
-        "age": 26,
-        "country": "BEL",
-        "points": 89
-    },
-    {
-        "rank": 496,
-        "player": "Khumoyun Sultanov",
-        "age": 27,
-        "country": "UZB",
-        "points": 89
-    },
-    {
-        "rank": 497,
+        "rank": 498,
         "player": "Giuseppe La Vela",
         "age": 25,
         "country": "ITA",
         "points": 89
     },
     {
-        "rank": 498,
-        "player": "Dominik Pal\u00e1n",
-        "age": 25,
-        "country": "CZE",
-        "points": 89
-    },
-    {
         "rank": 499,
-        "player": "Lorenzo Joaqu\u00edn Rodr\u00edguez",
-        "age": 26,
-        "country": "ARG",
+        "player": "Alex Hernandez",
+        "age": 27,
+        "country": "MEX",
         "points": 89
     },
     {
@@ -3508,275 +3508,275 @@
     },
     {
         "rank": 502,
-        "player": "Karan Singh",
-        "age": 23,
-        "country": "IND",
+        "player": "Lorenzo Joaqu\u00edn Rodr\u00edguez",
+        "age": 26,
+        "country": "ARG",
         "points": 88
     },
     {
         "rank": 503,
+        "player": "Aidan McHugh",
+        "age": 26,
+        "country": "GBR",
+        "points": 87
+    },
+    {
+        "rank": 504,
+        "player": "Fabrizio Andaloro",
+        "age": 25,
+        "country": "ITA",
+        "points": 87
+    },
+    {
+        "rank": 505,
         "player": "Jo\u00e3o Eduardo Schiessl",
         "age": 21,
         "country": "BRA",
         "points": 87
     },
     {
-        "rank": 504,
+        "rank": 506,
+        "player": "Benjamin Hassan",
+        "age": 31,
+        "country": "LBN",
+        "points": 87
+    },
+    {
+        "rank": 507,
+        "player": "C\u00e9sar Bouchelaghem",
+        "age": 22,
+        "country": "FRA",
+        "points": 87
+    },
+    {
+        "rank": 508,
         "player": "Constantin Bittoun Kouzmine",
         "age": 27,
         "country": "FRA",
         "points": 87
     },
     {
-        "rank": 505,
+        "rank": 509,
+        "player": "Jan Kumst\u00e1t",
+        "age": 19,
+        "country": "CZE",
+        "points": 86
+    },
+    {
+        "rank": 510,
         "player": "Niels McDonald",
         "age": 18,
         "country": "GER",
         "points": 86
     },
     {
-        "rank": 506,
+        "rank": 511,
         "player": "Reda Bennani",
         "age": 19,
         "country": "MAR",
         "points": 86
     },
     {
-        "rank": 507,
+        "rank": 512,
         "player": "Hiroki Moriya",
         "age": 35,
         "country": "JPN",
         "points": 86
     },
     {
-        "rank": 508,
-        "player": "Karl Poling",
-        "age": 26,
-        "country": "USA",
-        "points": 86
-    },
-    {
-        "rank": 509,
-        "player": "Filip Peliwo",
-        "age": 32,
-        "country": "POL",
-        "points": 86
-    },
-    {
-        "rank": 510,
+        "rank": 513,
         "player": "Tai Sach",
         "age": 23,
         "country": "AUS",
         "points": 86
     },
     {
-        "rank": 511,
-        "player": "C\u00e9sar Bouchelaghem",
-        "age": 22,
-        "country": "FRA",
+        "rank": 514,
+        "player": "Takuya Kumasaka",
+        "age": 27,
+        "country": "JPN",
+        "points": 86
+    },
+    {
+        "rank": 515,
+        "player": "Tibo Colson",
+        "age": 26,
+        "country": "BEL",
         "points": 85
     },
     {
-        "rank": 512,
-        "player": "Takuya Kumasaka",
-        "age": 27,
+        "rank": 516,
+        "player": "Koki Matsuda",
+        "age": 25,
         "country": "JPN",
         "points": 85
     },
     {
-        "rank": 513,
-        "player": "Colin Sinclair",
-        "age": 31,
-        "country": "NMI",
-        "points": 85
-    },
-    {
-        "rank": 514,
-        "player": "Trevor Svajda",
-        "age": 20,
-        "country": "USA",
-        "points": 84
-    },
-    {
-        "rank": 515,
+        "rank": 517,
         "player": "Alex Mart\u00ed Pujolras",
         "age": 27,
         "country": "ESP",
         "points": 84
     },
     {
-        "rank": 516,
-        "player": "Anton Shepp",
-        "age": 23,
-        "country": "NZL",
+        "rank": 518,
+        "player": "Colin Sinclair",
+        "age": 31,
+        "country": "NMI",
         "points": 84
     },
     {
-        "rank": 517,
+        "rank": 519,
         "player": "Emile Hudd",
         "age": 26,
         "country": "GBR",
         "points": 84
     },
     {
-        "rank": 518,
+        "rank": 520,
+        "player": "Khumoyun Sultanov",
+        "age": 27,
+        "country": "UZB",
+        "points": 83
+    },
+    {
+        "rank": 521,
         "player": "Carlos Lopez Montagud",
         "age": 26,
         "country": "ESP",
         "points": 83
     },
     {
-        "rank": 519,
+        "rank": 522,
         "player": "Christoph Negritu",
         "age": 32,
         "country": "GER",
         "points": 83
     },
     {
-        "rank": 520,
+        "rank": 523,
         "player": "Fares Zakaria",
         "age": 25,
         "country": "EGY",
         "points": 83
     },
     {
-        "rank": 521,
-        "player": "Paulo Andre Saraiva Dos Santos",
-        "age": 26,
-        "country": "BRA",
-        "points": 83
+        "rank": 524,
+        "player": "Spencer Johnson",
+        "age": 23,
+        "country": "USA",
+        "points": 82
     },
     {
-        "rank": 522,
+        "rank": 525,
         "player": "Maxim Zhukov",
         "age": 21,
         "country": "RUS",
         "points": 82
     },
     {
-        "rank": 523,
-        "player": "Taha Baadi",
-        "age": 24,
-        "country": "MAR",
-        "points": 82
-    },
-    {
-        "rank": 524,
-        "player": "Jelle Sels",
-        "age": 30,
-        "country": "NED",
-        "points": 82
-    },
-    {
-        "rank": 525,
-        "player": "Aziz Ouakaa",
-        "age": 26,
-        "country": "TUN",
-        "points": 82
-    },
-    {
         "rank": 526,
-        "player": "Matteo Gigante",
-        "age": 24,
-        "country": "ITA",
-        "points": 81
-    },
-    {
-        "rank": 527,
         "player": "Federico Arnaboldi",
         "age": 26,
         "country": "ITA",
         "points": 81
     },
     {
-        "rank": 528,
-        "player": "Omar Jasika",
-        "age": 29,
+        "rank": 527,
+        "player": "Pavle Marinkov",
+        "age": 20,
         "country": "AUS",
         "points": 81
     },
     {
-        "rank": 529,
-        "player": "Thijs Boogaard",
-        "age": 18,
+        "rank": 528,
+        "player": "Jelle Sels",
+        "age": 30,
         "country": "NED",
-        "points": 80
+        "points": 81
     },
     {
-        "rank": 530,
+        "rank": 529,
         "player": "Sidharth Rawat",
         "age": 33,
         "country": "IND",
         "points": 80
     },
     {
-        "rank": 531,
-        "player": "Kaylan Bigun",
+        "rank": 530,
+        "player": "Izan Almazan Valiente",
         "age": 20,
-        "country": "USA",
+        "country": "ESP",
         "points": 80
     },
     {
-        "rank": 532,
+        "rank": 531,
         "player": "Sebastian Gima",
         "age": 24,
         "country": "ROU",
         "points": 80
     },
     {
-        "rank": 533,
-        "player": "Koki Matsuda",
+        "rank": 532,
+        "player": "Pedro Vives Marcos",
         "age": 25,
-        "country": "JPN",
+        "country": "ESP",
         "points": 79
     },
     {
-        "rank": 534,
+        "rank": 533,
         "player": "Leo Borg",
         "age": 23,
         "country": "SWE",
         "points": 79
     },
     {
-        "rank": 535,
-        "player": "Pavle Marinkov",
-        "age": 20,
-        "country": "AUS",
-        "points": 79
-    },
-    {
-        "rank": 536,
+        "rank": 534,
         "player": "Daniil Ostapenkov",
         "age": 23,
         "country": "BLR",
         "points": 79
     },
     {
+        "rank": 535,
+        "player": "Michael Bassem Sobhy",
+        "age": 22,
+        "country": "EGY",
+        "points": 78
+    },
+    {
+        "rank": 536,
+        "player": "Kaylan Bigun",
+        "age": 20,
+        "country": "USA",
+        "points": 78
+    },
+    {
         "rank": 537,
-        "player": "Toufik Sahtali",
-        "age": 27,
-        "country": "ALG",
-        "points": 79
+        "player": "Filip Peliwo",
+        "age": 32,
+        "country": "POL",
+        "points": 78
     },
     {
         "rank": 538,
-        "player": "John Echeverria",
-        "age": 24,
-        "country": "ESP",
+        "player": "Mitsuki Wei Kang Leong",
+        "age": 21,
+        "country": "MAS",
         "points": 78
     },
     {
         "rank": 539,
-        "player": "Pedro Vives Marcos",
-        "age": 25,
-        "country": "ESP",
-        "points": 77
+        "player": "Louis We\u00dfels",
+        "age": 27,
+        "country": "GER",
+        "points": 78
     },
     {
         "rank": 540,
-        "player": "Michael Bassem Sobhy",
-        "age": 22,
-        "country": "EGY",
+        "player": "Joaquin Aguilar Cardozo",
+        "age": 21,
+        "country": "URU",
         "points": 77
     },
     {
@@ -3791,7 +3791,7 @@
         "player": "Fausto Tabacco",
         "age": 24,
         "country": "ITA",
-        "points": 77
+        "points": 76
     },
     {
         "rank": 543,
@@ -3802,30 +3802,30 @@
     },
     {
         "rank": 544,
+        "player": "Taha Baadi",
+        "age": 25,
+        "country": "MAR",
+        "points": 75
+    },
+    {
+        "rank": 545,
         "player": "Luca Wiedenmann",
         "age": 28,
         "country": "GER",
         "points": 75
     },
     {
-        "rank": 545,
-        "player": "Mitsuki Wei Kang Leong",
-        "age": 21,
-        "country": "MAS",
+        "rank": 546,
+        "player": "Peter Makk",
+        "age": 24,
+        "country": "HUN",
         "points": 75
     },
     {
-        "rank": 546,
+        "rank": 547,
         "player": "Jacopo Berrettini",
         "age": 27,
         "country": "ITA",
-        "points": 74
-    },
-    {
-        "rank": 547,
-        "player": "Alec Deckers",
-        "age": 26,
-        "country": "NED",
         "points": 74
     },
     {
@@ -3837,100 +3837,100 @@
     },
     {
         "rank": 549,
-        "player": "Digvijay Pratap Singh",
-        "age": 26,
-        "country": "IND",
-        "points": 74
-    },
-    {
-        "rank": 550,
         "player": "Alexander Donski",
         "age": 27,
         "country": "BUL",
         "points": 73
     },
     {
+        "rank": 550,
+        "player": "Matyas Fuele",
+        "age": 27,
+        "country": "HUN",
+        "points": 73
+    },
+    {
         "rank": 551,
-        "player": "Joaquin Aguilar Cardozo",
-        "age": 21,
-        "country": "URU",
+        "player": "Oleksii Krutykh",
+        "age": 26,
+        "country": "UKR",
         "points": 73
     },
     {
         "rank": 552,
-        "player": "Tomasz Berkieta",
-        "age": 19,
-        "country": "POL",
+        "player": "Karan Singh",
+        "age": 23,
+        "country": "IND",
         "points": 73
     },
     {
         "rank": 553,
+        "player": "Ma\u00e9 Malige",
+        "age": 20,
+        "country": "FRA",
+        "points": 73
+    },
+    {
+        "rank": 554,
+        "player": "Guillaume Dalmasso",
+        "age": 23,
+        "country": "FRA",
+        "points": 73
+    },
+    {
+        "rank": 555,
         "player": "Maxwell Mckennon",
         "age": 24,
         "country": "USA",
         "points": 73
     },
     {
-        "rank": 554,
-        "player": "Ilya Ivashka",
-        "age": 32,
-        "country": "BLR",
+        "rank": 556,
+        "player": "Dylan Dietrich",
+        "age": 21,
+        "country": "SUI",
         "points": 72
     },
     {
-        "rank": 555,
+        "rank": 557,
+        "player": "Timo Legout",
+        "age": 24,
+        "country": "FRA",
+        "points": 72
+    },
+    {
+        "rank": 558,
         "player": "James Story",
         "age": 25,
         "country": "GBR",
         "points": 72
     },
     {
-        "rank": 556,
+        "rank": 559,
         "player": "Luk\u00e1\u0161 Pokorn\u00fd",
         "age": 24,
         "country": "SVK",
         "points": 72
     },
     {
-        "rank": 557,
+        "rank": 560,
         "player": "Alec Beckley",
         "age": 25,
         "country": "RSA",
         "points": 72
     },
     {
-        "rank": 558,
-        "player": "Peter Makk",
-        "age": 24,
-        "country": "HUN",
-        "points": 72
-    },
-    {
-        "rank": 559,
-        "player": "Oleksii Krutykh",
-        "age": 26,
-        "country": "UKR",
-        "points": 72
-    },
-    {
-        "rank": 560,
-        "player": "\u00c9milien Demanet",
-        "age": 21,
-        "country": "BEL",
-        "points": 72
-    },
-    {
         "rank": 561,
-        "player": "Ma\u00e9 Malige",
-        "age": 20,
-        "country": "FRA",
+        "player": "Digvijay Pratap Singh",
+        "age": 26,
+        "country": "IND",
         "points": 72
     },
     {
         "rank": 562,
-        "player": "Kokoro Isomura",
-        "age": 23,
-        "country": "JPN",
+        "player": "Toufik Sahtali",
+        "age": 27,
+        "country": "ALG",
         "points": 72
     },
     {
@@ -3942,23 +3942,23 @@
     },
     {
         "rank": 564,
-        "player": "Johan Alexander Rodriguez",
-        "age": 22,
-        "country": "COL",
+        "player": "Gavin Young",
+        "age": 23,
+        "country": "USA",
         "points": 71
     },
     {
         "rank": 565,
-        "player": "Juan Sebasti\u00e1n G\u00f3mez",
-        "age": 34,
-        "country": "COL",
+        "player": "Ivan Ivanov",
+        "age": 17,
+        "country": "BUL",
         "points": 71
     },
     {
         "rank": 566,
-        "player": "Maxime Janvier",
-        "age": 29,
-        "country": "FRA",
+        "player": "John Echeverria",
+        "age": 24,
+        "country": "ESP",
         "points": 71
     },
     {
@@ -3970,408 +3970,408 @@
     },
     {
         "rank": 568,
-        "player": "Guillaume Dalmasso",
-        "age": 23,
-        "country": "FRA",
+        "player": "Aziz Dougaz",
+        "age": 29,
+        "country": "TUN",
         "points": 70
     },
     {
         "rank": 569,
-        "player": "Alan Magadan",
-        "age": 25,
-        "country": "MEX",
+        "player": "Juan Sebasti\u00e1n G\u00f3mez",
+        "age": 34,
+        "country": "COL",
         "points": 70
     },
     {
         "rank": 570,
+        "player": "\u00c9milien Demanet",
+        "age": 21,
+        "country": "BEL",
+        "points": 70
+    },
+    {
+        "rank": 571,
+        "player": "Kokoro Isomura",
+        "age": 23,
+        "country": "JPN",
+        "points": 70
+    },
+    {
+        "rank": 572,
+        "player": "Aidan Kim",
+        "age": 21,
+        "country": "USA",
+        "points": 69
+    },
+    {
+        "rank": 573,
         "player": "Alan Fernando Rubio Fierros",
         "age": 27,
         "country": "MEX",
         "points": 69
     },
     {
-        "rank": 571,
+        "rank": 574,
         "player": "Svyatoslav Gulin",
         "age": 23,
         "country": "RUS",
         "points": 69
     },
     {
-        "rank": 572,
+        "rank": 575,
+        "player": "Lorenzo Angelini",
+        "age": 20,
+        "country": "ITA",
+        "points": 69
+    },
+    {
+        "rank": 576,
+        "player": "Johan Alexander Rodriguez",
+        "age": 22,
+        "country": "COL",
+        "points": 68
+    },
+    {
+        "rank": 577,
+        "player": "Adria Soriano Barrera",
+        "age": 27,
+        "country": "COL",
+        "points": 68
+    },
+    {
+        "rank": 578,
         "player": "Alexander Vasilev",
         "age": 19,
         "country": "BUL",
         "points": 68
     },
     {
-        "rank": 573,
+        "rank": 579,
         "player": "Hyeon Chung",
         "age": 30,
         "country": "KOR",
         "points": 68
     },
     {
-        "rank": 574,
-        "player": "Romain Faucon",
-        "age": 23,
-        "country": "BEL",
+        "rank": 580,
+        "player": "Alec Deckers",
+        "age": 26,
+        "country": "NED",
         "points": 68
     },
     {
-        "rank": 575,
+        "rank": 581,
+        "player": "Maxime Janvier",
+        "age": 29,
+        "country": "FRA",
+        "points": 68
+    },
+    {
+        "rank": 582,
+        "player": "Paulo Andre Saraiva Dos Santos",
+        "age": 26,
+        "country": "BRA",
+        "points": 68
+    },
+    {
+        "rank": 583,
         "player": "Alexander Ritschard",
         "age": 32,
         "country": "SUI",
         "points": 67
     },
     {
-        "rank": 576,
-        "player": "Ergi K\u0131rk\u0131n",
-        "age": 27,
-        "country": "TUR",
-        "points": 67
-    },
-    {
-        "rank": 577,
+        "rank": 584,
         "player": "Robin Catry",
         "age": 24,
         "country": "FRA",
         "points": 67
     },
     {
-        "rank": 578,
+        "rank": 585,
+        "player": "Gerard Campana Lee",
+        "age": 21,
+        "country": "KOR",
+        "points": 67
+    },
+    {
+        "rank": 586,
         "player": "Ozan Baris",
         "age": 22,
         "country": "USA",
         "points": 66
     },
     {
-        "rank": 579,
+        "rank": 587,
+        "player": "Alexander Weis",
+        "age": 29,
+        "country": "ITA",
+        "points": 66
+    },
+    {
+        "rank": 588,
         "player": "Amr Elsayed",
         "age": 27,
         "country": "EGY",
         "points": 66
     },
     {
-        "rank": 580,
+        "rank": 589,
         "player": "Kuan Yi Lee",
         "age": 29,
         "country": "TWN",
         "points": 66
     },
     {
-        "rank": 581,
+        "rank": 590,
+        "player": "Yanis Ghazouani Durand",
+        "age": 26,
+        "country": "FRA",
+        "points": 66
+    },
+    {
+        "rank": 591,
         "player": "Marcel Zieli\u0144ski",
         "age": 25,
         "country": "POL",
         "points": 66
     },
     {
-        "rank": 582,
-        "player": "Timo Legout",
-        "age": 24,
-        "country": "FRA",
-        "points": 65
+        "rank": 592,
+        "player": "Romain Faucon",
+        "age": 23,
+        "country": "BEL",
+        "points": 66
     },
     {
-        "rank": 583,
+        "rank": 593,
+        "player": "Imanol L\u00f3pez Morillo",
+        "age": 26,
+        "country": "ESP",
+        "points": 66
+    },
+    {
+        "rank": 594,
         "player": "Dragos Nicolae Madaras",
         "age": 28,
         "country": "SWE",
         "points": 65
     },
     {
-        "rank": 584,
-        "player": "Ivan Ivanov",
-        "age": 17,
-        "country": "BUL",
-        "points": 65
-    },
-    {
-        "rank": 585,
-        "player": "Izan Almazan Valiente",
+        "rank": 595,
+        "player": "Tomasz Berkieta",
         "age": 20,
-        "country": "ESP",
+        "country": "POL",
         "points": 65
     },
     {
-        "rank": 586,
+        "rank": 596,
+        "player": "Jacob Bradshaw",
+        "age": 23,
+        "country": "AUS",
+        "points": 65
+    },
+    {
+        "rank": 597,
         "player": "Karol Filar",
         "age": 27,
         "country": "POL",
         "points": 65
     },
     {
-        "rank": 587,
-        "player": "Nino Ehrenschneider",
-        "age": 25,
-        "country": "GER",
-        "points": 65
-    },
-    {
-        "rank": 588,
+        "rank": 598,
         "player": "Filip Jeff Planin\u0161ek",
         "age": 25,
         "country": "SLO",
         "points": 65
     },
     {
-        "rank": 589,
+        "rank": 599,
+        "player": "Nino Ehrenschneider",
+        "age": 25,
+        "country": "GER",
+        "points": 65
+    },
+    {
+        "rank": 600,
         "player": "Pablo Martinez Gomez",
         "age": 20,
         "country": "ESP",
         "points": 64
     },
     {
-        "rank": 590,
-        "player": "Gavin Young",
-        "age": 23,
-        "country": "USA",
-        "points": 64
-    },
-    {
-        "rank": 591,
+        "rank": 601,
         "player": "Jo\u00e3o Domingues",
         "age": 32,
         "country": "POR",
         "points": 64
     },
     {
-        "rank": 592,
-        "player": "Jacob Bradshaw",
-        "age": 23,
-        "country": "AUS",
+        "rank": 602,
+        "player": "Ergi K\u0131rk\u0131n",
+        "age": 27,
+        "country": "TUR",
         "points": 64
     },
     {
-        "rank": 593,
-        "player": "Lorenzo Angelini",
-        "age": 20,
-        "country": "ITA",
-        "points": 64
-    },
-    {
-        "rank": 594,
-        "player": "Giovanni Oradini",
-        "age": 28,
-        "country": "ITA",
-        "points": 64
-    },
-    {
-        "rank": 595,
+        "rank": 603,
         "player": "Stefan Popovi\u0107",
         "age": 23,
         "country": "SRB",
         "points": 64
     },
     {
-        "rank": 596,
-        "player": "Aidan Kim",
-        "age": 21,
-        "country": "USA",
+        "rank": 604,
+        "player": "Kenta Miyoshi",
+        "age": 22,
+        "country": "JPN",
         "points": 63
     },
     {
-        "rank": 597,
+        "rank": 605,
+        "player": "Tsung Hao Huang",
+        "age": 26,
+        "country": "TWN",
+        "points": 63
+    },
+    {
+        "rank": 606,
         "player": "Daniel De Jonge",
         "age": 26,
         "country": "NED",
         "points": 63
     },
     {
-        "rank": 598,
+        "rank": 607,
         "player": "Ryan Dickerson",
         "age": 29,
         "country": "USA",
         "points": 63
     },
     {
-        "rank": 599,
+        "rank": 608,
+        "player": "Mario Gonzalez Fernandez",
+        "age": 24,
+        "country": "ESP",
+        "points": 63
+    },
+    {
+        "rank": 609,
+        "player": "Leonardo Rossi",
+        "age": 23,
+        "country": "ITA",
+        "points": 63
+    },
+    {
+        "rank": 610,
         "player": "Tristan McCormick",
         "age": 27,
         "country": "USA",
         "points": 62
     },
     {
-        "rank": 600,
-        "player": "Mario Gonzalez Fernandez",
-        "age": 24,
-        "country": "ESP",
-        "points": 62
-    },
-    {
-        "rank": 601,
+        "rank": 611,
         "player": "Andrew Paulson",
         "age": 24,
         "country": "CZE",
         "points": 61
     },
     {
-        "rank": 602,
+        "rank": 612,
         "player": "Mirza Ba\u0161i\u0107",
         "age": 35,
         "country": "BIH",
         "points": 61
     },
     {
-        "rank": 603,
-        "player": "Aristotelis Thanos",
-        "age": 25,
-        "country": "GRE",
-        "points": 61
-    },
-    {
-        "rank": 604,
-        "player": "Tsung Hao Huang",
-        "age": 26,
-        "country": "TWN",
-        "points": 61
-    },
-    {
-        "rank": 605,
+        "rank": 613,
         "player": "Alberto Barroso Campos",
         "age": 30,
         "country": "ESP",
         "points": 61
     },
     {
-        "rank": 606,
+        "rank": 614,
+        "player": "M Rifki Fitriadi",
+        "age": 27,
+        "country": "INA",
+        "points": 61
+    },
+    {
+        "rank": 615,
         "player": "Cruz Hewitt",
         "age": 17,
         "country": "AUS",
         "points": 61
     },
     {
-        "rank": 607,
-        "player": "Leonardo Rossi",
-        "age": 23,
-        "country": "ITA",
+        "rank": 616,
+        "player": "Bruno Kuzuhara",
+        "age": 22,
+        "country": "USA",
         "points": 61
     },
     {
-        "rank": 608,
+        "rank": 617,
         "player": "Nicolas Tepmahc",
         "age": 25,
         "country": "FRA",
         "points": 61
     },
     {
-        "rank": 609,
-        "player": "Luis Carlos Alvarez",
+        "rank": 618,
+        "player": "Iliyan Radulov",
         "age": 21,
-        "country": "MEX",
+        "country": "BUL",
         "points": 60
     },
     {
-        "rank": 610,
-        "player": "Alexey Vatutin",
-        "age": 33,
-        "country": "RUS",
+        "rank": 619,
+        "player": "Aristotelis Thanos",
+        "age": 25,
+        "country": "GRE",
         "points": 60
     },
     {
-        "rank": 611,
-        "player": "Aryan Shah",
-        "age": 20,
-        "country": "IND",
-        "points": 60
-    },
-    {
-        "rank": 612,
-        "player": "Jan Kumst\u00e1t",
-        "age": 19,
-        "country": "CZE",
-        "points": 60
-    },
-    {
-        "rank": 613,
+        "rank": 620,
         "player": "Marlon Vankan",
         "age": 25,
         "country": "GER",
         "points": 60
     },
     {
-        "rank": 614,
+        "rank": 621,
         "player": "Lorenzo Bocchi",
         "age": 28,
         "country": "ITA",
         "points": 60
     },
     {
-        "rank": 615,
+        "rank": 622,
         "player": "Kai Wehnelt",
         "age": 30,
         "country": "GER",
         "points": 60
     },
     {
-        "rank": 616,
-        "player": "M Rifki Fitriadi",
-        "age": 27,
-        "country": "INA",
-        "points": 60
-    },
-    {
-        "rank": 617,
+        "rank": 623,
         "player": "Saba Purtseladze",
         "age": 24,
         "country": "GEO",
         "points": 60
     },
     {
-        "rank": 618,
-        "player": "Dylan Dietrich",
-        "age": 21,
-        "country": "SUI",
-        "points": 59
-    },
-    {
-        "rank": 619,
+        "rank": 624,
         "player": "Erik Arutiunian",
         "age": 21,
         "country": "BLR",
         "points": 59
     },
     {
-        "rank": 620,
-        "player": "Alexander Weis",
-        "age": 29,
-        "country": "ITA",
-        "points": 59
-    },
-    {
-        "rank": 621,
-        "player": "Imanol L\u00f3pez Morillo",
-        "age": 26,
-        "country": "ESP",
-        "points": 59
-    },
-    {
-        "rank": 622,
-        "player": "Bruno Kuzuhara",
-        "age": 22,
-        "country": "USA",
-        "points": 59
-    },
-    {
-        "rank": 623,
-        "player": "Samuel Heredia",
-        "age": 20,
-        "country": "COL",
-        "points": 59
-    },
-    {
-        "rank": 624,
+        "rank": 625,
         "player": "\u00c9tienne Donnet",
         "age": 25,
         "country": "FRA",
-        "points": 58
-    },
-    {
-        "rank": 625,
-        "player": "Olaf Pieczkowski",
-        "age": 22,
-        "country": "POL",
         "points": 58
     },
     {
@@ -4383,58 +4383,58 @@
     },
     {
         "rank": 627,
-        "player": "Igor Gimenez",
-        "age": 26,
-        "country": "BRA",
-        "points": 58
-    },
-    {
-        "rank": 628,
         "player": "S D Prajwal Dev",
         "age": 30,
         "country": "IND",
         "points": 58
     },
     {
-        "rank": 629,
+        "rank": 628,
         "player": "Dmitry Popko",
         "age": 29,
         "country": "KAZ",
         "points": 58
     },
     {
+        "rank": 629,
+        "player": "Strong Kirchheimer",
+        "age": 31,
+        "country": "USA",
+        "points": 58
+    },
+    {
         "rank": 630,
-        "player": "Oleksandr Ovcharenko",
-        "age": 24,
-        "country": "UKR",
+        "player": "Evan Zhu",
+        "age": 27,
+        "country": "USA",
         "points": 58
     },
     {
         "rank": 631,
-        "player": "Maximo Zeitune",
-        "age": 20,
-        "country": "ARG",
-        "points": 58
-    },
-    {
-        "rank": 632,
-        "player": "Gerard Campana Lee",
-        "age": 21,
-        "country": "KOR",
-        "points": 58
-    },
-    {
-        "rank": 633,
         "player": "Ignacio Monz\u00f3n",
         "age": 28,
         "country": "ARG",
         "points": 58
     },
     {
-        "rank": 634,
+        "rank": 632,
         "player": "Conner Huertas del Pino",
         "age": 30,
         "country": "PER",
+        "points": 57
+    },
+    {
+        "rank": 633,
+        "player": "Alexey Vatutin",
+        "age": 33,
+        "country": "RUS",
+        "points": 57
+    },
+    {
+        "rank": 634,
+        "player": "Aidan Mayo",
+        "age": 23,
+        "country": "USA",
         "points": 57
     },
     {
@@ -4446,16 +4446,16 @@
     },
     {
         "rank": 636,
-        "player": "Alfredo Perez",
-        "age": 29,
-        "country": "USA",
+        "player": "Olaf Pieczkowski",
+        "age": 22,
+        "country": "POL",
         "points": 57
     },
     {
         "rank": 637,
-        "player": "Santiago De La Fuente",
+        "player": "Oleksandr Ovcharenko",
         "age": 24,
-        "country": "ARG",
+        "country": "UKR",
         "points": 57
     },
     {
@@ -4467,541 +4467,541 @@
     },
     {
         "rank": 639,
+        "player": "Giovanni Oradini",
+        "age": 28,
+        "country": "ITA",
+        "points": 57
+    },
+    {
+        "rank": 640,
+        "player": "Igor Gimenez",
+        "age": 26,
+        "country": "BRA",
+        "points": 56
+    },
+    {
+        "rank": 641,
         "player": "Neil Oberleitner",
         "age": 26,
         "country": "AUT",
         "points": 56
     },
     {
-        "rank": 640,
-        "player": "Nikita Mashtakov",
-        "age": 27,
-        "country": "UKR",
-        "points": 56
-    },
-    {
-        "rank": 641,
+        "rank": 642,
         "player": "Amir Omarkhanov",
         "age": 18,
         "country": "KAZ",
         "points": 56
     },
     {
-        "rank": 642,
+        "rank": 643,
         "player": "Bruno Fernandez",
         "age": 21,
         "country": "BRA",
         "points": 56
     },
     {
-        "rank": 643,
+        "rank": 644,
+        "player": "Samuel Heredia",
+        "age": 20,
+        "country": "COL",
+        "points": 56
+    },
+    {
+        "rank": 645,
         "player": "Dimitris Sakellaridis",
         "age": 20,
         "country": "GRE",
         "points": 56
     },
     {
-        "rank": 644,
-        "player": "Aziz Dougaz",
-        "age": 29,
-        "country": "TUN",
-        "points": 55
-    },
-    {
-        "rank": 645,
-        "player": "Iliyan Radulov",
-        "age": 21,
-        "country": "BUL",
-        "points": 55
-    },
-    {
         "rank": 646,
-        "player": "Shunsuke Mitsui",
-        "age": 24,
-        "country": "JPN",
+        "player": "Tuncay Duran",
+        "age": 22,
+        "country": "TUR",
         "points": 55
     },
     {
         "rank": 647,
-        "player": "K\u0101rlis Ozoli\u0146\u0161",
-        "age": 24,
-        "country": "LAT",
+        "player": "Alejandro Juan Mano",
+        "age": 21,
+        "country": "ESP",
         "points": 55
     },
     {
         "rank": 648,
-        "player": "Melios Efstathiou",
-        "age": 27,
-        "country": "CYP",
+        "player": "Attila Boros",
+        "age": 22,
+        "country": "HUN",
         "points": 55
     },
     {
         "rank": 649,
+        "player": "Pieter De Lange",
+        "age": 20,
+        "country": "NED",
+        "points": 55
+    },
+    {
+        "rank": 650,
+        "player": "Alan Magadan",
+        "age": 25,
+        "country": "MEX",
+        "points": 55
+    },
+    {
+        "rank": 651,
+        "player": "Adrian \u00d6tzbach",
+        "age": 28,
+        "country": "GER",
+        "points": 55
+    },
+    {
+        "rank": 652,
+        "player": "J.J. Wolf",
+        "age": 27,
+        "country": "USA",
+        "points": 54
+    },
+    {
+        "rank": 653,
         "player": "Ryan Seggerman",
         "age": 26,
         "country": "USA",
         "points": 54
     },
     {
-        "rank": 650,
+        "rank": 654,
+        "player": "Joshua Sheehy",
+        "age": 29,
+        "country": "USA",
+        "points": 54
+    },
+    {
+        "rank": 655,
+        "player": "Shunsuke Mitsui",
+        "age": 24,
+        "country": "JPN",
+        "points": 54
+    },
+    {
+        "rank": 656,
         "player": "Hady Habib",
         "age": 27,
         "country": "LBN",
         "points": 54
     },
     {
-        "rank": 651,
+        "rank": 657,
+        "player": "Nikita Mashtakov",
+        "age": 27,
+        "country": "UKR",
+        "points": 54
+    },
+    {
+        "rank": 658,
         "player": "Peter Fajta",
         "age": 24,
         "country": "HUN",
         "points": 54
     },
     {
-        "rank": 652,
-        "player": "Attila Boros",
-        "age": 22,
-        "country": "HUN",
-        "points": 54
-    },
-    {
-        "rank": 653,
+        "rank": 659,
         "player": "Matisse Bobichon",
         "age": 24,
         "country": "FRA",
         "points": 54
     },
     {
-        "rank": 654,
+        "rank": 660,
+        "player": "Maximo Zeitune",
+        "age": 20,
+        "country": "ARG",
+        "points": 54
+    },
+    {
+        "rank": 661,
         "player": "L\u00e9o Raquillet",
         "age": 20,
         "country": "FRA",
         "points": 54
     },
     {
-        "rank": 655,
+        "rank": 662,
+        "player": "Melios Efstathiou",
+        "age": 27,
+        "country": "CYP",
+        "points": 54
+    },
+    {
+        "rank": 663,
         "player": "Chase Ferguson",
         "age": 27,
         "country": "AUS",
         "points": 54
     },
     {
-        "rank": 656,
-        "player": "Samuel Alejandro Linde Palacios",
-        "age": 18,
-        "country": "COL",
-        "points": 54
-    },
-    {
-        "rank": 657,
+        "rank": 664,
         "player": "Brandon Holt",
         "age": 28,
         "country": "USA",
         "points": 53
     },
     {
-        "rank": 658,
+        "rank": 665,
+        "player": "Duncan Chan",
+        "age": 20,
+        "country": "CAN",
+        "points": 53
+    },
+    {
+        "rank": 666,
+        "player": "Alfredo Perez",
+        "age": 29,
+        "country": "USA",
+        "points": 53
+    },
+    {
+        "rank": 667,
         "player": "Igor Kudriashov",
         "age": 22,
         "country": "RUS",
         "points": 53
     },
     {
-        "rank": 659,
+        "rank": 668,
         "player": "Ryan Colby",
         "age": 22,
         "country": "USA",
         "points": 53
     },
     {
-        "rank": 660,
-        "player": "Strong Kirchheimer",
-        "age": 31,
-        "country": "USA",
+        "rank": 669,
+        "player": "Stefan Adrian Andreescu",
+        "age": 24,
+        "country": "ROU",
         "points": 53
     },
     {
-        "rank": 661,
+        "rank": 670,
         "player": "Nicol\u00e1s Villal\u00f3n",
         "age": 22,
         "country": "CHI",
         "points": 53
     },
     {
-        "rank": 662,
-        "player": "Yanis Ghazouani Durand",
-        "age": 26,
-        "country": "FRA",
-        "points": 53
-    },
-    {
-        "rank": 663,
+        "rank": 671,
         "player": "Lucas Andrade Da Silva",
         "age": 21,
         "country": "BRA",
         "points": 52
     },
     {
-        "rank": 664,
-        "player": "Duncan Chan",
-        "age": 20,
-        "country": "CAN",
-        "points": 52
-    },
-    {
-        "rank": 665,
-        "player": "Joshua Sheehy",
-        "age": 29,
-        "country": "USA",
-        "points": 52
-    },
-    {
-        "rank": 666,
+        "rank": 672,
         "player": "Aleksandre Bakshi",
-        "age": 28,
+        "age": 29,
         "country": "GEO",
         "points": 52
     },
     {
-        "rank": 667,
+        "rank": 673,
         "player": "Yuta Kawahashi",
         "age": 28,
         "country": "JPN",
         "points": 52
     },
     {
-        "rank": 668,
+        "rank": 674,
         "player": "Yaroslav Demin",
         "age": 20,
         "country": "RUS",
         "points": 52
     },
     {
-        "rank": 669,
-        "player": "Yuta Kikuchi",
-        "age": 26,
-        "country": "JPN",
-        "points": 52
-    },
-    {
-        "rank": 670,
-        "player": "Stefan Adrian Andreescu",
-        "age": 24,
-        "country": "ROU",
-        "points": 52
-    },
-    {
-        "rank": 671,
-        "player": "Yusuke Takahashi",
-        "age": 28,
-        "country": "JPN",
-        "points": 52
-    },
-    {
-        "rank": 672,
+        "rank": 675,
         "player": "Yurii Dzhavakian",
         "age": 33,
         "country": "UKR",
         "points": 52
     },
     {
-        "rank": 673,
-        "player": "Roger Pascual Ferra",
-        "age": 20,
-        "country": "ESP",
+        "rank": 676,
+        "player": "K\u0101rlis Ozoli\u0146\u0161",
+        "age": 24,
+        "country": "LAT",
         "points": 51
     },
     {
-        "rank": 674,
-        "player": "Aidan Mayo",
-        "age": 23,
-        "country": "USA",
+        "rank": 677,
+        "player": "Jakub Nicod",
+        "age": 22,
+        "country": "CZE",
         "points": 51
     },
     {
-        "rank": 675,
+        "rank": 678,
+        "player": "Yuta Kikuchi",
+        "age": 26,
+        "country": "JPN",
+        "points": 51
+    },
+    {
+        "rank": 679,
+        "player": "Yusuke Takahashi",
+        "age": 28,
+        "country": "JPN",
+        "points": 51
+    },
+    {
+        "rank": 680,
         "player": "Amit Vales",
         "age": 21,
         "country": "ISR",
         "points": 51
     },
     {
-        "rank": 676,
-        "player": "Leo Vithoontien",
-        "age": 26,
-        "country": "JPN",
-        "points": 51
-    },
-    {
-        "rank": 677,
+        "rank": 681,
         "player": "Samir Hamza Reguig",
         "age": 24,
         "country": "ALG",
         "points": 51
     },
     {
-        "rank": 678,
-        "player": "Maty\u00e1\u0161 \u010cern\u00fd",
-        "age": 24,
-        "country": "CZE",
-        "points": 50
-    },
-    {
-        "rank": 679,
+        "rank": 682,
         "player": "Egor Agafonov",
         "age": 23,
         "country": "RUS",
         "points": 50
     },
     {
-        "rank": 680,
+        "rank": 683,
+        "player": "Giorgio Tabacco",
+        "age": 22,
+        "country": "ITA",
+        "points": 50
+    },
+    {
+        "rank": 684,
         "player": "Keisuke Saitoh",
         "age": 25,
         "country": "JPN",
         "points": 50
     },
     {
-        "rank": 681,
-        "player": "Millen Hurrion",
-        "age": 27,
-        "country": "GBR",
-        "points": 50
-    },
-    {
-        "rank": 682,
-        "player": "Spencer Johnson",
-        "age": 23,
-        "country": "USA",
-        "points": 49
-    },
-    {
-        "rank": 683,
+        "rank": 685,
         "player": "Arthur Bouquier",
         "age": 25,
         "country": "FRA",
         "points": 49
     },
     {
-        "rank": 684,
+        "rank": 686,
+        "player": "Sander Jong",
+        "age": 26,
+        "country": "NED",
+        "points": 49
+    },
+    {
+        "rank": 687,
         "player": "Daniel Antonio N\u00fa\u00f1ez",
         "age": 25,
         "country": "CHI",
         "points": 49
     },
     {
-        "rank": 685,
-        "player": "Adrian \u00d6tzbach",
-        "age": 28,
-        "country": "GER",
+        "rank": 688,
+        "player": "Samuel Vincent Ruggeri",
+        "age": 24,
+        "country": "ITA",
         "points": 49
     },
     {
-        "rank": 686,
+        "rank": 689,
+        "player": "Yuki Mochizuki",
+        "age": 28,
+        "country": "JPN",
+        "points": 49
+    },
+    {
+        "rank": 690,
+        "player": "Leo Vithoontien",
+        "age": 26,
+        "country": "JPN",
+        "points": 49
+    },
+    {
+        "rank": 691,
         "player": "Timofei Derepasko",
         "age": 19,
         "country": "RUS",
         "points": 49
     },
     {
-        "rank": 687,
-        "player": "Oscar Jose Gutierrez",
-        "age": 33,
-        "country": "ESP",
-        "points": 49
-    },
-    {
-        "rank": 688,
-        "player": "J.J. Wolf",
-        "age": 27,
-        "country": "USA",
+        "rank": 692,
+        "player": "Hoyoung Roh",
+        "age": 20,
+        "country": "KOR",
         "points": 48
     },
     {
-        "rank": 689,
+        "rank": 693,
         "player": "Oscar Weightman",
         "age": 24,
         "country": "GBR",
         "points": 48
     },
     {
-        "rank": 690,
+        "rank": 694,
         "player": "Maxence Beaug\u00e9",
         "age": 26,
         "country": "FRA",
         "points": 48
     },
     {
-        "rank": 691,
+        "rank": 695,
         "player": "Gabriel Ghetu",
         "age": 18,
         "country": "ROU",
         "points": 48
     },
     {
-        "rank": 692,
-        "player": "Mariano Kestelboim",
-        "age": 30,
-        "country": "ARG",
+        "rank": 696,
+        "player": "Maty\u00e1\u0161 \u010cern\u00fd",
+        "age": 24,
+        "country": "CZE",
         "points": 48
     },
     {
-        "rank": 693,
+        "rank": 697,
         "player": "Dong Ju Kim",
         "age": 24,
         "country": "KOR",
         "points": 48
     },
     {
-        "rank": 694,
+        "rank": 698,
         "player": "Uisung Park",
         "age": 25,
         "country": "KOR",
         "points": 48
     },
     {
-        "rank": 695,
+        "rank": 699,
         "player": "Josip \u0160imund\u017ea",
         "age": 21,
         "country": "CRO",
         "points": 48
     },
     {
-        "rank": 696,
-        "player": "Pieter De Lange",
-        "age": 20,
-        "country": "NED",
+        "rank": 700,
+        "player": "Andreja Petrovic",
+        "age": 26,
+        "country": "NOR",
         "points": 48
     },
     {
-        "rank": 697,
-        "player": "Tianhui Zhang",
-        "age": 20,
-        "country": "CHN",
-        "points": 48
-    },
-    {
-        "rank": 698,
+        "rank": 701,
         "player": "Marc Majdandzic",
         "age": 21,
         "country": "GER",
         "points": 48
     },
     {
-        "rank": 699,
-        "player": "Evan Zhu",
-        "age": 27,
-        "country": "USA",
+        "rank": 702,
+        "player": "Oscar Jose Gutierrez",
+        "age": 33,
+        "country": "ESP",
         "points": 48
     },
     {
-        "rank": 700,
-        "player": "Franco Ribero",
-        "age": 26,
-        "country": "ARG",
-        "points": 48
-    },
-    {
-        "rank": 701,
-        "player": "Tuncay Duran",
-        "age": 22,
-        "country": "TUR",
+        "rank": 703,
+        "player": "Arklon Huertas Del Pino Cordova",
+        "age": 32,
+        "country": "PER",
         "points": 47
     },
     {
-        "rank": 702,
+        "rank": 704,
         "player": "Ye Cong Mo",
         "age": 26,
         "country": "CHN",
         "points": 47
     },
     {
-        "rank": 703,
-        "player": "Arklon Huertas Del Pino Cordova",
-        "age": 31,
-        "country": "PER",
-        "points": 47
-    },
-    {
-        "rank": 704,
-        "player": "Matyas Fuele",
-        "age": 27,
-        "country": "HUN",
-        "points": 47
-    },
-    {
         "rank": 705,
-        "player": "Samuel Vincent Ruggeri",
-        "age": 24,
-        "country": "ITA",
+        "player": "Tianhui Zhang",
+        "age": 20,
+        "country": "CHN",
         "points": 47
     },
     {
         "rank": 706,
-        "player": "Andreja Petrovic",
-        "age": 26,
-        "country": "NOR",
-        "points": 47
-    },
-    {
-        "rank": 707,
-        "player": "Yuki Mochizuki",
-        "age": 28,
-        "country": "JPN",
-        "points": 47
-    },
-    {
-        "rank": 708,
         "player": "Shinji Hazawa",
         "age": 27,
         "country": "JPN",
         "points": 47
     },
     {
-        "rank": 709,
-        "player": "Seydina Andr\u00e9",
-        "age": 22,
-        "country": "SEN",
-        "points": 47
-    },
-    {
-        "rank": 710,
-        "player": "Kalin Ivanovski",
-        "age": 22,
-        "country": "MKD",
+        "rank": 707,
+        "player": "Matteo Gigante",
+        "age": 24,
+        "country": "ITA",
         "points": 46
     },
     {
-        "rank": 711,
+        "rank": 708,
+        "player": "Khololwam Montsi",
+        "age": 23,
+        "country": "RSA",
+        "points": 46
+    },
+    {
+        "rank": 709,
         "player": "Felipe Meligeni Alves",
         "age": 28,
         "country": "BRA",
         "points": 46
     },
     {
-        "rank": 712,
-        "player": "Alessandro Pecci",
-        "age": 25,
-        "country": "ITA",
+        "rank": 710,
+        "player": "Pavel Lagutin",
+        "age": 21,
+        "country": "RUS",
         "points": 46
     },
     {
-        "rank": 713,
+        "rank": 711,
         "player": "Kasra Rahmani",
         "age": 19,
         "country": "IRI",
         "points": 46
     },
     {
-        "rank": 714,
+        "rank": 712,
         "player": "Radu David Turcanu",
         "age": 20,
         "country": "ROU",
         "points": 46
     },
     {
+        "rank": 713,
+        "player": "Thiago Cigarran",
+        "age": 26,
+        "country": "ARG",
+        "points": 46
+    },
+    {
+        "rank": 714,
+        "player": "Millen Hurrion",
+        "age": 27,
+        "country": "GBR",
+        "points": 46
+    },
+    {
         "rank": 715,
-        "player": "Yanaki Milev",
-        "age": 22,
-        "country": "BUL",
+        "player": "Franco Ribero",
+        "age": 26,
+        "country": "ARG",
         "points": 46
     },
     {
@@ -5013,352 +5013,352 @@
     },
     {
         "rank": 717,
+        "player": "Seydina Andr\u00e9",
+        "age": 22,
+        "country": "SEN",
+        "points": 46
+    },
+    {
+        "rank": 718,
+        "player": "Nicolas Arseneault",
+        "age": 19,
+        "country": "CAN",
+        "points": 45
+    },
+    {
+        "rank": 719,
         "player": "Kei Nishikori",
         "age": 36,
         "country": "JPN",
         "points": 45
     },
     {
-        "rank": 718,
-        "player": "Gustavo Ribeiro De Almeida",
-        "age": 20,
-        "country": "BRA",
-        "points": 45
-    },
-    {
-        "rank": 719,
+        "rank": 720,
         "player": "Lorenzo Sciahbasi",
         "age": 20,
         "country": "ITA",
         "points": 45
     },
     {
-        "rank": 720,
+        "rank": 721,
+        "player": "Anton Arzhankin",
+        "age": 23,
+        "country": "RUS",
+        "points": 45
+    },
+    {
+        "rank": 722,
         "player": "Manish Sureshkumar",
         "age": 26,
         "country": "IND",
         "points": 45
     },
     {
-        "rank": 721,
+        "rank": 723,
         "player": "Michal Kraj\u010d\u00ed",
         "age": 21,
         "country": "SVK",
         "points": 45
     },
     {
-        "rank": 722,
+        "rank": 724,
         "player": "Maik Steiner",
         "age": 32,
         "country": "GER",
         "points": 45
     },
     {
-        "rank": 723,
-        "player": "Louis We\u00dfels",
-        "age": 27,
-        "country": "GER",
-        "points": 45
-    },
-    {
-        "rank": 724,
+        "rank": 725,
         "player": "Carles Hern\u00e1ndez",
         "age": 25,
         "country": "ESP",
         "points": 45
     },
     {
-        "rank": 725,
-        "player": "Hoyoung Roh",
-        "age": 20,
-        "country": "KOR",
-        "points": 44
-    },
-    {
         "rank": 726,
-        "player": "Andres Santamarta Roig",
-        "age": 19,
-        "country": "ESP",
-        "points": 44
-    },
-    {
-        "rank": 727,
         "player": "Th\u00e9o Papamalamis",
         "age": 20,
         "country": "FRA",
         "points": 44
     },
     {
-        "rank": 728,
-        "player": "Gast\u00e3o Elias",
-        "age": 35,
-        "country": "POR",
+        "rank": 727,
+        "player": "Andres Santamarta Roig",
+        "age": 19,
+        "country": "ESP",
         "points": 44
     },
     {
-        "rank": 729,
+        "rank": 728,
         "player": "Hunter Heck",
         "age": 24,
         "country": "USA",
         "points": 44
     },
     {
+        "rank": 729,
+        "player": "Aryan Shah",
+        "age": 20,
+        "country": "IND",
+        "points": 44
+    },
+    {
         "rank": 730,
-        "player": "Sander Jong",
-        "age": 26,
-        "country": "NED",
-        "points": 44
-    },
-    {
-        "rank": 731,
-        "player": "Jakub Nicod",
-        "age": 21,
-        "country": "CZE",
-        "points": 44
-    },
-    {
-        "rank": 732,
         "player": "Martin Van Der Meerschen",
         "age": 26,
         "country": "BEL",
         "points": 44
     },
     {
-        "rank": 733,
+        "rank": 731,
         "player": "Rafael Izquierdo Luque",
         "age": 26,
         "country": "ESP",
         "points": 44
     },
     {
-        "rank": 734,
+        "rank": 732,
         "player": "Ben Jones",
         "age": 28,
         "country": "GBR",
         "points": 44
     },
     {
-        "rank": 735,
+        "rank": 733,
         "player": "Nikolai Barsukov",
         "age": 19,
         "country": "GER",
         "points": 44
     },
     {
-        "rank": 736,
-        "player": "Noa Vukadin",
-        "age": 22,
-        "country": "CRO",
+        "rank": 734,
+        "player": "Alessandro Pecci",
+        "age": 25,
+        "country": "ITA",
         "points": 43
     },
     {
-        "rank": 737,
+        "rank": 735,
         "player": "Pierluigi Basile",
         "age": 19,
         "country": "ITA",
         "points": 43
     },
     {
-        "rank": 738,
-        "player": "Pavel Lagutin",
-        "age": 21,
-        "country": "RUS",
-        "points": 43
-    },
-    {
-        "rank": 739,
-        "player": "Giorgio Tabacco",
-        "age": 22,
-        "country": "ITA",
-        "points": 43
-    },
-    {
-        "rank": 740,
-        "player": "Fernando Cavallo",
-        "age": 20,
+        "rank": 736,
+        "player": "Mariano Kestelboim",
+        "age": 30,
         "country": "ARG",
         "points": 43
     },
     {
-        "rank": 741,
+        "rank": 737,
+        "player": "Naoki Nakagawa",
+        "age": 29,
+        "country": "JPN",
+        "points": 43
+    },
+    {
+        "rank": 738,
         "player": "Loann Massard",
         "age": 20,
         "country": "FRA",
         "points": 43
     },
     {
-        "rank": 742,
-        "player": "Matteo Covato",
-        "age": 21,
-        "country": "ITA",
-        "points": 43
-    },
-    {
-        "rank": 743,
+        "rank": 739,
         "player": "Michiel De Krom",
         "age": 28,
         "country": "NED",
         "points": 43
     },
     {
-        "rank": 744,
+        "rank": 740,
+        "player": "Noa Vukadin",
+        "age": 22,
+        "country": "CRO",
+        "points": 42
+    },
+    {
+        "rank": 741,
+        "player": "Matthew Forbes",
+        "age": 20,
+        "country": "USA",
+        "points": 42
+    },
+    {
+        "rank": 742,
         "player": "Michael Vrbensk\u00fd",
         "age": 26,
         "country": "CZE",
         "points": 42
     },
     {
-        "rank": 745,
+        "rank": 743,
         "player": "Herman Hoeyeraal",
         "age": 24,
         "country": "NOR",
         "points": 42
     },
     {
-        "rank": 746,
+        "rank": 744,
         "player": "Nikita Belozertsev",
         "age": 17,
         "country": "UZB",
         "points": 42
     },
     {
-        "rank": 747,
-        "player": "Juan Sebastian Osorio",
-        "age": 28,
-        "country": "COL",
-        "points": 42
-    },
-    {
-        "rank": 748,
+        "rank": 745,
         "player": "Oskar Brostrom Poulsen",
         "age": 24,
         "country": "DEN",
         "points": 42
     },
     {
+        "rank": 746,
+        "player": "Adhithya Ganesan",
+        "age": 20,
+        "country": "USA",
+        "points": 42
+    },
+    {
+        "rank": 747,
+        "player": "Fernando Cavallo",
+        "age": 20,
+        "country": "ARG",
+        "points": 42
+    },
+    {
+        "rank": 748,
+        "player": "Santiago De La Fuente",
+        "age": 24,
+        "country": "ARG",
+        "points": 42
+    },
+    {
         "rank": 749,
+        "player": "Pierre Delage",
+        "age": 25,
+        "country": "FRA",
+        "points": 42
+    },
+    {
+        "rank": 750,
         "player": "Pawit Sornlaksup",
         "age": 26,
         "country": "THA",
         "points": 42
     },
     {
-        "rank": 750,
+        "rank": 751,
         "player": "Wilson Leite",
         "age": 34,
         "country": "BRA",
         "points": 42
     },
     {
-        "rank": 751,
-        "player": "Thiago Cigarran",
-        "age": 26,
-        "country": "ARG",
+        "rank": 752,
+        "player": "Yanaki Milev",
+        "age": 22,
+        "country": "BUL",
         "points": 42
     },
     {
-        "rank": 752,
-        "player": "Elmar Ejupovic",
-        "age": 33,
-        "country": "GER",
+        "rank": 753,
+        "player": "Matteo Covato",
+        "age": 21,
+        "country": "ITA",
+        "points": 42
+    },
+    {
+        "rank": 754,
+        "player": "Kalin Ivanovski",
+        "age": 22,
+        "country": "MKD",
         "points": 41
     },
     {
-        "rank": 753,
+        "rank": 755,
         "player": "Antoine Escoffier",
         "age": 34,
         "country": "FRA",
         "points": 41
     },
     {
-        "rank": 754,
-        "player": "Tom\u00e1s Farjat",
-        "age": 25,
-        "country": "ARG",
-        "points": 41
-    },
-    {
-        "rank": 755,
-        "player": "Alejandro Juan Mano",
-        "age": 21,
-        "country": "ESP",
-        "points": 41
-    },
-    {
         "rank": 756,
+        "player": "Gustavo Ribeiro De Almeida",
+        "age": 20,
+        "country": "BRA",
+        "points": 41
+    },
+    {
+        "rank": 757,
+        "player": "Juan Sebastian Osorio",
+        "age": 28,
+        "country": "COL",
+        "points": 41
+    },
+    {
+        "rank": 758,
         "player": "Manuel Mazza",
         "age": 27,
         "country": "ITA",
         "points": 41
     },
     {
-        "rank": 757,
+        "rank": 759,
         "player": "Ryan Fishback",
         "age": 24,
         "country": "USA",
         "points": 41
     },
     {
-        "rank": 758,
-        "player": "Denis Klok",
-        "age": 28,
-        "country": "RUS",
-        "points": 41
-    },
-    {
-        "rank": 759,
+        "rank": 760,
         "player": "Vincent Marysko",
         "age": 20,
         "country": "GER",
         "points": 41
     },
     {
-        "rank": 760,
+        "rank": 761,
         "player": "Ignacio Parisca Romera",
         "age": 20,
         "country": "VEN",
         "points": 41
     },
     {
-        "rank": 761,
-        "player": "Maxence Bertimon",
-        "age": 26,
-        "country": "FRA",
+        "rank": 762,
+        "player": "Naoya Honda",
+        "age": 20,
+        "country": "JPN",
         "points": 41
     },
     {
-        "rank": 762,
+        "rank": 763,
         "player": "Nicolas Zanellato",
         "age": 24,
         "country": "BRA",
         "points": 41
     },
     {
-        "rank": 763,
+        "rank": 764,
         "player": "Joshua Charlton",
         "age": 26,
         "country": "AUS",
         "points": 41
     },
     {
-        "rank": 764,
+        "rank": 765,
         "player": "Nicol\u00e1s Jarry",
         "age": 30,
         "country": "CHI",
         "points": 40
     },
     {
-        "rank": 765,
+        "rank": 766,
         "player": "M\u00e1t\u00e9 Valkusz",
         "age": 27,
         "country": "HUN",
-        "points": 40
-    },
-    {
-        "rank": 766,
-        "player": "Stuart Parker",
-        "age": 28,
-        "country": "GBR",
         "points": 40
     },
     {
@@ -5370,107 +5370,107 @@
     },
     {
         "rank": 768,
-        "player": "Nikolay Vylegzhanin",
-        "age": 26,
-        "country": "RUS",
-        "points": 40
-    },
-    {
-        "rank": 769,
-        "player": "Ryuki Matsuda",
-        "age": 26,
-        "country": "JPN",
-        "points": 40
-    },
-    {
-        "rank": 770,
-        "player": "Pierre Delage",
-        "age": 25,
-        "country": "FRA",
-        "points": 40
-    },
-    {
-        "rank": 771,
-        "player": "Naoya Honda",
-        "age": 20,
-        "country": "JPN",
-        "points": 40
-    },
-    {
-        "rank": 772,
         "player": "John Hallquist Lithen",
         "age": 24,
         "country": "SWE",
         "points": 40
     },
     {
-        "rank": 773,
+        "rank": 769,
         "player": "Aleksandr Braynin",
         "age": 26,
         "country": "UKR",
         "points": 40
     },
     {
-        "rank": 774,
-        "player": "Cooper Williams",
-        "age": 21,
-        "country": "USA",
+        "rank": 770,
+        "player": "Paul Inchauspe",
+        "age": 22,
+        "country": "FRA",
         "points": 39
     },
     {
-        "rank": 775,
+        "rank": 771,
+        "player": "Nikolay Vylegzhanin",
+        "age": 26,
+        "country": "RUS",
+        "points": 39
+    },
+    {
+        "rank": 772,
         "player": "Filippo Moroni",
         "age": 25,
         "country": "ITA",
         "points": 39
     },
     {
-        "rank": 776,
-        "player": "Naoki Nakagawa",
-        "age": 29,
+        "rank": 773,
+        "player": "Tom\u00e1s Farjat",
+        "age": 25,
+        "country": "ARG",
+        "points": 39
+    },
+    {
+        "rank": 774,
+        "player": "Ryuki Matsuda",
+        "age": 26,
         "country": "JPN",
         "points": 39
     },
     {
-        "rank": 777,
-        "player": "Adhithya Ganesan",
-        "age": 20,
-        "country": "USA",
-        "points": 39
-    },
-    {
-        "rank": 778,
+        "rank": 775,
         "player": "Marko Miladinovi\u0107",
         "age": 25,
         "country": "SRB",
         "points": 39
     },
     {
-        "rank": 779,
+        "rank": 776,
+        "player": "Denis Klok",
+        "age": 28,
+        "country": "RUS",
+        "points": 39
+    },
+    {
+        "rank": 777,
+        "player": "Rodrigo Alujas",
+        "age": 23,
+        "country": "MEX",
+        "points": 39
+    },
+    {
+        "rank": 778,
         "player": "Tim Handel",
         "age": 29,
         "country": "GER",
         "points": 39
     },
     {
+        "rank": 779,
+        "player": "Maxence Bertimon",
+        "age": 26,
+        "country": "FRA",
+        "points": 39
+    },
+    {
         "rank": 780,
-        "player": "Nicolas Arseneault",
-        "age": 19,
-        "country": "CAN",
-        "points": 38
+        "player": "Daniel Salazar",
+        "age": 25,
+        "country": "COL",
+        "points": 39
     },
     {
         "rank": 781,
-        "player": "Govind Nanda",
-        "age": 25,
-        "country": "USA",
+        "player": "Alibek Kachmazov",
+        "age": 23,
+        "country": "RUS",
         "points": 38
     },
     {
         "rank": 782,
-        "player": "Alibek Kachmazov",
-        "age": 23,
-        "country": "RUS",
+        "player": "Stuart Parker",
+        "age": 28,
+        "country": "GBR",
         "points": 38
     },
     {
@@ -5482,16 +5482,16 @@
     },
     {
         "rank": 784,
-        "player": "Gian Luca Tanner",
-        "age": 25,
-        "country": "SUI",
+        "player": "Gast\u00e3o Elias",
+        "age": 35,
+        "country": "POR",
         "points": 38
     },
     {
         "rank": 785,
-        "player": "Jos\u00e9 Pereira",
-        "age": 35,
-        "country": "BRA",
+        "player": "Gian Luca Tanner",
+        "age": 25,
+        "country": "SUI",
         "points": 38
     },
     {
@@ -5524,9 +5524,9 @@
     },
     {
         "rank": 790,
-        "player": "Peter Bertran",
-        "age": 30,
-        "country": "DOM",
+        "player": "Ilya Sni\u021bari",
+        "age": 24,
+        "country": "MDA",
         "points": 37
     },
     {
@@ -5552,9 +5552,9 @@
     },
     {
         "rank": 794,
-        "player": "Anton Arzhankin",
+        "player": "Noah Zamora",
         "age": 23,
-        "country": "RUS",
+        "country": "USA",
         "points": 37
     },
     {
@@ -5580,93 +5580,93 @@
     },
     {
         "rank": 798,
-        "player": "Daniel Salazar",
-        "age": 25,
-        "country": "COL",
-        "points": 37
-    },
-    {
-        "rank": 799,
         "player": "Taisei Ichikawa",
         "age": 25,
         "country": "JPN",
         "points": 37
     },
     {
-        "rank": 800,
+        "rank": 799,
         "player": "Alexis Gautier",
         "age": 29,
         "country": "FRA",
         "points": 36
     },
     {
-        "rank": 801,
-        "player": "Shintaro Imai",
-        "age": 32,
-        "country": "JPN",
+        "rank": 800,
+        "player": "Michael Agwi",
+        "age": 22,
+        "country": "IRL",
         "points": 36
     },
     {
-        "rank": 802,
+        "rank": 801,
         "player": "Alejandro Turriziani \u00c1lvarez",
         "age": 23,
         "country": "ESP",
         "points": 36
     },
     {
-        "rank": 803,
-        "player": "Rodrigo Alujas",
-        "age": 23,
-        "country": "MEX",
-        "points": 36
-    },
-    {
-        "rank": 804,
-        "player": "Michel Hopp",
-        "age": 27,
-        "country": "GER",
-        "points": 36
-    },
-    {
-        "rank": 805,
-        "player": "Daniele Rapagnetta",
-        "age": 19,
-        "country": "ITA",
-        "points": 36
-    },
-    {
-        "rank": 806,
+        "rank": 802,
         "player": "Nikola Slavic",
         "age": 25,
         "country": "SWE",
         "points": 36
     },
     {
-        "rank": 807,
+        "rank": 803,
+        "player": "Michel Hopp",
+        "age": 27,
+        "country": "GER",
+        "points": 36
+    },
+    {
+        "rank": 804,
+        "player": "Daniele Rapagnetta",
+        "age": 19,
+        "country": "ITA",
+        "points": 36
+    },
+    {
+        "rank": 805,
         "player": "Nicholas David Ionel",
         "age": 23,
         "country": "ROU",
         "points": 36
     },
     {
-        "rank": 808,
+        "rank": 806,
+        "player": "Cooper Williams",
+        "age": 21,
+        "country": "USA",
+        "points": 35
+    },
+    {
+        "rank": 807,
         "player": "Andrew Johnson",
         "age": 16,
         "country": "USA",
         "points": 35
     },
     {
+        "rank": 808,
+        "player": "Roger Pascual Ferra",
+        "age": 20,
+        "country": "ESP",
+        "points": 35
+    },
+    {
         "rank": 809,
-        "player": "Facundo Ju\u00e1rez",
-        "age": 28,
-        "country": "ITA",
+        "player": "Luis Carlos Alvarez",
+        "age": 21,
+        "country": "MEX",
         "points": 35
     },
     {
         "rank": 810,
-        "player": "Michael Agwi",
-        "age": 22,
-        "country": "IRL",
+        "player": "Thomas Fancutt",
+        "age": 31,
+        "country": "AUS",
         "points": 35
     },
     {
@@ -5692,191 +5692,191 @@
     },
     {
         "rank": 814,
-        "player": "Stefano D'Agostino",
-        "age": 22,
-        "country": "ITA",
+        "player": "Jos\u00e9 Pereira",
+        "age": 35,
+        "country": "BRA",
         "points": 35
     },
     {
         "rank": 815,
+        "player": "Keshav Chopra",
+        "age": 24,
+        "country": "USA",
+        "points": 35
+    },
+    {
+        "rank": 816,
         "player": "Dimitris Azoidis",
         "age": 25,
         "country": "GRE",
         "points": 35
     },
     {
-        "rank": 816,
+        "rank": 817,
+        "player": "Taiyo Yamanaka",
+        "age": 24,
+        "country": "JPN",
+        "points": 35
+    },
+    {
+        "rank": 818,
+        "player": "Cosme Rolland De Ravel",
+        "age": 22,
+        "country": "FRA",
+        "points": 34
+    },
+    {
+        "rank": 819,
         "player": "Nicolas Oliveira",
         "age": 20,
         "country": "BRA",
         "points": 34
     },
     {
-        "rank": 817,
-        "player": "Kenta Miyoshi",
-        "age": 22,
-        "country": "JPN",
+        "rank": 820,
+        "player": "Abel Forger",
+        "age": 20,
+        "country": "NED",
         "points": 34
     },
     {
-        "rank": 818,
-        "player": "Dennis Novak",
-        "age": 32,
-        "country": "AUT",
-        "points": 34
-    },
-    {
-        "rank": 819,
+        "rank": 821,
         "player": "Maximilian Neuchrist",
         "age": 34,
         "country": "AUT",
         "points": 34
     },
     {
-        "rank": 820,
+        "rank": 822,
         "player": "Tiago Ca\u00e7\u00e3o",
         "age": 28,
         "country": "POR",
         "points": 34
     },
     {
-        "rank": 821,
+        "rank": 823,
         "player": "Mwendwa Mbithi",
         "age": 28,
         "country": "USA",
         "points": 34
     },
     {
-        "rank": 822,
+        "rank": 824,
         "player": "Benjamin Torrealba",
         "age": 21,
         "country": "CHI",
         "points": 34
     },
     {
-        "rank": 823,
+        "rank": 825,
         "player": "Andrea De Marchi",
         "age": 19,
         "country": "ITA",
         "points": 34
     },
     {
-        "rank": 824,
+        "rank": 826,
         "player": "Dinko Dinev",
         "age": 22,
         "country": "BUL",
         "points": 34
     },
     {
-        "rank": 825,
-        "player": "Paul Inchauspe",
-        "age": 22,
+        "rank": 827,
+        "player": "Nicolas Jadoun",
+        "age": 23,
         "country": "FRA",
+        "points": 34
+    },
+    {
+        "rank": 828,
+        "player": "Elmar Ejupovic",
+        "age": 33,
+        "country": "GER",
         "points": 33
     },
     {
-        "rank": 826,
+        "rank": 829,
         "player": "Dan Alexandru Tomescu",
         "age": 27,
         "country": "ROU",
         "points": 33
     },
     {
-        "rank": 827,
+        "rank": 830,
         "player": "Stefan Horia Haita",
         "age": 19,
         "country": "ROU",
         "points": 33
     },
     {
-        "rank": 828,
-        "player": "Marc Van Der Merwe",
-        "age": 31,
-        "country": "RSA",
-        "points": 33
-    },
-    {
-        "rank": 829,
+        "rank": 831,
         "player": "Natan Rodrigues",
         "age": 24,
         "country": "BRA",
         "points": 33
     },
     {
-        "rank": 830,
-        "player": "Keshav Chopra",
-        "age": 24,
-        "country": "USA",
-        "points": 33
-    },
-    {
-        "rank": 831,
+        "rank": 832,
         "player": "Anas Mazdrashki",
         "age": 20,
         "country": "BUL",
         "points": 33
     },
     {
-        "rank": 832,
+        "rank": 833,
+        "player": "Benjamin Pietri",
+        "age": 29,
+        "country": "FRA",
+        "points": 33
+    },
+    {
+        "rank": 834,
         "player": "Francisco Rocha",
         "age": 26,
         "country": "POR",
         "points": 33
     },
     {
-        "rank": 833,
+        "rank": 835,
         "player": "John Sperle",
         "age": 24,
         "country": "GER",
         "points": 33
     },
     {
-        "rank": 834,
-        "player": "Taiyo Yamanaka",
-        "age": 24,
-        "country": "JPN",
-        "points": 33
-    },
-    {
-        "rank": 835,
+        "rank": 836,
         "player": "Joao Victor Couto Loureiro",
         "age": 23,
         "country": "BRA",
         "points": 33
     },
     {
-        "rank": 836,
+        "rank": 837,
         "player": "Dragos Nicolae Cazacu",
         "age": 22,
         "country": "ROU",
         "points": 33
     },
     {
-        "rank": 837,
-        "player": "Khololwam Montsi",
-        "age": 23,
-        "country": "RSA",
+        "rank": 838,
+        "player": "Dennis Novak",
+        "age": 32,
+        "country": "AUT",
         "points": 32
     },
     {
-        "rank": 838,
+        "rank": 839,
         "player": "Patrick Brady",
         "age": 21,
         "country": "GBR",
         "points": 32
     },
     {
-        "rank": 839,
+        "rank": 840,
         "player": "Guto Miguel",
         "age": 17,
         "country": "BRA",
-        "points": 32
-    },
-    {
-        "rank": 840,
-        "player": "Yusuke Kusuhara",
-        "age": 28,
-        "country": "JPN",
         "points": 32
     },
     {
@@ -5895,107 +5895,107 @@
     },
     {
         "rank": 843,
-        "player": "Maximilian Homberg",
-        "age": 23,
-        "country": "GER",
-        "points": 32
-    },
-    {
-        "rank": 844,
         "player": "William Grant",
         "age": 25,
         "country": "USA",
         "points": 32
     },
     {
-        "rank": 845,
-        "player": "Benjamin Pietri",
-        "age": 29,
-        "country": "FRA",
-        "points": 32
-    },
-    {
-        "rank": 846,
+        "rank": 844,
         "player": "Jorge Plans",
         "age": 24,
         "country": "ESP",
         "points": 32
     },
     {
-        "rank": 847,
+        "rank": 845,
         "player": "Luca Castagnola",
         "age": 24,
         "country": "ITA",
         "points": 32
     },
     {
+        "rank": 846,
+        "player": "Arvid Nordquist",
+        "age": 28,
+        "country": "SWE",
+        "points": 31
+    },
+    {
+        "rank": 847,
+        "player": "Yusuke Kusuhara",
+        "age": 28,
+        "country": "JPN",
+        "points": 31
+    },
+    {
         "rank": 848,
-        "player": "Nicolas Jadoun",
-        "age": 23,
-        "country": "FRA",
-        "points": 32
+        "player": "Stefano D'Agostino",
+        "age": 22,
+        "country": "ITA",
+        "points": 31
     },
     {
         "rank": 849,
-        "player": "Andrea Fiorentini",
-        "age": 25,
-        "country": "ITA",
-        "points": 32
-    },
-    {
-        "rank": 850,
-        "player": "Cosme Rolland De Ravel",
-        "age": 22,
-        "country": "FRA",
-        "points": 31
-    },
-    {
-        "rank": 851,
-        "player": "Thomas Fancutt",
+        "player": "Marc Van Der Merwe",
         "age": 31,
-        "country": "AUS",
-        "points": 31
-    },
-    {
-        "rank": 852,
-        "player": "James Watt",
-        "age": 26,
-        "country": "NZL",
-        "points": 31
-    },
-    {
-        "rank": 853,
-        "player": "Kris Van Wyk",
-        "age": 29,
         "country": "RSA",
         "points": 31
     },
     {
-        "rank": 854,
+        "rank": 850,
+        "player": "Maximilian Homberg",
+        "age": 23,
+        "country": "GER",
+        "points": 31
+    },
+    {
+        "rank": 851,
         "player": "Jesse Flores",
         "age": 31,
         "country": "CRC",
         "points": 31
     },
     {
-        "rank": 855,
+        "rank": 852,
+        "player": "Andrea Fiorentini",
+        "age": 25,
+        "country": "ITA",
+        "points": 31
+    },
+    {
+        "rank": 853,
+        "player": "Samuel Alejandro Linde Palacios",
+        "age": 18,
+        "country": "COL",
+        "points": 31
+    },
+    {
+        "rank": 854,
         "player": "Borna \u0106ori\u0107",
         "age": 29,
         "country": "CRO",
         "points": 30
     },
     {
+        "rank": 855,
+        "player": "Jannik Opitz",
+        "age": 28,
+        "country": "GER",
+        "points": 30
+    },
+    {
         "rank": 856,
-        "player": "Kyle Kang",
-        "age": 21,
-        "country": "USA",
+        "player": "Shintaro Imai",
+        "age": 32,
+        "country": "JPN",
         "points": 30
     },
     {
         "rank": 857,
-        "player": "Jannik Opitz",
-        "age": 28,
-        "country": "GER",
+        "player": "Dominik Re\u010dek",
+        "age": 31,
+        "country": "CZE",
         "points": 30
     },
     {
@@ -6007,44 +6007,44 @@
     },
     {
         "rank": 859,
-        "player": "Thanapet Chanta",
-        "age": 26,
-        "country": "THA",
-        "points": 30
-    },
-    {
-        "rank": 860,
-        "player": "Tom\u00e1s Mart\u00ednez",
-        "age": 22,
-        "country": "ARG",
-        "points": 30
-    },
-    {
-        "rank": 861,
         "player": "Gabriele Maria Noce",
         "age": 30,
         "country": "ITA",
         "points": 30
     },
     {
-        "rank": 862,
+        "rank": 860,
         "player": "Carles Cordoba",
         "age": 20,
         "country": "ESP",
         "points": 30
     },
     {
-        "rank": 863,
+        "rank": 861,
         "player": "Michael Zhu",
         "age": 33,
         "country": "USA",
         "points": 30
     },
     {
-        "rank": 864,
-        "player": "Patrick Maloney",
-        "age": 26,
+        "rank": 862,
+        "player": "Jack Anthrop",
+        "age": 22,
         "country": "USA",
+        "points": 29
+    },
+    {
+        "rank": 863,
+        "player": "Emon Van Loben Sels",
+        "age": 21,
+        "country": "USA",
+        "points": 29
+    },
+    {
+        "rank": 864,
+        "player": "Peter Bertran",
+        "age": 30,
+        "country": "DOM",
         "points": 29
     },
     {
@@ -6056,9 +6056,9 @@
     },
     {
         "rank": 866,
-        "player": "Noah Zamora",
-        "age": 23,
-        "country": "USA",
+        "player": "Amaury Raynel",
+        "age": 24,
+        "country": "FRA",
         "points": 29
     },
     {
@@ -6070,107 +6070,107 @@
     },
     {
         "rank": 868,
-        "player": "Amaury Raynel",
-        "age": 24,
-        "country": "FRA",
-        "points": 29
-    },
-    {
-        "rank": 869,
-        "player": "Alaa Trifi",
-        "age": 19,
-        "country": "TUN",
-        "points": 29
-    },
-    {
-        "rank": 870,
         "player": "Kosuke Ogura",
         "age": 30,
         "country": "JPN",
         "points": 29
     },
     {
-        "rank": 871,
+        "rank": 869,
         "player": "Lorenzo Claverie",
         "age": 23,
         "country": "ITA",
         "points": 28
     },
     {
-        "rank": 872,
+        "rank": 870,
+        "player": "Kyle Kang",
+        "age": 21,
+        "country": "USA",
+        "points": 28
+    },
+    {
+        "rank": 871,
         "player": "Nicolas Moreno De Alboran",
         "age": 29,
         "country": "USA",
         "points": 28
     },
     {
-        "rank": 873,
+        "rank": 872,
         "player": "Jangjun Kim",
         "age": 19,
         "country": "KOR",
         "points": 28
     },
     {
-        "rank": 874,
+        "rank": 873,
         "player": "Alejandro Manzanera Pertusa",
         "age": 23,
         "country": "ESP",
         "points": 28
     },
     {
-        "rank": 875,
-        "player": "Adrien Gobat",
-        "age": 25,
-        "country": "FRA",
-        "points": 28
-    },
-    {
-        "rank": 876,
+        "rank": 874,
         "player": "Ryo Tabata",
         "age": 18,
         "country": "JPN",
         "points": 28
     },
     {
-        "rank": 877,
-        "player": "Abel Forger",
-        "age": 20,
-        "country": "NED",
-        "points": 28
-    },
-    {
-        "rank": 878,
+        "rank": 875,
         "player": "Xiaofei Wang",
         "age": 23,
         "country": "CHN",
         "points": 28
     },
     {
-        "rank": 879,
+        "rank": 876,
+        "player": "Thanapet Chanta",
+        "age": 26,
+        "country": "THA",
+        "points": 28
+    },
+    {
+        "rank": 877,
         "player": "Miles Jones",
         "age": 25,
         "country": "USA",
         "points": 28
     },
     {
-        "rank": 880,
+        "rank": 878,
         "player": "Iannis Miletich",
         "age": 20,
         "country": "ITA",
         "points": 28
     },
     {
-        "rank": 881,
+        "rank": 879,
+        "player": "Tom\u00e1s Mart\u00ednez",
+        "age": 22,
+        "country": "ARG",
+        "points": 28
+    },
+    {
+        "rank": 880,
         "player": "Alexandre Aubriot",
         "age": 27,
         "country": "FRA",
         "points": 28
     },
     {
-        "rank": 882,
+        "rank": 881,
         "player": "Matthew Summers",
         "age": 27,
         "country": "GBR",
+        "points": 28
+    },
+    {
+        "rank": 882,
+        "player": "Alaa Trifi",
+        "age": 19,
+        "country": "TUN",
         "points": 28
     },
     {
@@ -6189,212 +6189,212 @@
     },
     {
         "rank": 885,
-        "player": "Jack Anthrop",
-        "age": 22,
-        "country": "USA",
-        "points": 27
-    },
-    {
-        "rank": 886,
         "player": "Jozef Koval\u00edk",
         "age": 33,
         "country": "SVK",
         "points": 27
     },
     {
+        "rank": 886,
+        "player": "Facundo Ju\u00e1rez",
+        "age": 28,
+        "country": "ITA",
+        "points": 27
+    },
+    {
         "rank": 887,
-        "player": "Felix Corwin",
-        "age": 30,
-        "country": "USA",
+        "player": "James Watt",
+        "age": 26,
+        "country": "NZL",
         "points": 27
     },
     {
         "rank": 888,
+        "player": "Theodore Dean",
+        "age": 24,
+        "country": "USA",
+        "points": 27
+    },
+    {
+        "rank": 889,
+        "player": "Stijn Paardekooper",
+        "age": 22,
+        "country": "NED",
+        "points": 27
+    },
+    {
+        "rank": 890,
         "player": "Nitin Kumar Sinha",
         "age": 27,
         "country": "IND",
         "points": 27
     },
     {
-        "rank": 889,
+        "rank": 891,
+        "player": "Felix Corwin",
+        "age": 30,
+        "country": "USA",
+        "points": 27
+    },
+    {
+        "rank": 892,
         "player": "Markus M\u00f6lder",
         "age": 21,
         "country": "EST",
         "points": 27
     },
     {
-        "rank": 890,
+        "rank": 893,
         "player": "Ronit Karki",
         "age": 18,
         "country": "USA",
         "points": 27
     },
     {
-        "rank": 891,
-        "player": "Kristijan Juhas",
+        "rank": 894,
+        "player": "Hanyi Liu",
         "age": 25,
-        "country": "SRB",
+        "country": "CHN",
         "points": 27
     },
     {
-        "rank": 892,
+        "rank": 895,
         "player": "Lorenzo Rottoli",
         "age": 24,
         "country": "ITA",
         "points": 27
     },
     {
-        "rank": 893,
-        "player": "Yaojie Zeng",
-        "age": 24,
-        "country": "CHN",
+        "rank": 896,
+        "player": "Niccolo Catini",
+        "age": 28,
+        "country": "ITA",
         "points": 27
     },
     {
-        "rank": 894,
+        "rank": 897,
         "player": "Tom Zeuch",
         "age": 26,
         "country": "GER",
         "points": 27
     },
     {
-        "rank": 895,
+        "rank": 898,
+        "player": "Isaac Becroft",
+        "age": 25,
+        "country": "NZL",
+        "points": 27
+    },
+    {
+        "rank": 899,
         "player": "Tomas Curras Abasolo",
         "age": 26,
         "country": "ESP",
         "points": 27
     },
     {
-        "rank": 896,
+        "rank": 900,
+        "player": "Keegan Rice",
+        "age": 20,
+        "country": "CAN",
+        "points": 26
+    },
+    {
+        "rank": 901,
         "player": "Jason Jung",
         "age": 37,
         "country": "TWN",
         "points": 26
     },
     {
-        "rank": 897,
-        "player": "Theodore Dean",
-        "age": 24,
-        "country": "USA",
-        "points": 26
-    },
-    {
-        "rank": 898,
-        "player": "Woobin Shin",
-        "age": 22,
-        "country": "KOR",
-        "points": 26
-    },
-    {
-        "rank": 899,
+        "rank": 902,
         "player": "Blu Baker",
         "age": 24,
         "country": "GBR",
         "points": 26
     },
     {
-        "rank": 900,
-        "player": "Salvador Price",
-        "age": 21,
-        "country": "COL",
+        "rank": 903,
+        "player": "Lorenzo Gagliardo",
+        "age": 26,
+        "country": "ITA",
         "points": 26
     },
     {
-        "rank": 901,
+        "rank": 904,
+        "player": "Tristan Stringer",
+        "age": 20,
+        "country": "USA",
+        "points": 26
+    },
+    {
+        "rank": 905,
         "player": "Mikalai Haliak",
         "age": 27,
         "country": "BLR",
         "points": 26
     },
     {
-        "rank": 902,
-        "player": "Isaac Becroft",
-        "age": 25,
-        "country": "NZL",
+        "rank": 906,
+        "player": "Yaojie Zeng",
+        "age": 24,
+        "country": "CHN",
         "points": 26
     },
     {
-        "rank": 903,
+        "rank": 907,
         "player": "Finn Murgett",
         "age": 24,
         "country": "GBR",
         "points": 26
     },
     {
-        "rank": 904,
+        "rank": 908,
+        "player": "Daniil Sarksian",
+        "age": 20,
+        "country": "ARM",
+        "points": 26
+    },
+    {
+        "rank": 909,
         "player": "Grigoriy Lomakin",
         "age": 28,
         "country": "KAZ",
         "points": 26
     },
     {
-        "rank": 905,
+        "rank": 910,
         "player": "Nick Kyrgios",
         "age": 31,
         "country": "AUS",
         "points": 25
     },
     {
-        "rank": 906,
+        "rank": 911,
         "player": "Johannes Ingildsen",
         "age": 29,
         "country": "DEN",
         "points": 25
     },
     {
-        "rank": 907,
-        "player": "Emon Van Loben Sels",
-        "age": 21,
-        "country": "USA",
-        "points": 25
-    },
-    {
-        "rank": 908,
+        "rank": 912,
         "player": "Luis Felipe Miguel",
         "age": 22,
         "country": "BRA",
         "points": 25
     },
     {
-        "rank": 909,
-        "player": "Orel Kimhi",
-        "age": 22,
-        "country": "ISR",
-        "points": 25
-    },
-    {
-        "rank": 910,
-        "player": "Giovanni Fonio",
-        "age": 28,
-        "country": "ITA",
-        "points": 25
-    },
-    {
-        "rank": 911,
-        "player": "Kacper Szymkowiak",
-        "age": 21,
-        "country": "POL",
-        "points": 25
-    },
-    {
-        "rank": 912,
-        "player": "Lorenzo Gagliardo",
-        "age": 26,
-        "country": "ITA",
-        "points": 25
-    },
-    {
         "rank": 913,
-        "player": "Kenny de Schepper",
-        "age": 39,
-        "country": "FRA",
+        "player": "Patrick Maloney",
+        "age": 26,
+        "country": "USA",
         "points": 25
     },
     {
         "rank": 914,
-        "player": "Tristan Stringer",
-        "age": 20,
-        "country": "USA",
+        "player": "Orel Kimhi",
+        "age": 22,
+        "country": "ISR",
         "points": 25
     },
     {
@@ -6406,149 +6406,149 @@
     },
     {
         "rank": 916,
-        "player": "Ivan Nedelko",
-        "age": 40,
-        "country": "RUS",
+        "player": "Kenny de Schepper",
+        "age": 39,
+        "country": "FRA",
         "points": 25
     },
     {
         "rank": 917,
-        "player": "Hanyi Liu",
-        "age": 25,
-        "country": "CHN",
-        "points": 25
-    },
-    {
-        "rank": 918,
         "player": "Duck-hee Lee",
         "age": 28,
         "country": "KOR",
         "points": 25
     },
     {
-        "rank": 919,
+        "rank": 918,
         "player": "Sam Ryan Ziegann",
         "age": 27,
         "country": "AUS",
         "points": 25
     },
     {
-        "rank": 920,
-        "player": "Niccolo Catini",
-        "age": 28,
-        "country": "ITA",
-        "points": 25
-    },
-    {
-        "rank": 921,
+        "rank": 919,
         "player": "Younes Lalami",
         "age": 25,
         "country": "MAR",
         "points": 25
     },
     {
-        "rank": 922,
+        "rank": 920,
         "player": "Fermin Tenti",
         "age": 29,
         "country": "ARG",
         "points": 25
     },
     {
-        "rank": 923,
+        "rank": 921,
         "player": "Ali Yazdani",
         "age": 22,
         "country": "IRI",
         "points": 25
     },
     {
-        "rank": 924,
+        "rank": 922,
         "player": "Giannicola Misasi",
         "age": 25,
         "country": "ITA",
         "points": 25
     },
     {
-        "rank": 925,
+        "rank": 923,
         "player": "Pierre Yves Bailly",
         "age": 22,
         "country": "BEL",
         "points": 24
     },
     {
-        "rank": 926,
-        "player": "Albert Pedrico Kravtsov",
-        "age": 21,
-        "country": "ESP",
-        "points": 24
-    },
-    {
-        "rank": 927,
+        "rank": 924,
         "player": "Jamie Mackenzie",
         "age": 18,
         "country": "GER",
         "points": 24
     },
     {
-        "rank": 928,
-        "player": "Stijn Slump",
-        "age": 27,
-        "country": "NED",
+        "rank": 925,
+        "player": "Adrien Gobat",
+        "age": 25,
+        "country": "FRA",
         "points": 24
     },
     {
-        "rank": 929,
+        "rank": 926,
         "player": "Jeffrey Von Der Schulenburg",
         "age": 24,
         "country": "SUI",
         "points": 24
     },
     {
-        "rank": 930,
-        "player": "Stijn Paardekooper",
-        "age": 22,
-        "country": "NED",
-        "points": 24
-    },
-    {
-        "rank": 931,
+        "rank": 927,
         "player": "Qian Sun",
         "age": 25,
         "country": "CHN",
         "points": 24
     },
     {
-        "rank": 932,
+        "rank": 928,
+        "player": "Ivan Nedelko",
+        "age": 40,
+        "country": "RUS",
+        "points": 24
+    },
+    {
+        "rank": 929,
         "player": "Christopher Li",
-        "age": 22,
+        "age": 23,
         "country": "PER",
         "points": 24
     },
     {
-        "rank": 933,
+        "rank": 930,
+        "player": "Kristijan Juhas",
+        "age": 25,
+        "country": "SRB",
+        "points": 24
+    },
+    {
+        "rank": 931,
         "player": "Rocco Piatti",
         "age": 21,
         "country": "ITA",
         "points": 24
     },
     {
-        "rank": 934,
+        "rank": 932,
+        "player": "Jakub Filip",
+        "age": 20,
+        "country": "CZE",
+        "points": 24
+    },
+    {
+        "rank": 933,
         "player": "William Rejchtman Vinciguerra",
         "age": 19,
         "country": "SWE",
         "points": 24
     },
     {
+        "rank": 934,
+        "player": "Egor Pleshivtsev",
+        "age": 19,
+        "country": "RUS",
+        "points": 24
+    },
+    {
         "rank": 935,
-        "player": "Marcus Walters",
-        "age": 28,
-        "country": "GBR",
+        "player": "Benjamin Thomas George",
+        "age": 23,
+        "country": "CAN",
         "points": 24
     },
     {
         "rank": 936,
-        "player": "Daniil Sarksian",
-        "age": 20,
-        "country": "ARM",
+        "player": "Jeremy Gschwendtner",
+        "age": 27,
+        "country": "GBR",
         "points": 24
     },
     {
@@ -6567,16 +6567,16 @@
     },
     {
         "rank": 939,
-        "player": "Matthew Forbes",
-        "age": 20,
-        "country": "USA",
+        "player": "Martin Borisiouk",
+        "age": 26,
+        "country": "BLR",
         "points": 23
     },
     {
         "rank": 940,
-        "player": "Arvid Nordquist",
-        "age": 28,
-        "country": "SWE",
+        "player": "Kriish Tyagi",
+        "age": 19,
+        "country": "IND",
         "points": 23
     },
     {
@@ -6595,72 +6595,72 @@
     },
     {
         "rank": 943,
-        "player": "Dominik Re\u010dek",
-        "age": 31,
-        "country": "CZE",
+        "player": "Giovanni Fonio",
+        "age": 28,
+        "country": "ITA",
         "points": 23
     },
     {
         "rank": 944,
+        "player": "Charlie Robertson",
+        "age": 19,
+        "country": "GBR",
+        "points": 23
+    },
+    {
+        "rank": 945,
+        "player": "Kacper Szymkowiak",
+        "age": 21,
+        "country": "POL",
+        "points": 23
+    },
+    {
+        "rank": 946,
         "player": "Aleksa \u0106iri\u0107",
         "age": 26,
         "country": "SRB",
         "points": 23
     },
     {
-        "rank": 945,
+        "rank": 947,
         "player": "Diego Augusto Barreto S\u00e1nchez",
         "age": 24,
         "country": "ESP",
         "points": 23
     },
     {
-        "rank": 946,
+        "rank": 948,
         "player": "Aaron Funk",
         "age": 20,
         "country": "GER",
         "points": 23
     },
     {
-        "rank": 947,
-        "player": "Jakub Filip",
-        "age": 20,
-        "country": "CZE",
-        "points": 23
-    },
-    {
-        "rank": 948,
+        "rank": 949,
         "player": "Louis Larue",
         "age": 22,
         "country": "FRA",
         "points": 23
     },
     {
-        "rank": 949,
-        "player": "Egor Pleshivtsev",
-        "age": 19,
-        "country": "RUS",
+        "rank": 950,
+        "player": "Marcus Walters",
+        "age": 28,
+        "country": "GBR",
         "points": 23
     },
     {
-        "rank": 950,
+        "rank": 951,
         "player": "Adan Freire Da Silva",
         "age": 27,
         "country": "FRA",
         "points": 23
     },
     {
-        "rank": 951,
+        "rank": 952,
         "player": "Kerem Yilmaz",
         "age": 19,
         "country": "TUR",
-        "points": 23
-    },
-    {
-        "rank": 952,
-        "player": "Jeremy Gschwendtner",
-        "age": 27,
-        "country": "GBR",
         "points": 23
     },
     {
@@ -6679,16 +6679,16 @@
     },
     {
         "rank": 955,
-        "player": "Ilya Sni\u021bari",
-        "age": 24,
-        "country": "MDA",
+        "player": "Sebastian Gorzny",
+        "age": 22,
+        "country": "USA",
         "points": 22
     },
     {
         "rank": 956,
-        "player": "Aoran Wang",
-        "age": 29,
-        "country": "CHN",
+        "player": "Woobin Shin",
+        "age": 22,
+        "country": "KOR",
         "points": 22
     },
     {
@@ -6700,303 +6700,303 @@
     },
     {
         "rank": 958,
+        "player": "Basti\u00e1n Malla",
+        "age": 29,
+        "country": "CHI",
+        "points": 22
+    },
+    {
+        "rank": 959,
         "player": "Bekkhan Atlangeriev",
         "age": 25,
         "country": "RUS",
         "points": 22
     },
     {
-        "rank": 959,
+        "rank": 960,
         "player": "Artur Kukasian",
         "age": 22,
         "country": "RUS",
         "points": 22
     },
     {
-        "rank": 960,
+        "rank": 961,
+        "player": "Oliver Okonkwo",
+        "age": 26,
+        "country": "GBR",
+        "points": 22
+    },
+    {
+        "rank": 962,
+        "player": "Kris Van Wyk",
+        "age": 29,
+        "country": "RSA",
+        "points": 22
+    },
+    {
+        "rank": 963,
         "player": "Ryotaro Taguchi",
         "age": 26,
         "country": "JPN",
         "points": 22
     },
     {
-        "rank": 961,
+        "rank": 964,
         "player": "Lucca Helguera Casado",
         "age": 20,
         "country": "ESP",
         "points": 22
     },
     {
-        "rank": 962,
-        "player": "Benjamin Thomas George",
-        "age": 23,
-        "country": "CAN",
-        "points": 22
-    },
-    {
-        "rank": 963,
+        "rank": 965,
         "player": "Evan Bynoe",
         "age": 27,
         "country": "USA",
         "points": 22
     },
     {
-        "rank": 964,
+        "rank": 966,
         "player": "Karim Ibrahim",
         "age": 22,
         "country": "EGY",
         "points": 22
     },
     {
-        "rank": 965,
+        "rank": 967,
         "player": "Wishaya Trongcharoenchaikul",
         "age": 31,
         "country": "THA",
         "points": 22
     },
     {
-        "rank": 966,
-        "player": "Sebastian Gorzny",
+        "rank": 968,
+        "player": "Devin Badenhorst",
         "age": 22,
-        "country": "USA",
+        "country": "RSA",
         "points": 21
     },
     {
-        "rank": 967,
+        "rank": 969,
+        "player": "Ofek Shimanov",
+        "age": 21,
+        "country": "ISR",
+        "points": 21
+    },
+    {
+        "rank": 970,
         "player": "Vignesh Gogineni",
         "age": 22,
         "country": "USA",
         "points": 21
     },
     {
-        "rank": 968,
+        "rank": 971,
+        "player": "Noritaka Koizumi",
+        "age": 23,
+        "country": "JPN",
+        "points": 21
+    },
+    {
+        "rank": 972,
+        "player": "Linus Lagerbohm",
+        "age": 18,
+        "country": "FIN",
+        "points": 21
+    },
+    {
+        "rank": 973,
         "player": "Yannick Theodor Alexandrescou",
         "age": 18,
         "country": "FRA",
         "points": 21
     },
     {
-        "rank": 969,
+        "rank": 974,
         "player": "Micah Braswell",
         "age": 24,
         "country": "USA",
         "points": 21
     },
     {
-        "rank": 970,
+        "rank": 975,
+        "player": "Taym Al Azmeh",
+        "age": 22,
+        "country": "SYR",
+        "points": 21
+    },
+    {
+        "rank": 976,
         "player": "Chanyeong Oh",
         "age": 28,
         "country": "KOR",
         "points": 21
     },
     {
-        "rank": 971,
+        "rank": 977,
+        "player": "Enzo Kohlmann De Freitas",
+        "age": 19,
+        "country": "BRA",
+        "points": 21
+    },
+    {
+        "rank": 978,
         "player": "Justin Roberts",
         "age": 29,
         "country": "BAH",
         "points": 21
     },
     {
-        "rank": 972,
-        "player": "Oliver Okonkwo",
-        "age": 26,
-        "country": "GBR",
-        "points": 21
-    },
-    {
-        "rank": 973,
+        "rank": 979,
         "player": "Maxwell Exsted",
         "age": 19,
         "country": "USA",
         "points": 21
     },
     {
-        "rank": 974,
+        "rank": 980,
         "player": "Markus Malaszszak",
         "age": 22,
         "country": "THA",
         "points": 21
     },
     {
-        "rank": 975,
+        "rank": 981,
+        "player": "Michele Mecarelli",
+        "age": 19,
+        "country": "ITA",
+        "points": 21
+    },
+    {
+        "rank": 982,
         "player": "Mickael Kaouk",
         "age": 17,
         "country": "FRA",
         "points": 21
     },
     {
-        "rank": 976,
+        "rank": 983,
+        "player": "Petros Tsitsipas",
+        "age": 25,
+        "country": "GRE",
+        "points": 21
+    },
+    {
+        "rank": 984,
         "player": "Dev Javia",
         "age": 24,
         "country": "IND",
         "points": 21
     },
     {
-        "rank": 977,
-        "player": "Sydney Zick",
-        "age": 19,
-        "country": "GER",
-        "points": 21
-    },
-    {
-        "rank": 978,
-        "player": "Karl Friberg",
-        "age": 27,
-        "country": "SWE",
-        "points": 21
-    },
-    {
-        "rank": 979,
+        "rank": 985,
         "player": "Yuta Tomida",
         "age": 19,
         "country": "JPN",
         "points": 21
     },
     {
-        "rank": 980,
+        "rank": 986,
         "player": "Niccolo Ciavarella",
         "age": 22,
         "country": "ITA",
         "points": 21
     },
     {
-        "rank": 981,
+        "rank": 987,
         "player": "Benito S\u00e1nchez Martinez",
         "age": 24,
         "country": "GER",
         "points": 20
     },
     {
-        "rank": 982,
-        "player": "Devin Badenhorst",
-        "age": 22,
-        "country": "RSA",
-        "points": 20
-    },
-    {
-        "rank": 983,
+        "rank": 988,
         "player": "Luca Pow",
         "age": 21,
         "country": "GBR",
         "points": 20
     },
     {
-        "rank": 984,
-        "player": "Gianluca Brunkow",
-        "age": 23,
-        "country": "USA",
+        "rank": 989,
+        "player": "Aoran Wang",
+        "age": 29,
+        "country": "CHN",
         "points": 20
     },
     {
-        "rank": 985,
-        "player": "Taym Al Azmeh",
-        "age": 22,
-        "country": "SYR",
-        "points": 20
-    },
-    {
-        "rank": 986,
+        "rank": 990,
         "player": "Shunsuke Nakagawa",
         "age": 26,
         "country": "JPN",
         "points": 20
     },
     {
-        "rank": 987,
-        "player": "Joaquin Guilleme",
-        "age": 20,
-        "country": "NCA",
+        "rank": 991,
+        "player": "Stijn Slump",
+        "age": 27,
+        "country": "NED",
         "points": 20
     },
     {
-        "rank": 988,
+        "rank": 992,
         "player": "Iiro Vasa",
         "age": 23,
         "country": "FIN",
         "points": 20
     },
     {
-        "rank": 989,
-        "player": "Basti\u00e1n Malla",
-        "age": 29,
-        "country": "CHI",
+        "rank": 993,
+        "player": "Axel Garcian",
+        "age": 24,
+        "country": "FRA",
         "points": 20
     },
     {
-        "rank": 990,
-        "player": "Enzo Kohlmann De Freitas",
-        "age": 19,
-        "country": "BRA",
-        "points": 20
-    },
-    {
-        "rank": 991,
+        "rank": 994,
         "player": "Robert Guna",
         "age": 20,
         "country": "ROU",
         "points": 20
     },
     {
-        "rank": 992,
-        "player": "Ajeet Rai",
-        "age": 27,
-        "country": "NZL",
-        "points": 20
-    },
-    {
-        "rank": 993,
+        "rank": 995,
         "player": "Marko Maksimovi\u0107",
         "age": 20,
         "country": "SRB",
         "points": 20
     },
     {
-        "rank": 994,
-        "player": "Michele Mecarelli",
-        "age": 19,
-        "country": "ITA",
-        "points": 20
-    },
-    {
-        "rank": 995,
+        "rank": 996,
         "player": "Giulio Perego",
         "age": 23,
         "country": "ITA",
         "points": 20
     },
     {
-        "rank": 996,
+        "rank": 997,
+        "player": "Julian Cundom",
+        "age": 25,
+        "country": "ARG",
+        "points": 20
+    },
+    {
+        "rank": 998,
         "player": "Hazem Naw",
         "age": 26,
         "country": "SYR",
         "points": 20
     },
     {
-        "rank": 997,
-        "player": "Aditya Vishal Balsekar",
-        "age": 23,
-        "country": "IND",
-        "points": 20
-    },
-    {
-        "rank": 998,
+        "rank": 999,
         "player": "Nikita Ianin",
         "age": 24,
         "country": "RUS",
         "points": 20
     },
     {
-        "rank": 999,
-        "player": "Thantub Suksumrarn",
-        "age": 25,
-        "country": "THA",
-        "points": 20
-    },
-    {
         "rank": 1000,
-        "player": "Kriish Tyagi",
+        "player": "Sydney Zick",
         "age": 19,
-        "country": "IND",
-        "points": 19
+        "country": "GER",
+        "points": 20
     }
 ]
