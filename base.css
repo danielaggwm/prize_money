@@ -294,16 +294,39 @@ button.selected {
 }
 
 @media (max-width: 450px) {
+    /* Stack the whole header vertically, all left-aligned */
+    .text-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 1rem;
+    }
     .text-container h1 {
-        font-size: 1.5rem !important;
-        padding-top: 2rem !important;
-        width: 400px;
+        font-size: 2rem !important;
+        padding: 1.5rem 0.5rem 0 0.5rem !important;
+        width: auto;
+        text-align: left;
+    }
+    .text-right {
+        align-items: flex-start !important;
+        width: 100%;
+        padding-top: 1rem !important;
+        padding-right: 0 !important;
         padding-left: 0.5rem !important;
     }
-    .text-container p {
-        font-size: 0.7rem !important;
-        padding-right: 0.5rem !important;
-        width: 500px !important;
+    #second-page .text-right h2 {
+        font-size: 1.15rem !important;
+        width: auto !important;
+        max-width: 100% !important;
+        padding-top: 0 !important;
+        text-align: left !important;
+    }
+    #second-page .text-right p {
+        font-size: 0.8rem !important;
+        width: auto !important;
+        max-width: 90% !important;
+        padding-top: 0rem !important;
+        padding-right: 0 !important;
+        text-align: left !important;
     }
 }
 
@@ -317,7 +340,7 @@ button.selected {
 
 #second-page h1 {
     color: var(--tennis-green);
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 1.5rem;
     width: 650px;
     text-align: left;
@@ -327,9 +350,29 @@ button.selected {
     color: var(--tennis-green);
     font-size: 1rem;
     padding-right: 1.5rem;
-    padding-top: 2.5rem;
     width: 300px;
     text-align: right;
+}
+
+.text-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 3.5rem;
+    padding-right: 1.5rem;
+}
+
+#second-page .text-right h2 {
+    color: var(--tennis-green);
+    font-size: 2rem;
+    text-align: right;
+    width: 400px;
+    margin: 0;
+    line-height: 1.1;
+}
+
+#second-page .text-right p {
+    padding-right: 0;
 }
 
 .custom-line {
