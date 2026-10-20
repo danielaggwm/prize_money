@@ -280,7 +280,7 @@ button.selected {
 
 #second-page {
     background-color: var(--tennis-beige);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column; 
     padding: 0 2rem;
@@ -712,7 +712,7 @@ button.selected {
 /* THIRD PAGE */
 #third-page {
     background-color: var(--tennis-green);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
