@@ -113,6 +113,12 @@ h1 {
 }
 
 @media (max-width: 450px) {
+    #chart {
+        padding-bottom: 10rem;
+        margin-right: 1rem;
+        scale: 1.20;
+    }
+
     #buttons-container button {
         background: none;
         border: none;
@@ -261,8 +267,8 @@ button.selected {
     #chart-header {
         font-size: 10px;
         position: relative;
-        top: 10px; 
-        width: 100%;
+        top: -20px; 
+        width: 95%;
     }
     .triangle {
         transform: scale(0.65);
@@ -280,7 +286,7 @@ button.selected {
 
 #second-page {
     background-color: var(--tennis-beige);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column; 
     padding: 0 2rem;
@@ -294,39 +300,16 @@ button.selected {
 }
 
 @media (max-width: 450px) {
-    /* Stack the whole header vertically, all left-aligned */
-    .text-container {
-        flex-direction: column;
-        align-items: flex-start;
-        padding-top: 1rem;
-    }
     .text-container h1 {
-        font-size: 2rem !important;
-        padding: 1.5rem 0.5rem 0 0.5rem !important;
-        width: auto;
-        text-align: left;
-    }
-    .text-right {
-        align-items: flex-start !important;
-        width: 100%;
-        padding-top: 1rem !important;
-        padding-right: 0 !important;
+        font-size: 1.5rem !important;
+        padding-top: 2rem !important;
+        width: 400px;
         padding-left: 0.5rem !important;
     }
-    #second-page .text-right h2 {
-        font-size: 1.15rem !important;
-        width: auto !important;
-        max-width: 100% !important;
-        padding-top: 0 !important;
-        text-align: left !important;
-    }
-    #second-page .text-right p {
-        font-size: 0.8rem !important;
-        width: auto !important;
-        max-width: 90% !important;
-        padding-top: 0rem !important;
-        padding-right: 0 !important;
-        text-align: left !important;
+    .text-container p {
+        font-size: 0.7rem !important;
+        padding-right: 0.5rem !important;
+        width: 500px !important;
     }
 }
 
@@ -340,7 +323,7 @@ button.selected {
 
 #second-page h1 {
     color: var(--tennis-green);
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 1.5rem;
     width: 650px;
     text-align: left;
@@ -350,29 +333,9 @@ button.selected {
     color: var(--tennis-green);
     font-size: 1rem;
     padding-right: 1.5rem;
+    padding-top: 2.5rem;
     width: 300px;
     text-align: right;
-}
-
-.text-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-top: 3.5rem;
-    padding-right: 1.5rem;
-}
-
-#second-page .text-right h2 {
-    color: var(--tennis-green);
-    font-size: 2rem;
-    text-align: right;
-    width: 400px;
-    margin: 0;
-    line-height: 1.1;
-}
-
-#second-page .text-right p {
-    padding-right: 0;
 }
 
 .custom-line {
@@ -478,7 +441,6 @@ button.selected {
     display: flex;
     flex-direction: column;
     overflow-y: hidden; 
-    overflow-x: hidden;
     align-self: center; 
 }
 
@@ -712,7 +674,7 @@ button.selected {
 /* THIRD PAGE */
 #third-page {
     background-color: var(--tennis-green);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
@@ -894,34 +856,22 @@ button.selected {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     #introduction-page {
         padding-top: 2.5rem;
     }
 
-    /* Remove GSAP-style pinning constraints so stacked slides are fully visible */
-    .carousel-scroll-container {
-        height: auto;
-    }
-
-    .carousel-container {
-        position: relative;
-        top: unset;
-        height: auto;
-        overflow: visible;
-    }
-
     .carousel {
-        display: block;
-        gap: 10px;
-        padding: 0;
+        display: block; /* Stack slides vertically */
+        gap: 10px; /* No gap between slides */
+        padding: 0; /* Remove padding */
     }
 
     .slide {
         width: 90%;
-        padding: 20px;
-        font-size: 1rem;
-        transform: scale(1);
+        padding: 20px; 
+        font-size: 1rem; 
+        transform: scale(1); 
         opacity: 1;
         filter: none;
         margin: 0 auto;
@@ -930,43 +880,39 @@ button.selected {
     }
 
     .scroll-progress {
-        display: none;
+        display: none; /* Hide scroll progress bar */
     }
 
+    #chart-introduction {
+        margin-top: 10rem !important;
+    }
+    
     #chart-introduction p {
         font-size: 1rem;
     }
 
-    /* Remove GSAP-style pinning constraints for second carousel.
-       !important is required because these base rules are defined later in the file. */
-    .box-carousel-scroll-container {
-        height: auto !important;
-    }
-
     .box-carousel-container {
-        position: relative !important;
-        top: unset !important;
         height: auto !important;
-        overflow: visible !important;
-        align-items: flex-start !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
     .boxes-carousel {
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        flex-direction: column !important;
+        flex-direction: column !important; 
         padding: 0 !important;
         margin: 0 auto !important;
         width: 100%;
-        max-width: 600px;
+        max-width: 600px; 
     }
-
+    
     .box, .box_2 {
-        width: 90% !important;
-        max-width: 600px;
+        width: 90% !important; /* Adjusted width to be responsive */
+        max-width: 600px; /* Keeps content centered and prevents excessive stretching */
         padding: 20px !important;
-        font-size: 1rem !important;
+        font-size: 1rem !important; /* Increased font size for readability */
         transform: scale(1) !important;
         opacity: 1 !important;
         filter: none !important;
@@ -974,16 +920,21 @@ button.selected {
         margin-bottom: 10px !important;
         height: auto !important;
     }
-
+    
     .box_2 img {
-        width: 80% !important;
+        width: 80% !important; 
         display: block;
-        margin: 0 auto;
+        margin: 0 auto; /* Centers the image */
     }
+    
+    .scroll-progress {
+        display: none;
+    }
+    
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
     #comparison-chart {
         margin-top: 12rem;
     }
@@ -1030,11 +981,11 @@ button.selected {
     padding-left: 20px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) { 
     #chart-introduction {
-        width: 80%;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
+        margin-top: 40rem; /* Add margin to avoid overlap */
+        margin-bottom: 10rem; /* Adjust margin for mobile */
+        margin-left: 30px !important;
     }
 }
 
@@ -1244,22 +1195,15 @@ button.selected {
 
 @media (max-width: 400px) {
     .popup-content  {
-        width: 75%;
-    }
-
-    .ranking-options {
-        flex-direction: column;  /* stack vertically */
-        align-items: flex-start !important; /* align labels to the left */
-        gap: 10px !important;
+        width: 60%;
     }
 }
 
 .ranking-options {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
     gap: 30px;
     align-items: center;         /* Align vertically */
+    justify-content: flex-start; /* Align to left */
     margin-bottom: 10px;
 }
 
@@ -1270,12 +1214,6 @@ button.selected {
     font-size: 16px;
     cursor: pointer;
 }
-
-.ranking-label input[type="radio"] {
-    margin: 0;
-    padding: 0;
-}
-
 
 /* rankings section */
 #fourth-page {
@@ -1637,16 +1575,16 @@ button.selected {
       }
     
       .search-wrapper.active {
-        display: flex !important;
-        justify-content: center !important;
-        width: 100%;
+        left: 45%;
+        transform: translateX(-50%);
         z-index: 10;
+        justify-content: center;
+        width: 100%;
       }
     
       .search-input {
         width: 70%;
         max-width: 500px;
-        font-size: 16px !important;
       }
 
       .filter-text {
@@ -1675,22 +1613,4 @@ button.selected {
         font-family: "Poppins", sans-serif;
         
       }
-      
-      html, body {
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow-x: hidden !important;
-        width: 100% !important;
-      }
-
-      #chart {
-        max-width: 100% !important;
-        height: auto !important;
-        display: block !important;
-        padding: 0px !important;
-        margin: 0px !important;
-        margin-bottom: 10rem !important;
-        scale: 1.05;
-      }
 }
-
